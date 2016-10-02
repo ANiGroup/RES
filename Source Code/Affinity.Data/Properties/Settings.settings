@@ -1,0 +1,42 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Affinity.Helper.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AccName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">affinitydev</Value>
+    </Setting>
+    <Setting Name="AccKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bbIKFgiLTtZ3wYvCq68KIwBDHURYUnjtEq1xEK75EwLRctlYOP3yc/0aHvUJEMpBFW5Jf1HYEhV/hWWXi4xQog==</Value>
+    </Setting>
+    <Setting Name="UseHttp" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="mUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">azure_77a0caf11740c8303d1cee695d9f0c2b@azure.com</Value>
+    </Setting>
+    <Setting Name="mHost" Type="System.String" Scope="User">
+      <Value Profile="(Default)">smtp.sendgrid.net</Value>
+    </Setting>
+    <Setting Name="mPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">587</Value>
+    </Setting>
+    <Setting Name="mUseSSL" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="mPass" Type="System.String" Scope="User">
+      <Value Profile="(Default)">pass</Value>
+    </Setting>
+    <Setting Name="mForm" Type="System.String" Scope="User">
+      <Value Profile="(Default)">users</Value>
+    </Setting>
+    <Setting Name="notifyUsers" Type="System.String" Scope="User">
+      <Value Profile="(Default)">notify</Value>
+    </Setting>
+    <Setting Name="ExternalIP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">23.96.199.209</Value>
+    </Setting>
+    <Setting Name="UsePassive" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

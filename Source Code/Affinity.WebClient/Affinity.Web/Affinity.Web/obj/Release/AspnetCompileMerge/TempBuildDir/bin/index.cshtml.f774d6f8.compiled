@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/Areas/HelpPage/Views/Help/Index.cshtml" hash="7f567a64" filehash="ffffd692f51e9e89" flags="110000" assembly="Affinity.webCompliled" type="ASP._Page_Areas_HelpPage_Views_Help_Index_cshtml">
+  <filedeps>
+    <filedep name="/Areas/HelpPage/Views/Help/Index.cshtml" />
+  </filedeps>
+</preserve>

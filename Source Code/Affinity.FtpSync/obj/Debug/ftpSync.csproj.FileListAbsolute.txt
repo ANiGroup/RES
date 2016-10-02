@@ -1,0 +1,330 @@
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ftpSync.exe.config
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ftpSync.exe
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ftpSync.pdb
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Affinity.Helper.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\EntityFramework.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\System.Spatial.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Affinity.Helper.pdb
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\EntityFramework.xml
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Microsoft.Data.Edm.xml
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Microsoft.Data.OData.xml
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\System.Spatial.xml
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\de\System.Spatial.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\es\System.Spatial.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\fr\System.Spatial.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\it\System.Spatial.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ja\System.Spatial.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ko\System.Spatial.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ru\System.Spatial.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\obj\Debug\ftpSync.csprojResolveAssemblyReference.cache
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\obj\Debug\ftpSync.exe
+C:\Users\panagiotis\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\obj\Debug\ftpSync.pdb
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ftpSync.exe.config
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ftpSync.exe
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ftpSync.pdb
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Affinity.Helper.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\EntityFramework.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\System.Spatial.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Affinity.Helper.pdb
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\EntityFramework.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Microsoft.Data.Edm.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Microsoft.Data.OData.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\System.Spatial.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\de\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\es\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\fr\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\it\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ja\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ko\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\ru\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\obj\Debug\ftpSync.csprojResolveAssemblyReference.cache
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\obj\Debug\ftpSync.exe
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\ConsoleApplication1\obj\Debug\ftpSync.pdb
+C:\MySrc\ConsoleApplication1\bin\Debug\ftpSync.exe.config
+C:\MySrc\ConsoleApplication1\bin\Debug\ftpSync.exe
+C:\MySrc\ConsoleApplication1\bin\Debug\ftpSync.pdb
+C:\MySrc\ConsoleApplication1\bin\Debug\Affinity.Helper.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\EntityFramework.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\Microsoft.Data.Edm.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\Microsoft.Data.OData.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\Newtonsoft.Json.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\System.Spatial.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\Affinity.Helper.pdb
+C:\MySrc\ConsoleApplication1\bin\Debug\EntityFramework.xml
+C:\MySrc\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
+C:\MySrc\ConsoleApplication1\bin\Debug\Microsoft.Data.Edm.xml
+C:\MySrc\ConsoleApplication1\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\MySrc\ConsoleApplication1\bin\Debug\Microsoft.Data.OData.xml
+C:\MySrc\ConsoleApplication1\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\MySrc\ConsoleApplication1\bin\Debug\Newtonsoft.Json.xml
+C:\MySrc\ConsoleApplication1\bin\Debug\System.Spatial.xml
+C:\MySrc\ConsoleApplication1\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\de\System.Spatial.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\es\System.Spatial.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\fr\System.Spatial.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\it\System.Spatial.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\ja\System.Spatial.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\ko\System.Spatial.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\ru\System.Spatial.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\MySrc\ConsoleApplication1\obj\Debug\ftpSync.csprojResolveAssemblyReference.cache
+C:\MySrc\ConsoleApplication1\obj\Debug\ftpSync.exe
+C:\MySrc\ConsoleApplication1\obj\Debug\ftpSync.pdb
+C:\MySrc\ConsoleApplication1\bin\Debug\edtFTPnet.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\EPPlus.dll
+C:\MySrc\ConsoleApplication1\bin\Debug\EPPlus.xml
+C:\MySrc\ConsoleApplication1\bin\Debug\Templates\DM21.html
+C:\MySrc\ConsoleApplication1\bin\Debug\Templates\DM42.html
+C:\MySrc\ConsoleApplication1\bin\Debug\Templates\fgo.html
+C:\MySrc\ConsoleApplication1\bin\Debug\Templates\lld.html
+C:\MySrc\ConsoleApplication1\bin\Debug\Templates\OLD.html
+C:\ResCode\ConsoleApplication1\bin\Debug\Templates\DM21.html
+C:\ResCode\ConsoleApplication1\bin\Debug\Templates\DM42.html
+C:\ResCode\ConsoleApplication1\bin\Debug\Templates\fgo.html
+C:\ResCode\ConsoleApplication1\bin\Debug\Templates\lld.html
+C:\ResCode\ConsoleApplication1\bin\Debug\Templates\OLD.html
+C:\ResCode\ConsoleApplication1\bin\Debug\ftpSync.exe.config
+C:\ResCode\ConsoleApplication1\bin\Debug\ftpSync.exe
+C:\ResCode\ConsoleApplication1\bin\Debug\ftpSync.pdb
+C:\ResCode\ConsoleApplication1\bin\Debug\Affinity.Helper.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\edtFTPnet.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\EntityFramework.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\EPPlus.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\Microsoft.Data.Edm.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\Microsoft.Data.OData.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\Newtonsoft.Json.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\System.Spatial.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\Affinity.Helper.pdb
+C:\ResCode\ConsoleApplication1\bin\Debug\EntityFramework.xml
+C:\ResCode\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
+C:\ResCode\ConsoleApplication1\bin\Debug\EPPlus.xml
+C:\ResCode\ConsoleApplication1\bin\Debug\Microsoft.Data.Edm.xml
+C:\ResCode\ConsoleApplication1\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\ResCode\ConsoleApplication1\bin\Debug\Microsoft.Data.OData.xml
+C:\ResCode\ConsoleApplication1\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\ResCode\ConsoleApplication1\bin\Debug\Newtonsoft.Json.xml
+C:\ResCode\ConsoleApplication1\bin\Debug\System.Spatial.xml
+C:\ResCode\ConsoleApplication1\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\de\System.Spatial.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\es\System.Spatial.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\fr\System.Spatial.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\it\System.Spatial.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\ja\System.Spatial.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\ko\System.Spatial.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\ru\System.Spatial.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\ResCode\ConsoleApplication1\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\ResCode\ConsoleApplication1\obj\Debug\ftpSync.csprojResolveAssemblyReference.cache
+C:\ResCode\ConsoleApplication1\obj\Debug\ftpSync.exe
+C:\ResCode\ConsoleApplication1\obj\Debug\ftpSync.pdb
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\Templates\DM21.html
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\Templates\DM42.html
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\Templates\fgo.html
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\Templates\lld.html
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\Templates\OLD.html
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\ftpSync.exe.config
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\ftpSync.exe
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\ftpSync.pdb
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\Affinity.Helper.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\EntityFramework.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\EntityFramework.SqlServer.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\EPPlus.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\Microsoft.Data.Edm.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\Microsoft.Data.OData.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\Newtonsoft.Json.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\System.Spatial.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\Affinity.Helper.pdb
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\EntityFramework.xml
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\EntityFramework.SqlServer.xml
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\EPPlus.xml
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\Microsoft.Data.Edm.xml
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\Microsoft.Data.OData.xml
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\Newtonsoft.Json.xml
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\System.Spatial.xml
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\de\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\es\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\fr\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\it\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\ja\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\ko\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\ru\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.FtpSync\obj\Debug\ftpSync.csprojResolveAssemblyReference.cache
+C:\AffinitySpace\Affinity.FtpSync\obj\Debug\ftpSync.exe
+C:\AffinitySpace\Affinity.FtpSync\obj\Debug\ftpSync.pdb
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\Affinity.Data.dll
+C:\AffinitySpace\Affinity.FtpSync\bin\Debug\Affinity.Data.pdb

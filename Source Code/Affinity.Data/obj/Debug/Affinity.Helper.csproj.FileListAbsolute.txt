@@ -1,0 +1,321 @@
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Affinity.Helper.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Affinity.Helper.pdb
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\obj\Debug\Affinity.Helper.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\obj\Debug\Affinity.Helper.pdb
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Microsoft.Data.Edm.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Microsoft.Data.OData.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Microsoft.Data.Services.Client.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Newtonsoft.Json.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\System.Spatial.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Microsoft.Data.Edm.xml
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Microsoft.Data.OData.xml
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Microsoft.Data.Services.Client.xml
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Newtonsoft.Json.xml
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\System.Spatial.xml
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\de\Microsoft.Data.OData.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\es\Microsoft.Data.OData.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\it\Microsoft.Data.OData.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\de\System.Spatial.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\es\System.Spatial.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\fr\System.Spatial.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\it\System.Spatial.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\ja\System.Spatial.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\ko\System.Spatial.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\ru\System.Spatial.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\zh-Hans\System.Spatial.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\zh-Hant\System.Spatial.resources.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Affinity.Helper.dll.config
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\EntityFramework.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\EntityFramework.xml
+c:\users\panagiotis\documents\visual studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Affinity.Helper.dll.config
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Affinity.Helper.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Affinity.Helper.pdb
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\EntityFramework.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\System.Spatial.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\EntityFramework.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Microsoft.Data.Edm.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Microsoft.Data.OData.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\System.Spatial.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\de\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\es\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\fr\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\it\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\ja\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\ko\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\ru\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\obj\Debug\Affinity.Helper.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.Helper\obj\Debug\Affinity.Helper.pdb
+C:\MySrc\Affinity.Helper\bin\Debug\Affinity.Helper.dll.config
+C:\MySrc\Affinity.Helper\bin\Debug\Affinity.Helper.dll
+C:\MySrc\Affinity.Helper\bin\Debug\Affinity.Helper.pdb
+C:\MySrc\Affinity.Helper\bin\Debug\EntityFramework.dll
+C:\MySrc\Affinity.Helper\bin\Debug\EntityFramework.SqlServer.dll
+C:\MySrc\Affinity.Helper\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\MySrc\Affinity.Helper\bin\Debug\Microsoft.Data.Edm.dll
+C:\MySrc\Affinity.Helper\bin\Debug\Microsoft.Data.OData.dll
+C:\MySrc\Affinity.Helper\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\MySrc\Affinity.Helper\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\MySrc\Affinity.Helper\bin\Debug\Newtonsoft.Json.dll
+C:\MySrc\Affinity.Helper\bin\Debug\System.Spatial.dll
+C:\MySrc\Affinity.Helper\bin\Debug\EntityFramework.xml
+C:\MySrc\Affinity.Helper\bin\Debug\EntityFramework.SqlServer.xml
+C:\MySrc\Affinity.Helper\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\MySrc\Affinity.Helper\bin\Debug\Microsoft.Data.Edm.xml
+C:\MySrc\Affinity.Helper\bin\Debug\Microsoft.Data.OData.xml
+C:\MySrc\Affinity.Helper\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\MySrc\Affinity.Helper\bin\Debug\Newtonsoft.Json.xml
+C:\MySrc\Affinity.Helper\bin\Debug\System.Spatial.xml
+C:\MySrc\Affinity.Helper\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\de\System.Spatial.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\es\System.Spatial.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\fr\System.Spatial.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\it\System.Spatial.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\ja\System.Spatial.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\ko\System.Spatial.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\ru\System.Spatial.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\MySrc\Affinity.Helper\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\MySrc\Affinity.Helper\obj\Debug\Affinity.Helper.dll
+C:\MySrc\Affinity.Helper\obj\Debug\Affinity.Helper.pdb
+C:\MySrc\Affinity.Helper\bin\Debug\edtFTPnet.dll
+C:\MySrc\Affinity.Helper\bin\Debug\EPPlus.dll
+C:\MySrc\Affinity.Helper\bin\Debug\EPPlus.xml
+C:\MySrc\Affinity.Helper\obj\Debug\Affinity.Helper.Migrations.Initial.resources
+C:\MySrc\Affinity.Helper\obj\Debug\Affinity.Helper.csproj.GenerateResource.Cache
+C:\MySrc\Affinity.Helper\obj\Debug\Affinity.Helper.Migrations.Initial1.resources
+C:\MySrc\Affinity.Helper\bin\Debug\Templates\DM21.html
+C:\MySrc\Affinity.Helper\bin\Debug\Templates\DM42.html
+C:\MySrc\Affinity.Helper\bin\Debug\Templates\fgo.html
+C:\MySrc\Affinity.Helper\bin\Debug\Templates\lld.html
+C:\MySrc\Affinity.Helper\bin\Debug\Templates\OLD.html
+C:\MySrc\Affinity.Helper\obj\Debug\Affinity.Helper.Migrations.insertedlog.resources
+C:\MySrc\Affinity.Helper\obj\Debug\Affinity.Helper.Migrations.ForCheckDb.resources
+C:\ResCode\Affinity.Helper\obj\Debug\Affinity.Helper.dll
+C:\ResCode\Affinity.Helper\obj\Debug\Affinity.Helper.pdb
+C:\ResCode\Affinity.Helper\bin\Debug\Templates\DM21.html
+C:\ResCode\Affinity.Helper\bin\Debug\Templates\DM42.html
+C:\ResCode\Affinity.Helper\bin\Debug\Templates\fgo.html
+C:\ResCode\Affinity.Helper\bin\Debug\Templates\lld.html
+C:\ResCode\Affinity.Helper\bin\Debug\Templates\OLD.html
+C:\ResCode\Affinity.Helper\bin\Debug\Affinity.Helper.dll.config
+C:\ResCode\Affinity.Helper\bin\Debug\Affinity.Helper.dll
+C:\ResCode\Affinity.Helper\bin\Debug\Affinity.Helper.pdb
+C:\ResCode\Affinity.Helper\bin\Debug\edtFTPnet.dll
+C:\ResCode\Affinity.Helper\bin\Debug\EntityFramework.dll
+C:\ResCode\Affinity.Helper\bin\Debug\EntityFramework.SqlServer.dll
+C:\ResCode\Affinity.Helper\bin\Debug\EPPlus.dll
+C:\ResCode\Affinity.Helper\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\ResCode\Affinity.Helper\bin\Debug\Microsoft.Data.Edm.dll
+C:\ResCode\Affinity.Helper\bin\Debug\Microsoft.Data.OData.dll
+C:\ResCode\Affinity.Helper\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\ResCode\Affinity.Helper\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\ResCode\Affinity.Helper\bin\Debug\Newtonsoft.Json.dll
+C:\ResCode\Affinity.Helper\bin\Debug\System.Spatial.dll
+C:\ResCode\Affinity.Helper\bin\Debug\EntityFramework.xml
+C:\ResCode\Affinity.Helper\bin\Debug\EntityFramework.SqlServer.xml
+C:\ResCode\Affinity.Helper\bin\Debug\EPPlus.xml
+C:\ResCode\Affinity.Helper\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\ResCode\Affinity.Helper\bin\Debug\Microsoft.Data.Edm.xml
+C:\ResCode\Affinity.Helper\bin\Debug\Microsoft.Data.OData.xml
+C:\ResCode\Affinity.Helper\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\ResCode\Affinity.Helper\bin\Debug\Newtonsoft.Json.xml
+C:\ResCode\Affinity.Helper\bin\Debug\System.Spatial.xml
+C:\ResCode\Affinity.Helper\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\de\System.Spatial.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\es\System.Spatial.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\fr\System.Spatial.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\it\System.Spatial.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\ja\System.Spatial.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\ko\System.Spatial.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\ru\System.Spatial.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\ResCode\Affinity.Helper\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\ResCode\Affinity.Helper\obj\Debug\Affinity.Helper.csprojResolveAssemblyReference.cache
+C:\AffinitySpace\Affinity.Helper\bin\Debug\Templates\DM21.html
+C:\AffinitySpace\Affinity.Helper\bin\Debug\Templates\DM42.html
+C:\AffinitySpace\Affinity.Helper\bin\Debug\Templates\fgo.html
+C:\AffinitySpace\Affinity.Helper\bin\Debug\Templates\lld.html
+C:\AffinitySpace\Affinity.Helper\bin\Debug\Templates\OLD.html
+C:\AffinitySpace\Affinity.Helper\bin\Debug\Affinity.Helper.dll.config
+C:\AffinitySpace\Affinity.Helper\bin\Debug\Affinity.Helper.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\Affinity.Helper.pdb
+C:\AffinitySpace\Affinity.Helper\bin\Debug\EntityFramework.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\EntityFramework.SqlServer.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\EPPlus.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\Microsoft.Data.Edm.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\Microsoft.Data.OData.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\Newtonsoft.Json.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\System.Spatial.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\EntityFramework.xml
+C:\AffinitySpace\Affinity.Helper\bin\Debug\EntityFramework.SqlServer.xml
+C:\AffinitySpace\Affinity.Helper\bin\Debug\EPPlus.xml
+C:\AffinitySpace\Affinity.Helper\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\AffinitySpace\Affinity.Helper\bin\Debug\Microsoft.Data.Edm.xml
+C:\AffinitySpace\Affinity.Helper\bin\Debug\Microsoft.Data.OData.xml
+C:\AffinitySpace\Affinity.Helper\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\AffinitySpace\Affinity.Helper\bin\Debug\Newtonsoft.Json.xml
+C:\AffinitySpace\Affinity.Helper\bin\Debug\System.Spatial.xml
+C:\AffinitySpace\Affinity.Helper\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\de\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\es\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\fr\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\it\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\ja\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\ko\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\ru\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.Helper\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.Helper\obj\Debug\Affinity.Helper.dll
+C:\AffinitySpace\Affinity.Helper\obj\Debug\Affinity.Helper.pdb
+C:\AffinitySpace\Affinity.Helper\obj\Debug\Affinity.Helper.Migrations.initialCreate.resources
+C:\AffinitySpace\Affinity.Helper\obj\Debug\Affinity.Helper.csproj.GenerateResource.Cache

@@ -1,0 +1,1190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="affinitydev1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="InsertedLogs">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="ProfileName" />
+      <PropertyRef Name="FileName" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProfileName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="FileName" Type="nvarchar" MaxLength="250" Nullable="false" />
+    <Property Name="DateData" Type="datetime" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.CalcDates' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="CalcDates">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Project" Type="nvarchar(max)" />
+    <Property Name="StartDate" Type="date" />
+    <Property Name="EndDate" Type="date" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.TotalKws' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TotalKws">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="TotKws" Type="float" />
+    <Property Name="ProfileName" Type="nvarchar(max)" />
+    <Property Name="Id" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vDM2_1_1min_Central' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vDM2_1_1min_Central">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="VT_GT" Type="float" />
+    <Property Name="COGEN1_PWROUT_ACT" Type="float" />
+    <Property Name="COGEN2_PWROUT_ACT" Type="float" />
+    <Property Name="COGEN1_GAZ_CONSUMPTION" Type="float" />
+    <Property Name="COGEN2_GAZ_CONSUMPTION" Type="float" />
+    <Property Name="FT_GF" Type="float" />
+    <Property Name="FT_GC" Type="float" />
+    <Property Name="P_GM_PID_PCV_PCT" Type="float" />
+    <Property Name="PT_GM_1" Type="float" />
+    <Property Name="PT_GM_2" Type="float" />
+    <Property Name="TT_OT" Type="float" />
+    <Property Name="TT_GF" Type="float" />
+    <Property Name="HMI_DATALOG_V_GF" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vDM2_1_1min_POD21' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vDM2_1_1min_POD21">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="POD41_PT_G" Type="float" />
+    <Property Name="POD41_FT_G" Type="float" />
+    <Property Name="POD41_LT1_BR" Type="float" />
+    <Property Name="POD41_LT2_BR" Type="float" />
+    <Property Name="POD41_BR_AVG_TEMP" Type="float" />
+    <Property Name="POD41_LT1_RP" Type="float" />
+    <Property Name="POD41_LT2_RP" Type="float" />
+    <Property Name="POD41_P_RP_SPEED_REFERENCE" Type="float" />
+    <Property Name="POD41_BC" Type="float" />
+    <Property Name="POD41_MT" Type="float" />
+    <Property Name="HMI_DATALOG_P_A41" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vDM2_1_1min_POD22' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vDM2_1_1min_POD22">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="POD42_PT_G" Type="float" />
+    <Property Name="POD42_FT_G" Type="float" />
+    <Property Name="POD42_LT1_BR" Type="float" />
+    <Property Name="POD42_LT2_BR" Type="float" />
+    <Property Name="POD42_BR_AVG_TEMP" Type="float" />
+    <Property Name="POD42_LT1_RP" Type="float" />
+    <Property Name="POD42_LT2_RP" Type="float" />
+    <Property Name="POD42_P_RP_SPEED_REFERENCE" Type="float" />
+    <Property Name="POD42_BC" Type="float" />
+    <Property Name="POD42_MT" Type="float" />
+    <Property Name="HMI_DATALOG_P_A42" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vDM2_1_1min_POD23' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vDM2_1_1min_POD23">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="POD43_PT_G" Type="float" />
+    <Property Name="POD43_FT_G" Type="float" />
+    <Property Name="POD43_LT1_BR" Type="float" />
+    <Property Name="POD43_LT2_BR" Type="float" />
+    <Property Name="POD43_BR_AVG_TEMP" Type="float" />
+    <Property Name="POD43_LT1_RP" Type="float" />
+    <Property Name="POD43_LT2_RP" Type="float" />
+    <Property Name="POD43_P_RP_SPEED_REFERENCE" Type="float" />
+    <Property Name="POD43_BC" Type="float" />
+    <Property Name="POD43_MT" Type="float" />
+    <Property Name="HMI_DATALOG_P_A43" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vDM2_1_1min_POD24' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vDM2_1_1min_POD24">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="POD44_PT_G" Type="float" />
+    <Property Name="POD44_FT_G" Type="float" />
+    <Property Name="POD44_LT1_BR" Type="float" />
+    <Property Name="POD44_LT2_BR" Type="float" />
+    <Property Name="POD44_BR_AVG_TEMP" Type="float" />
+    <Property Name="POD44_LT1_RP" Type="float" />
+    <Property Name="POD44_LT2_RP" Type="float" />
+    <Property Name="POD44_P_RP_SPEED_REFERENCE" Type="float" />
+    <Property Name="POD44_BC" Type="float" />
+    <Property Name="POD44_MT" Type="float" />
+    <Property Name="HMI_DATALOG_P_A44" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vDM2_1_24hour_Central' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vDM2_1_24hour_Central">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="POD41_BD" Type="float" />
+    <Property Name="POD42_BD" Type="float" />
+    <Property Name="POD43_BD" Type="float" />
+    <Property Name="POD44_BD" Type="float" />
+    <Property Name="POD41_DAILY_MANURE" Type="float" />
+    <Property Name="POD42_DAILY_MANURE" Type="float" />
+    <Property Name="POD43_DAILY_MANURE" Type="float" />
+    <Property Name="POD44_DAILY_MANURE" Type="float" />
+    <Property Name="TOTAL_FT_GC_YESTERDAY" Type="float" />
+    <Property Name="TOTAL_FT_GF_YESTERDAY" Type="float" />
+    <Property Name="COGEN1_TOTALKWH_ACT" Type="float" />
+    <Property Name="COGEN1_TOTALHOURS_ACT" Type="float" />
+    <Property Name="COGEN2_TOTALKWH_ACT" Type="float" />
+    <Property Name="COGEN2_TOTALHOURS_ACT" Type="float" />
+    <Property Name="DELTA_VOLUME_BIODOME" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vDM2_1_24hour_Central_2' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vDM2_1_24hour_Central_2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="TOTAL_GAS_COGEN1_YESTERDAY" Type="float" />
+    <Property Name="TOTAL_GAS_COGEN2_YESTERDAY" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vDM4_3_1min_Central' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vDM4_3_1min_Central">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="VT_GT" Type="float" />
+    <Property Name="COGEN1_PWROUT_ACT" Type="float" />
+    <Property Name="COGEN2_PWROUT_ACT" Type="float" />
+    <Property Name="COGEN1_PF" Type="float" />
+    <Property Name="COGEN2_PF" Type="float" />
+    <Property Name="FT_GF" Type="float" />
+    <Property Name="FT_GC" Type="float" />
+    <Property Name="P_GM_PID_PCV_PCT" Type="float" />
+    <Property Name="PT_GM_1" Type="float" />
+    <Property Name="PT_GM_2" Type="float" />
+    <Property Name="TT_OT" Type="float" />
+    <Property Name="HMI_DATALOG_V_GM" Type="float" />
+    <Property Name="HMI_DATALOG_V_GF" Type="float" />
+    <Property Name="TT_GF" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vDM4_3_1min_POD34' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vDM4_3_1min_POD34">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="POD34_PT_G" Type="float" />
+    <Property Name="POD34_FT_G" Type="float" />
+    <Property Name="POD34_LT1_BR" Type="float" />
+    <Property Name="POD34_LT2_BR" Type="float" />
+    <Property Name="POD34_BR_AVG_TEMP" Type="float" />
+    <Property Name="POD34_LT1_RP" Type="float" />
+    <Property Name="POD34_LT2_RP" Type="float" />
+    <Property Name="POD34_P_RP_SPEED_REFERENCE" Type="float" />
+    <Property Name="POD34_BC" Type="float" />
+    <Property Name="POD34_MT" Type="float" />
+    <Property Name="HMI_DATALOG_P_A34" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vDM4_3_1min_POD35' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vDM4_3_1min_POD35">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="POD35_PT_G" Type="float" />
+    <Property Name="POD35_FT_G" Type="float" />
+    <Property Name="POD35_LT1_BR" Type="float" />
+    <Property Name="POD35_LT2_BR" Type="float" />
+    <Property Name="POD35_BR_AVG_TEMP" Type="float" />
+    <Property Name="POD35_LT1_RP" Type="float" />
+    <Property Name="POD35_LT2_RP" Type="float" />
+    <Property Name="POD35_P_RP_SPEED_REFERENCE" Type="float" />
+    <Property Name="POD35_BC" Type="float" />
+    <Property Name="POD35_MT" Type="float" />
+    <Property Name="HMI_DATALOG_P_A35" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vDM4_3_1min_POD41' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vDM4_3_1min_POD41">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="POD41_PT_G" Type="float" />
+    <Property Name="POD41_FT_G" Type="float" />
+    <Property Name="POD41_LT1_BR" Type="float" />
+    <Property Name="POD41_LT2_BR" Type="float" />
+    <Property Name="POD41_BR_AVG_TEMP" Type="float" />
+    <Property Name="POD41_LT1_RP" Type="float" />
+    <Property Name="POD41_LT2_RP" Type="float" />
+    <Property Name="POD41_P_RP_SPEED_REFERENCE" Type="float" />
+    <Property Name="POD41_BC" Type="float" />
+    <Property Name="POD41_MT" Type="float" />
+    <Property Name="HMI_DATALOG_P_A41" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vDM4_3_1min_POD42' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vDM4_3_1min_POD42">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="POD42_PT_G" Type="float" />
+    <Property Name="POD42_FT_G" Type="float" />
+    <Property Name="POD42_LT1_BR" Type="float" />
+    <Property Name="POD42_LT2_BR" Type="float" />
+    <Property Name="POD42_BR_AVG_TEMP" Type="float" />
+    <Property Name="POD42_LT1_RP" Type="float" />
+    <Property Name="POD42_LT2_RP" Type="float" />
+    <Property Name="POD42_P_RP_SPEED_REFERENCE" Type="float" />
+    <Property Name="POD42_BC" Type="float" />
+    <Property Name="POD42_MT" Type="float" />
+    <Property Name="HMI_DATALOG_P_A42" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vDM4_3_1min_POD43' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vDM4_3_1min_POD43">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="POD43_PT_G" Type="float" />
+    <Property Name="POD43_FT_G" Type="float" />
+    <Property Name="POD43_LT1_BR" Type="float" />
+    <Property Name="POD43_LT2_BR" Type="float" />
+    <Property Name="POD43_BR_AVG_TEMP" Type="float" />
+    <Property Name="POD43_LT1_RP" Type="float" />
+    <Property Name="POD43_LT2_RP" Type="float" />
+    <Property Name="POD43_P_RP_SPEED_REFERENCE" Type="float" />
+    <Property Name="POD43_BC" Type="float" />
+    <Property Name="POD43_MT" Type="float" />
+    <Property Name="HMI_DATALOG_P_A43" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vDM4_3_1min_POD44' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vDM4_3_1min_POD44">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="POD44_PT_G" Type="float" />
+    <Property Name="POD44_FT_G" Type="float" />
+    <Property Name="POD44_LT1_BR" Type="float" />
+    <Property Name="POD44_LT2_BR" Type="float" />
+    <Property Name="POD44_BR_AVG_TEMP" Type="float" />
+    <Property Name="POD44_LT1_RP" Type="float" />
+    <Property Name="POD44_LT2_RP" Type="float" />
+    <Property Name="POD44_P_RP_SPEED_REFERENCE" Type="float" />
+    <Property Name="POD44_BC" Type="float" />
+    <Property Name="POD44_MT" Type="float" />
+    <Property Name="HMI_DATALOG_P_A44" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vDM4_3_24hour_Central' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vDM4_3_24hour_Central">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="POD41_BD" Type="float" />
+    <Property Name="POD42_BD" Type="float" />
+    <Property Name="POD43_BD" Type="float" />
+    <Property Name="POD44_BD" Type="float" />
+    <Property Name="POD34_BD" Type="float" />
+    <Property Name="POD35_BD" Type="float" />
+    <Property Name="POD41_DAILY_MANURE" Type="float" />
+    <Property Name="POD42_DAILY_MANURE" Type="float" />
+    <Property Name="POD43_DAILY_MANURE" Type="float" />
+    <Property Name="POD44_DAILY_MANURE" Type="float" />
+    <Property Name="POD34_DAILY_MANURE" Type="float" />
+    <Property Name="POD35_DAILY_MANURE" Type="float" />
+    <Property Name="TOTAL_FT_GC_YESTERDAY" Type="float" />
+    <Property Name="TOTAL_FT_GF_YESTERDAY" Type="float" />
+    <Property Name="COGEN1_TOTALKWH_ACT" Type="float" />
+    <Property Name="COGEN1_TOTALHOURS_ACT" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vDM4_3_24hour_Central_2' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vDM4_3_24hour_Central_2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="DELTA_VOLUME_BIODOME" Type="float" />
+    <Property Name="TOTAL_GAS_COGEN_YESTERDAY" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vFGO_1Hour_Table_1' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vFGO_1Hour_Table_1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="TT_H1_1_EU" Type="float" />
+    <Property Name="TT_H1_3_EU" Type="float" />
+    <Property Name="TT_H2_1_EU" Type="float" />
+    <Property Name="TT_H2_3_EU" Type="float" />
+    <Property Name="TT_L1_1_EU" Type="float" />
+    <Property Name="TT_L1_2_EU" Type="float" />
+    <Property Name="TT_L2_1_EU" Type="float" />
+    <Property Name="TT_L2_2_EU" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vFGO_1Minute_Table1' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vFGO_1Minute_Table1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="PT_G1_EU" Type="float" />
+    <Property Name="PT_G2_EU" Type="float" />
+    <Property Name="FT_L_1_EU" Type="float" />
+    <Property Name="FT_G1_EU" Type="float" />
+    <Property Name="FT_CHP_EU" Type="float" />
+    <Property Name="FT_GF_EU" Type="float" />
+    <Property Name="VT_GT" Type="float" />
+    <Property Name="PT_GT_EU" Type="float" />
+    <Property Name="WM_PC_EU" Type="float" />
+    <Property Name="WM_PD_EU" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vFGO_1Minute_Table2' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vFGO_1Minute_Table2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="LT_RP_EU" Type="float" />
+    <Property Name="LT_L1_1_EU" Type="float" />
+    <Property Name="LT_L1_2_EU" Type="float" />
+    <Property Name="LT_L2_1_EU" Type="float" />
+    <Property Name="LT_L2_2_EU" Type="float" />
+    <Property Name="TT_G2_EU" Type="float" />
+    <Property Name="TT_OT_EU" Type="float" />
+    <Property Name="TT_RP_EU" Type="float" />
+    <Property Name="TT_GF_EU" Type="float" />
+    <Property Name="IT_E1_EU" Type="float" />
+    <Property Name="IT_E2_EU" Type="float" />
+    <Property Name="MODBUS_COGEN_PWROUT_ACT" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vFGO_24Hour_Table1' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vFGO_24Hour_Table1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="EV3_DAILY_LOG" Type="float" />
+    <Property Name="EV4_DAILY_LOG" Type="float" />
+    <Property Name="MF3_DAILY_LOG" Type="float" />
+    <Property Name="MF4_DAILY_LOG" Type="float" />
+    <Property Name="VC4_DAILY_LOG" Type="float" />
+    <Property Name="VC5_DAILY_LOG" Type="float" />
+    <Property Name="VC6_DAILY_LOG" Type="float" />
+    <Property Name="VC7_DAILY_LOG" Type="float" />
+    <Property Name="DELTA_VOLUME_BIODOME" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vFGO_24Hour_Table2' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vFGO_24Hour_Table2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="OC1" Type="float" />
+    <Property Name="GF_DAILY_LOG" Type="float" />
+    <Property Name="GCHP_DAILY_LOG" Type="float" />
+    <Property Name="ECHP_DAILY_LOG" Type="float" />
+    <Property Name="TECHP" Type="float" />
+    <Property Name="THCHP" Type="float" />
+    <Property Name="CPLE_DAILY_LOG" Type="float" />
+    <Property Name="EPARA_DAILY_LOG" Type="float" />
+    <Property Name="CPLD_DAILY_LOG" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vLMD_1Hour_Table_1' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vLMD_1Hour_Table_1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="PT_CA_EU" Type="float" />
+    <Property Name="TT_H1_1_EU" Type="float" />
+    <Property Name="TT_H1_2_EU" Type="float" />
+    <Property Name="TT_H1_3_EU" Type="float" />
+    <Property Name="TT_H1_4_EU" Type="float" />
+    <Property Name="TT_H2_1_EU" Type="float" />
+    <Property Name="TT_H2_2_EU" Type="float" />
+    <Property Name="TT_H2_3_EU" Type="float" />
+    <Property Name="TT_H2_4_EU" Type="float" />
+    <Property Name="TT_HZ_1_EU" Type="float" />
+    <Property Name="TT_HZ_2_EU" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vLMD_1Hour_Table_2' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vLMD_1Hour_Table_2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="TT_L1_1_EU" Type="float" />
+    <Property Name="TT_L1_2_EU" Type="float" />
+    <Property Name="TT_L1_3_EU" Type="float" />
+    <Property Name="TT_L1_4_EU" Type="float" />
+    <Property Name="TT_L2_1_EU" Type="float" />
+    <Property Name="TT_L2_2_EU" Type="float" />
+    <Property Name="TT_L2_3_EU" Type="float" />
+    <Property Name="TT_L2_4_EU" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vLMD_1Minute_Table_1' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vLMD_1Minute_Table_1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="PT_G1_EU" Type="float" />
+    <Property Name="PT_G2_EU" Type="float" />
+    <Property Name="FT_L_1_EU" Type="float" />
+    <Property Name="FT_L_2_EU" Type="float" />
+    <Property Name="FT_G1_EU" Type="float" />
+    <Property Name="FT_CHP_EU" Type="float" />
+    <Property Name="FT_GF_EU" Type="float" />
+    <Property Name="PX" Type="float" />
+    <Property Name="VT_GT" Type="float" />
+    <Property Name="PT_GT_EU" Type="float" />
+    <Property Name="FT_G2_EU" Type="float" />
+    <Property Name="LT_ES_EU" Type="float" />
+    <Property Name="LT_RP_EU" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vLMD_24Hour_Table_1' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vLMD_24Hour_Table_1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="EV3" Type="float" />
+    <Property Name="EV4" Type="float" />
+    <Property Name="MF3" Type="float" />
+    <Property Name="MF4" Type="float" />
+    <Property Name="VC4" Type="float" />
+    <Property Name="VC5" Type="float" />
+    <Property Name="VC6_DAILAY_LOG" Type="float" />
+    <Property Name="VC7_DAILAY_LOG" Type="float" />
+    <Property Name="DELTA_VOLUME_BIODOME" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vLMD_24Hour_Table_2' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vLMD_24Hour_Table_2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="OC1" Type="float" />
+    <Property Name="GF" Type="float" />
+    <Property Name="GCHP" Type="float" />
+    <Property Name="ECHP" Type="float" />
+    <Property Name="MODBUS_COGEN_TODAYKWH_ACT" Type="float" />
+    <Property Name="MODBUS_COGEN_TOTALHRS_ACT" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vOLD_1Hour_Table_1' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vOLD_1Hour_Table_1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="PT_CA_EU" Type="float" />
+    <Property Name="TT_H1_1_EU" Type="float" />
+    <Property Name="TT_H1_2_EU" Type="float" />
+    <Property Name="TT_H1_3_EU" Type="float" />
+    <Property Name="TT_H1_4_EU" Type="float" />
+    <Property Name="TT_H2_1_EU" Type="float" />
+    <Property Name="TT_H2_2_EU" Type="float" />
+    <Property Name="TT_H2_3_EU" Type="float" />
+    <Property Name="TT_H2_4_EU" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vOLD_1Hour_Table_2' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vOLD_1Hour_Table_2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="TT_L1_1_EU" Type="float" />
+    <Property Name="TT_L1_2_EU" Type="float" />
+    <Property Name="TT_L1_3_EU" Type="float" />
+    <Property Name="TT_L1_4_EU" Type="float" />
+    <Property Name="TT_L2_1_EU" Type="float" />
+    <Property Name="TT_L2_2_EU" Type="float" />
+    <Property Name="TT_L2_3_EU" Type="float" />
+    <Property Name="TT_L2_4_EU" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vOLD_1Minute_Table_1' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vOLD_1Minute_Table_1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="PT_G1_EU" Type="float" />
+    <Property Name="PT_G2_EU" Type="float" />
+    <Property Name="FT_L_1_EU" Type="float" />
+    <Property Name="FT_L_2_EU" Type="float" />
+    <Property Name="FT_G1_EU" Type="float" />
+    <Property Name="FT_C_EU" Type="float" />
+    <Property Name="FT_F_EU" Type="float" />
+    <Property Name="VT_GT" Type="float" />
+    <Property Name="PT_GT_EU" Type="float" />
+    <Property Name="MODBUS_WM_PCHP_ACT" Type="float" />
+    <Property Name="IT_E1_EU" Type="float" />
+    <Property Name="IT_E2_EU" Type="float" />
+    <Property Name="MODBUS_FLARE_LOG" Type="float" />
+    <Property Name="PT_CA_EU" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vOLD_24Hour_Table_1' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vOLD_24Hour_Table_1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="EV3" Type="float" />
+    <Property Name="EV4" Type="float" />
+    <Property Name="MF3" Type="float" />
+    <Property Name="MF4" Type="float" />
+    <Property Name="VC4_DAILY_LOG" Type="float" />
+    <Property Name="VC5_DAILY_LOG" Type="float" />
+    <Property Name="VC6_DAILAY_LOG" Type="float" />
+    <Property Name="VC7_DAILAY_LOG" Type="float" />
+    <Property Name="CPLE" Type="float" />
+    <Property Name="MODBUS_COGEN_TOTALKWH_ACT" Type="float" />
+    <Property Name="MODBUS_COGEN_TOTALHRS_ACT" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'res_data1.dbo.vOLD_24Hour_Table_2' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vOLD_24Hour_Table_2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateStr" Type="datetime" />
+    <Property Name="EPARA" Type="float" />
+    <Property Name="AI1" Type="float" />
+    <Property Name="OC1" Type="float" />
+    <Property Name="GF" Type="float" />
+    <Property Name="GCHP" Type="float" />
+    <Property Name="ECHP" Type="float" />
+    <Property Name="DELTA_VOLUME_BIODOME" Type="float" />
+  </EntityType>
+  <Function Name="GetKws" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="GetKws2016" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="myUpdDataSP" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="myyearParam" Type="int" Mode="In" />
+  </Function>
+  <Function Name="myUpdDataSP2016" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="myyearParam" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_vDM2_1_1min_Central" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vDM2_1_1min_POD21" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vDM2_1_1min_POD22" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vDM2_1_1min_POD23" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vDM2_1_1min_POD24" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vDM2_1_24hour_Central" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vDM2_1_24hour_Central_2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vDM4_3_1min_Central" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vDM4_3_1min_POD34" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vDM4_3_1min_POD35" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vDM4_3_1min_POD41" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vDM4_3_1min_POD42" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vDM4_3_1min_POD43" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vDM4_3_1min_POD44" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vDM4_3_24hour_Central" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vDM4_3_24hour_Central_2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vFGO_1Hour_Table_1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vFGO_1Minute_Table1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vFGO_1Minute_Table2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vFGO_24Hour_Table1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vFGO_24Hour_Table2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vLMD_1Hour_Table_1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vLMD_1Hour_Table_2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vLMD_1Minute_Table_1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vLMD_24Hour_Table_1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vLMD_24Hour_Table_2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vOLD_1Hour_Table_1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vOLD_1Hour_Table_2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vOLD_1Minute_Table_1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vOLD_24Hour_Table_1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_vOLD_24Hour_Table_2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="spUtil_ReIndexDatabase_UpdateStats" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="affinitydev1ModelStoreContainer">
+    <EntitySet Name="InsertedLogs" EntityType="Self.InsertedLogs" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CalcDates" EntityType="Self.CalcDates" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [CalcDates].[Id] AS [Id], 
+    [CalcDates].[Project] AS [Project], 
+    [CalcDates].[StartDate] AS [StartDate], 
+    [CalcDates].[EndDate] AS [EndDate]
+    FROM [dbo].[CalcDates] AS [CalcDates]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TotalKws" EntityType="Self.TotalKws" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TotalKws].[TotKws] AS [TotKws], 
+    [TotalKws].[ProfileName] AS [ProfileName], 
+    [TotalKws].[Id] AS [Id]
+    FROM [dbo].[TotalKws] AS [TotalKws]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vDM2_1_1min_Central" EntityType="Self.vDM2_1_1min_Central" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vDM2_1_1min_Central].[Id] AS [Id], 
+    [vDM2_1_1min_Central].[DateStr] AS [DateStr], 
+    [vDM2_1_1min_Central].[VT_GT] AS [VT_GT], 
+    [vDM2_1_1min_Central].[COGEN1_PWROUT_ACT] AS [COGEN1_PWROUT_ACT], 
+    [vDM2_1_1min_Central].[COGEN2_PWROUT_ACT] AS [COGEN2_PWROUT_ACT], 
+    [vDM2_1_1min_Central].[COGEN1_GAZ_CONSUMPTION] AS [COGEN1_GAZ_CONSUMPTION], 
+    [vDM2_1_1min_Central].[COGEN2_GAZ_CONSUMPTION] AS [COGEN2_GAZ_CONSUMPTION], 
+    [vDM2_1_1min_Central].[FT_GF] AS [FT_GF], 
+    [vDM2_1_1min_Central].[FT_GC] AS [FT_GC], 
+    [vDM2_1_1min_Central].[P_GM_PID_PCV_PCT] AS [P_GM_PID_PCV_PCT], 
+    [vDM2_1_1min_Central].[PT_GM_1] AS [PT_GM_1], 
+    [vDM2_1_1min_Central].[PT_GM_2] AS [PT_GM_2], 
+    [vDM2_1_1min_Central].[TT_OT] AS [TT_OT], 
+    [vDM2_1_1min_Central].[TT_GF] AS [TT_GF], 
+    [vDM2_1_1min_Central].[HMI_DATALOG_V_GF] AS [HMI_DATALOG_V_GF]
+    FROM [dbo].[vDM2_1_1min_Central] AS [vDM2_1_1min_Central]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vDM2_1_1min_POD21" EntityType="Self.vDM2_1_1min_POD21" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vDM2_1_1min_POD21].[Id] AS [Id], 
+    [vDM2_1_1min_POD21].[DateStr] AS [DateStr], 
+    [vDM2_1_1min_POD21].[POD41_PT_G] AS [POD41_PT_G], 
+    [vDM2_1_1min_POD21].[POD41_FT_G] AS [POD41_FT_G], 
+    [vDM2_1_1min_POD21].[POD41_LT1_BR] AS [POD41_LT1_BR], 
+    [vDM2_1_1min_POD21].[POD41_LT2_BR] AS [POD41_LT2_BR], 
+    [vDM2_1_1min_POD21].[POD41_BR_AVG_TEMP] AS [POD41_BR_AVG_TEMP], 
+    [vDM2_1_1min_POD21].[POD41_LT1_RP] AS [POD41_LT1_RP], 
+    [vDM2_1_1min_POD21].[POD41_LT2_RP] AS [POD41_LT2_RP], 
+    [vDM2_1_1min_POD21].[POD41_P_RP_SPEED_REFERENCE] AS [POD41_P_RP_SPEED_REFERENCE], 
+    [vDM2_1_1min_POD21].[POD41_BC] AS [POD41_BC], 
+    [vDM2_1_1min_POD21].[POD41_MT] AS [POD41_MT], 
+    [vDM2_1_1min_POD21].[HMI_DATALOG_P_A41] AS [HMI_DATALOG_P_A41]
+    FROM [dbo].[vDM2_1_1min_POD21] AS [vDM2_1_1min_POD21]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vDM2_1_1min_POD22" EntityType="Self.vDM2_1_1min_POD22" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vDM2_1_1min_POD22].[Id] AS [Id], 
+    [vDM2_1_1min_POD22].[DateStr] AS [DateStr], 
+    [vDM2_1_1min_POD22].[POD42_PT_G] AS [POD42_PT_G], 
+    [vDM2_1_1min_POD22].[POD42_FT_G] AS [POD42_FT_G], 
+    [vDM2_1_1min_POD22].[POD42_LT1_BR] AS [POD42_LT1_BR], 
+    [vDM2_1_1min_POD22].[POD42_LT2_BR] AS [POD42_LT2_BR], 
+    [vDM2_1_1min_POD22].[POD42_BR_AVG_TEMP] AS [POD42_BR_AVG_TEMP], 
+    [vDM2_1_1min_POD22].[POD42_LT1_RP] AS [POD42_LT1_RP], 
+    [vDM2_1_1min_POD22].[POD42_LT2_RP] AS [POD42_LT2_RP], 
+    [vDM2_1_1min_POD22].[POD42_P_RP_SPEED_REFERENCE] AS [POD42_P_RP_SPEED_REFERENCE], 
+    [vDM2_1_1min_POD22].[POD42_BC] AS [POD42_BC], 
+    [vDM2_1_1min_POD22].[POD42_MT] AS [POD42_MT], 
+    [vDM2_1_1min_POD22].[HMI_DATALOG_P_A42] AS [HMI_DATALOG_P_A42]
+    FROM [dbo].[vDM2_1_1min_POD22] AS [vDM2_1_1min_POD22]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vDM2_1_1min_POD23" EntityType="Self.vDM2_1_1min_POD23" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vDM2_1_1min_POD23].[Id] AS [Id], 
+    [vDM2_1_1min_POD23].[DateStr] AS [DateStr], 
+    [vDM2_1_1min_POD23].[POD43_PT_G] AS [POD43_PT_G], 
+    [vDM2_1_1min_POD23].[POD43_FT_G] AS [POD43_FT_G], 
+    [vDM2_1_1min_POD23].[POD43_LT1_BR] AS [POD43_LT1_BR], 
+    [vDM2_1_1min_POD23].[POD43_LT2_BR] AS [POD43_LT2_BR], 
+    [vDM2_1_1min_POD23].[POD43_BR_AVG_TEMP] AS [POD43_BR_AVG_TEMP], 
+    [vDM2_1_1min_POD23].[POD43_LT1_RP] AS [POD43_LT1_RP], 
+    [vDM2_1_1min_POD23].[POD43_LT2_RP] AS [POD43_LT2_RP], 
+    [vDM2_1_1min_POD23].[POD43_P_RP_SPEED_REFERENCE] AS [POD43_P_RP_SPEED_REFERENCE], 
+    [vDM2_1_1min_POD23].[POD43_BC] AS [POD43_BC], 
+    [vDM2_1_1min_POD23].[POD43_MT] AS [POD43_MT], 
+    [vDM2_1_1min_POD23].[HMI_DATALOG_P_A43] AS [HMI_DATALOG_P_A43]
+    FROM [dbo].[vDM2_1_1min_POD23] AS [vDM2_1_1min_POD23]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vDM2_1_1min_POD24" EntityType="Self.vDM2_1_1min_POD24" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vDM2_1_1min_POD24].[Id] AS [Id], 
+    [vDM2_1_1min_POD24].[DateStr] AS [DateStr], 
+    [vDM2_1_1min_POD24].[POD44_PT_G] AS [POD44_PT_G], 
+    [vDM2_1_1min_POD24].[POD44_FT_G] AS [POD44_FT_G], 
+    [vDM2_1_1min_POD24].[POD44_LT1_BR] AS [POD44_LT1_BR], 
+    [vDM2_1_1min_POD24].[POD44_LT2_BR] AS [POD44_LT2_BR], 
+    [vDM2_1_1min_POD24].[POD44_BR_AVG_TEMP] AS [POD44_BR_AVG_TEMP], 
+    [vDM2_1_1min_POD24].[POD44_LT1_RP] AS [POD44_LT1_RP], 
+    [vDM2_1_1min_POD24].[POD44_LT2_RP] AS [POD44_LT2_RP], 
+    [vDM2_1_1min_POD24].[POD44_P_RP_SPEED_REFERENCE] AS [POD44_P_RP_SPEED_REFERENCE], 
+    [vDM2_1_1min_POD24].[POD44_BC] AS [POD44_BC], 
+    [vDM2_1_1min_POD24].[POD44_MT] AS [POD44_MT], 
+    [vDM2_1_1min_POD24].[HMI_DATALOG_P_A44] AS [HMI_DATALOG_P_A44]
+    FROM [dbo].[vDM2_1_1min_POD24] AS [vDM2_1_1min_POD24]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vDM2_1_24hour_Central" EntityType="Self.vDM2_1_24hour_Central" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vDM2_1_24hour_Central].[Id] AS [Id], 
+    [vDM2_1_24hour_Central].[DateStr] AS [DateStr], 
+    [vDM2_1_24hour_Central].[POD41_BD] AS [POD41_BD], 
+    [vDM2_1_24hour_Central].[POD42_BD] AS [POD42_BD], 
+    [vDM2_1_24hour_Central].[POD43_BD] AS [POD43_BD], 
+    [vDM2_1_24hour_Central].[POD44_BD] AS [POD44_BD], 
+    [vDM2_1_24hour_Central].[POD41_DAILY_MANURE] AS [POD41_DAILY_MANURE], 
+    [vDM2_1_24hour_Central].[POD42_DAILY_MANURE] AS [POD42_DAILY_MANURE], 
+    [vDM2_1_24hour_Central].[POD43_DAILY_MANURE] AS [POD43_DAILY_MANURE], 
+    [vDM2_1_24hour_Central].[POD44_DAILY_MANURE] AS [POD44_DAILY_MANURE], 
+    [vDM2_1_24hour_Central].[TOTAL_FT_GC_YESTERDAY] AS [TOTAL_FT_GC_YESTERDAY], 
+    [vDM2_1_24hour_Central].[TOTAL_FT_GF_YESTERDAY] AS [TOTAL_FT_GF_YESTERDAY], 
+    [vDM2_1_24hour_Central].[COGEN1_TOTALKWH_ACT] AS [COGEN1_TOTALKWH_ACT], 
+    [vDM2_1_24hour_Central].[COGEN1_TOTALHOURS_ACT] AS [COGEN1_TOTALHOURS_ACT], 
+    [vDM2_1_24hour_Central].[COGEN2_TOTALKWH_ACT] AS [COGEN2_TOTALKWH_ACT], 
+    [vDM2_1_24hour_Central].[COGEN2_TOTALHOURS_ACT] AS [COGEN2_TOTALHOURS_ACT], 
+    [vDM2_1_24hour_Central].[DELTA_VOLUME_BIODOME] AS [DELTA_VOLUME_BIODOME]
+    FROM [dbo].[vDM2_1_24hour_Central] AS [vDM2_1_24hour_Central]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vDM2_1_24hour_Central_2" EntityType="Self.vDM2_1_24hour_Central_2" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vDM2_1_24hour_Central_2].[Id] AS [Id], 
+    [vDM2_1_24hour_Central_2].[DateStr] AS [DateStr], 
+    [vDM2_1_24hour_Central_2].[TOTAL_GAS_COGEN1_YESTERDAY] AS [TOTAL_GAS_COGEN1_YESTERDAY], 
+    [vDM2_1_24hour_Central_2].[TOTAL_GAS_COGEN2_YESTERDAY] AS [TOTAL_GAS_COGEN2_YESTERDAY]
+    FROM [dbo].[vDM2_1_24hour_Central_2] AS [vDM2_1_24hour_Central_2]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vDM4_3_1min_Central" EntityType="Self.vDM4_3_1min_Central" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vDM4_3_1min_Central].[Id] AS [Id], 
+    [vDM4_3_1min_Central].[DateStr] AS [DateStr], 
+    [vDM4_3_1min_Central].[VT_GT] AS [VT_GT], 
+    [vDM4_3_1min_Central].[COGEN1_PWROUT_ACT] AS [COGEN1_PWROUT_ACT], 
+    [vDM4_3_1min_Central].[COGEN2_PWROUT_ACT] AS [COGEN2_PWROUT_ACT], 
+    [vDM4_3_1min_Central].[COGEN1_PF] AS [COGEN1_PF], 
+    [vDM4_3_1min_Central].[COGEN2_PF] AS [COGEN2_PF], 
+    [vDM4_3_1min_Central].[FT_GF] AS [FT_GF], 
+    [vDM4_3_1min_Central].[FT_GC] AS [FT_GC], 
+    [vDM4_3_1min_Central].[P_GM_PID_PCV_PCT] AS [P_GM_PID_PCV_PCT], 
+    [vDM4_3_1min_Central].[PT_GM_1] AS [PT_GM_1], 
+    [vDM4_3_1min_Central].[PT_GM_2] AS [PT_GM_2], 
+    [vDM4_3_1min_Central].[TT_OT] AS [TT_OT], 
+    [vDM4_3_1min_Central].[HMI_DATALOG_V_GM] AS [HMI_DATALOG_V_GM], 
+    [vDM4_3_1min_Central].[HMI_DATALOG_V_GF] AS [HMI_DATALOG_V_GF], 
+    [vDM4_3_1min_Central].[TT_GF] AS [TT_GF]
+    FROM [dbo].[vDM4_3_1min_Central] AS [vDM4_3_1min_Central]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vDM4_3_1min_POD34" EntityType="Self.vDM4_3_1min_POD34" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vDM4_3_1min_POD34].[Id] AS [Id], 
+    [vDM4_3_1min_POD34].[DateStr] AS [DateStr], 
+    [vDM4_3_1min_POD34].[POD34_PT_G] AS [POD34_PT_G], 
+    [vDM4_3_1min_POD34].[POD34_FT_G] AS [POD34_FT_G], 
+    [vDM4_3_1min_POD34].[POD34_LT1_BR] AS [POD34_LT1_BR], 
+    [vDM4_3_1min_POD34].[POD34_LT2_BR] AS [POD34_LT2_BR], 
+    [vDM4_3_1min_POD34].[POD34_BR_AVG_TEMP] AS [POD34_BR_AVG_TEMP], 
+    [vDM4_3_1min_POD34].[POD34_LT1_RP] AS [POD34_LT1_RP], 
+    [vDM4_3_1min_POD34].[POD34_LT2_RP] AS [POD34_LT2_RP], 
+    [vDM4_3_1min_POD34].[POD34_P_RP_SPEED_REFERENCE] AS [POD34_P_RP_SPEED_REFERENCE], 
+    [vDM4_3_1min_POD34].[POD34_BC] AS [POD34_BC], 
+    [vDM4_3_1min_POD34].[POD34_MT] AS [POD34_MT], 
+    [vDM4_3_1min_POD34].[HMI_DATALOG_P_A34] AS [HMI_DATALOG_P_A34]
+    FROM [dbo].[vDM4_3_1min_POD34] AS [vDM4_3_1min_POD34]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vDM4_3_1min_POD35" EntityType="Self.vDM4_3_1min_POD35" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vDM4_3_1min_POD35].[Id] AS [Id], 
+    [vDM4_3_1min_POD35].[DateStr] AS [DateStr], 
+    [vDM4_3_1min_POD35].[POD35_PT_G] AS [POD35_PT_G], 
+    [vDM4_3_1min_POD35].[POD35_FT_G] AS [POD35_FT_G], 
+    [vDM4_3_1min_POD35].[POD35_LT1_BR] AS [POD35_LT1_BR], 
+    [vDM4_3_1min_POD35].[POD35_LT2_BR] AS [POD35_LT2_BR], 
+    [vDM4_3_1min_POD35].[POD35_BR_AVG_TEMP] AS [POD35_BR_AVG_TEMP], 
+    [vDM4_3_1min_POD35].[POD35_LT1_RP] AS [POD35_LT1_RP], 
+    [vDM4_3_1min_POD35].[POD35_LT2_RP] AS [POD35_LT2_RP], 
+    [vDM4_3_1min_POD35].[POD35_P_RP_SPEED_REFERENCE] AS [POD35_P_RP_SPEED_REFERENCE], 
+    [vDM4_3_1min_POD35].[POD35_BC] AS [POD35_BC], 
+    [vDM4_3_1min_POD35].[POD35_MT] AS [POD35_MT], 
+    [vDM4_3_1min_POD35].[HMI_DATALOG_P_A35] AS [HMI_DATALOG_P_A35]
+    FROM [dbo].[vDM4_3_1min_POD35] AS [vDM4_3_1min_POD35]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vDM4_3_1min_POD41" EntityType="Self.vDM4_3_1min_POD41" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vDM4_3_1min_POD41].[Id] AS [Id], 
+    [vDM4_3_1min_POD41].[DateStr] AS [DateStr], 
+    [vDM4_3_1min_POD41].[POD41_PT_G] AS [POD41_PT_G], 
+    [vDM4_3_1min_POD41].[POD41_FT_G] AS [POD41_FT_G], 
+    [vDM4_3_1min_POD41].[POD41_LT1_BR] AS [POD41_LT1_BR], 
+    [vDM4_3_1min_POD41].[POD41_LT2_BR] AS [POD41_LT2_BR], 
+    [vDM4_3_1min_POD41].[POD41_BR_AVG_TEMP] AS [POD41_BR_AVG_TEMP], 
+    [vDM4_3_1min_POD41].[POD41_LT1_RP] AS [POD41_LT1_RP], 
+    [vDM4_3_1min_POD41].[POD41_LT2_RP] AS [POD41_LT2_RP], 
+    [vDM4_3_1min_POD41].[POD41_P_RP_SPEED_REFERENCE] AS [POD41_P_RP_SPEED_REFERENCE], 
+    [vDM4_3_1min_POD41].[POD41_BC] AS [POD41_BC], 
+    [vDM4_3_1min_POD41].[POD41_MT] AS [POD41_MT], 
+    [vDM4_3_1min_POD41].[HMI_DATALOG_P_A41] AS [HMI_DATALOG_P_A41]
+    FROM [dbo].[vDM4_3_1min_POD41] AS [vDM4_3_1min_POD41]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vDM4_3_1min_POD42" EntityType="Self.vDM4_3_1min_POD42" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vDM4_3_1min_POD42].[Id] AS [Id], 
+    [vDM4_3_1min_POD42].[DateStr] AS [DateStr], 
+    [vDM4_3_1min_POD42].[POD42_PT_G] AS [POD42_PT_G], 
+    [vDM4_3_1min_POD42].[POD42_FT_G] AS [POD42_FT_G], 
+    [vDM4_3_1min_POD42].[POD42_LT1_BR] AS [POD42_LT1_BR], 
+    [vDM4_3_1min_POD42].[POD42_LT2_BR] AS [POD42_LT2_BR], 
+    [vDM4_3_1min_POD42].[POD42_BR_AVG_TEMP] AS [POD42_BR_AVG_TEMP], 
+    [vDM4_3_1min_POD42].[POD42_LT1_RP] AS [POD42_LT1_RP], 
+    [vDM4_3_1min_POD42].[POD42_LT2_RP] AS [POD42_LT2_RP], 
+    [vDM4_3_1min_POD42].[POD42_P_RP_SPEED_REFERENCE] AS [POD42_P_RP_SPEED_REFERENCE], 
+    [vDM4_3_1min_POD42].[POD42_BC] AS [POD42_BC], 
+    [vDM4_3_1min_POD42].[POD42_MT] AS [POD42_MT], 
+    [vDM4_3_1min_POD42].[HMI_DATALOG_P_A42] AS [HMI_DATALOG_P_A42]
+    FROM [dbo].[vDM4_3_1min_POD42] AS [vDM4_3_1min_POD42]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vDM4_3_1min_POD43" EntityType="Self.vDM4_3_1min_POD43" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vDM4_3_1min_POD43].[Id] AS [Id], 
+    [vDM4_3_1min_POD43].[DateStr] AS [DateStr], 
+    [vDM4_3_1min_POD43].[POD43_PT_G] AS [POD43_PT_G], 
+    [vDM4_3_1min_POD43].[POD43_FT_G] AS [POD43_FT_G], 
+    [vDM4_3_1min_POD43].[POD43_LT1_BR] AS [POD43_LT1_BR], 
+    [vDM4_3_1min_POD43].[POD43_LT2_BR] AS [POD43_LT2_BR], 
+    [vDM4_3_1min_POD43].[POD43_BR_AVG_TEMP] AS [POD43_BR_AVG_TEMP], 
+    [vDM4_3_1min_POD43].[POD43_LT1_RP] AS [POD43_LT1_RP], 
+    [vDM4_3_1min_POD43].[POD43_LT2_RP] AS [POD43_LT2_RP], 
+    [vDM4_3_1min_POD43].[POD43_P_RP_SPEED_REFERENCE] AS [POD43_P_RP_SPEED_REFERENCE], 
+    [vDM4_3_1min_POD43].[POD43_BC] AS [POD43_BC], 
+    [vDM4_3_1min_POD43].[POD43_MT] AS [POD43_MT], 
+    [vDM4_3_1min_POD43].[HMI_DATALOG_P_A43] AS [HMI_DATALOG_P_A43]
+    FROM [dbo].[vDM4_3_1min_POD43] AS [vDM4_3_1min_POD43]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vDM4_3_1min_POD44" EntityType="Self.vDM4_3_1min_POD44" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vDM4_3_1min_POD44].[Id] AS [Id], 
+    [vDM4_3_1min_POD44].[DateStr] AS [DateStr], 
+    [vDM4_3_1min_POD44].[POD44_PT_G] AS [POD44_PT_G], 
+    [vDM4_3_1min_POD44].[POD44_FT_G] AS [POD44_FT_G], 
+    [vDM4_3_1min_POD44].[POD44_LT1_BR] AS [POD44_LT1_BR], 
+    [vDM4_3_1min_POD44].[POD44_LT2_BR] AS [POD44_LT2_BR], 
+    [vDM4_3_1min_POD44].[POD44_BR_AVG_TEMP] AS [POD44_BR_AVG_TEMP], 
+    [vDM4_3_1min_POD44].[POD44_LT1_RP] AS [POD44_LT1_RP], 
+    [vDM4_3_1min_POD44].[POD44_LT2_RP] AS [POD44_LT2_RP], 
+    [vDM4_3_1min_POD44].[POD44_P_RP_SPEED_REFERENCE] AS [POD44_P_RP_SPEED_REFERENCE], 
+    [vDM4_3_1min_POD44].[POD44_BC] AS [POD44_BC], 
+    [vDM4_3_1min_POD44].[POD44_MT] AS [POD44_MT], 
+    [vDM4_3_1min_POD44].[HMI_DATALOG_P_A44] AS [HMI_DATALOG_P_A44]
+    FROM [dbo].[vDM4_3_1min_POD44] AS [vDM4_3_1min_POD44]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vDM4_3_24hour_Central" EntityType="Self.vDM4_3_24hour_Central" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vDM4_3_24hour_Central].[Id] AS [Id], 
+    [vDM4_3_24hour_Central].[DateStr] AS [DateStr], 
+    [vDM4_3_24hour_Central].[POD41_BD] AS [POD41_BD], 
+    [vDM4_3_24hour_Central].[POD42_BD] AS [POD42_BD], 
+    [vDM4_3_24hour_Central].[POD43_BD] AS [POD43_BD], 
+    [vDM4_3_24hour_Central].[POD44_BD] AS [POD44_BD], 
+    [vDM4_3_24hour_Central].[POD34_BD] AS [POD34_BD], 
+    [vDM4_3_24hour_Central].[POD35_BD] AS [POD35_BD], 
+    [vDM4_3_24hour_Central].[POD41_DAILY_MANURE] AS [POD41_DAILY_MANURE], 
+    [vDM4_3_24hour_Central].[POD42_DAILY_MANURE] AS [POD42_DAILY_MANURE], 
+    [vDM4_3_24hour_Central].[POD43_DAILY_MANURE] AS [POD43_DAILY_MANURE], 
+    [vDM4_3_24hour_Central].[POD44_DAILY_MANURE] AS [POD44_DAILY_MANURE], 
+    [vDM4_3_24hour_Central].[POD34_DAILY_MANURE] AS [POD34_DAILY_MANURE], 
+    [vDM4_3_24hour_Central].[POD35_DAILY_MANURE] AS [POD35_DAILY_MANURE], 
+    [vDM4_3_24hour_Central].[TOTAL_FT_GC_YESTERDAY] AS [TOTAL_FT_GC_YESTERDAY], 
+    [vDM4_3_24hour_Central].[TOTAL_FT_GF_YESTERDAY] AS [TOTAL_FT_GF_YESTERDAY], 
+    [vDM4_3_24hour_Central].[COGEN1_TOTALKWH_ACT] AS [COGEN1_TOTALKWH_ACT], 
+    [vDM4_3_24hour_Central].[COGEN1_TOTALHOURS_ACT] AS [COGEN1_TOTALHOURS_ACT]
+    FROM [dbo].[vDM4_3_24hour_Central] AS [vDM4_3_24hour_Central]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vDM4_3_24hour_Central_2" EntityType="Self.vDM4_3_24hour_Central_2" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vDM4_3_24hour_Central_2].[Id] AS [Id], 
+    [vDM4_3_24hour_Central_2].[DateStr] AS [DateStr], 
+    [vDM4_3_24hour_Central_2].[DELTA_VOLUME_BIODOME] AS [DELTA_VOLUME_BIODOME], 
+    [vDM4_3_24hour_Central_2].[TOTAL_GAS_COGEN_YESTERDAY] AS [TOTAL_GAS_COGEN_YESTERDAY]
+    FROM [dbo].[vDM4_3_24hour_Central_2] AS [vDM4_3_24hour_Central_2]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vFGO_1Hour_Table_1" EntityType="Self.vFGO_1Hour_Table_1" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vFGO_1Hour_Table_1].[Id] AS [Id], 
+    [vFGO_1Hour_Table_1].[DateStr] AS [DateStr], 
+    [vFGO_1Hour_Table_1].[TT_H1_1_EU] AS [TT_H1_1_EU], 
+    [vFGO_1Hour_Table_1].[TT_H1_3_EU] AS [TT_H1_3_EU], 
+    [vFGO_1Hour_Table_1].[TT_H2_1_EU] AS [TT_H2_1_EU], 
+    [vFGO_1Hour_Table_1].[TT_H2_3_EU] AS [TT_H2_3_EU], 
+    [vFGO_1Hour_Table_1].[TT_L1_1_EU] AS [TT_L1_1_EU], 
+    [vFGO_1Hour_Table_1].[TT_L1_2_EU] AS [TT_L1_2_EU], 
+    [vFGO_1Hour_Table_1].[TT_L2_1_EU] AS [TT_L2_1_EU], 
+    [vFGO_1Hour_Table_1].[TT_L2_2_EU] AS [TT_L2_2_EU]
+    FROM [dbo].[vFGO_1Hour_Table_1] AS [vFGO_1Hour_Table_1]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vFGO_1Minute_Table1" EntityType="Self.vFGO_1Minute_Table1" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vFGO_1Minute_Table1].[Id] AS [Id], 
+    [vFGO_1Minute_Table1].[DateStr] AS [DateStr], 
+    [vFGO_1Minute_Table1].[PT_G1_EU] AS [PT_G1_EU], 
+    [vFGO_1Minute_Table1].[PT_G2_EU] AS [PT_G2_EU], 
+    [vFGO_1Minute_Table1].[FT_L_1_EU] AS [FT_L_1_EU], 
+    [vFGO_1Minute_Table1].[FT_G1_EU] AS [FT_G1_EU], 
+    [vFGO_1Minute_Table1].[FT_CHP_EU] AS [FT_CHP_EU], 
+    [vFGO_1Minute_Table1].[FT_GF_EU] AS [FT_GF_EU], 
+    [vFGO_1Minute_Table1].[VT_GT] AS [VT_GT], 
+    [vFGO_1Minute_Table1].[PT_GT_EU] AS [PT_GT_EU], 
+    [vFGO_1Minute_Table1].[WM_PC_EU] AS [WM_PC_EU], 
+    [vFGO_1Minute_Table1].[WM_PD_EU] AS [WM_PD_EU]
+    FROM [dbo].[vFGO_1Minute_Table1] AS [vFGO_1Minute_Table1]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vFGO_1Minute_Table2" EntityType="Self.vFGO_1Minute_Table2" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vFGO_1Minute_Table2].[Id] AS [Id], 
+    [vFGO_1Minute_Table2].[DateStr] AS [DateStr], 
+    [vFGO_1Minute_Table2].[LT_RP_EU] AS [LT_RP_EU], 
+    [vFGO_1Minute_Table2].[LT_L1_1_EU] AS [LT_L1_1_EU], 
+    [vFGO_1Minute_Table2].[LT_L1_2_EU] AS [LT_L1_2_EU], 
+    [vFGO_1Minute_Table2].[LT_L2_1_EU] AS [LT_L2_1_EU], 
+    [vFGO_1Minute_Table2].[LT_L2_2_EU] AS [LT_L2_2_EU], 
+    [vFGO_1Minute_Table2].[TT_G2_EU] AS [TT_G2_EU], 
+    [vFGO_1Minute_Table2].[TT_OT_EU] AS [TT_OT_EU], 
+    [vFGO_1Minute_Table2].[TT_RP_EU] AS [TT_RP_EU], 
+    [vFGO_1Minute_Table2].[TT_GF_EU] AS [TT_GF_EU], 
+    [vFGO_1Minute_Table2].[IT_E1_EU] AS [IT_E1_EU], 
+    [vFGO_1Minute_Table2].[IT_E2_EU] AS [IT_E2_EU], 
+    [vFGO_1Minute_Table2].[MODBUS_COGEN_PWROUT_ACT] AS [MODBUS_COGEN_PWROUT_ACT]
+    FROM [dbo].[vFGO_1Minute_Table2] AS [vFGO_1Minute_Table2]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vFGO_24Hour_Table1" EntityType="Self.vFGO_24Hour_Table1" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vFGO_24Hour_Table1].[Id] AS [Id], 
+    [vFGO_24Hour_Table1].[DateStr] AS [DateStr], 
+    [vFGO_24Hour_Table1].[EV3_DAILY_LOG] AS [EV3_DAILY_LOG], 
+    [vFGO_24Hour_Table1].[EV4_DAILY_LOG] AS [EV4_DAILY_LOG], 
+    [vFGO_24Hour_Table1].[MF3_DAILY_LOG] AS [MF3_DAILY_LOG], 
+    [vFGO_24Hour_Table1].[MF4_DAILY_LOG] AS [MF4_DAILY_LOG], 
+    [vFGO_24Hour_Table1].[VC4_DAILY_LOG] AS [VC4_DAILY_LOG], 
+    [vFGO_24Hour_Table1].[VC5_DAILY_LOG] AS [VC5_DAILY_LOG], 
+    [vFGO_24Hour_Table1].[VC6_DAILY_LOG] AS [VC6_DAILY_LOG], 
+    [vFGO_24Hour_Table1].[VC7_DAILY_LOG] AS [VC7_DAILY_LOG], 
+    [vFGO_24Hour_Table1].[DELTA_VOLUME_BIODOME] AS [DELTA_VOLUME_BIODOME]
+    FROM [dbo].[vFGO_24Hour_Table1] AS [vFGO_24Hour_Table1]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vFGO_24Hour_Table2" EntityType="Self.vFGO_24Hour_Table2" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vFGO_24Hour_Table2].[Id] AS [Id], 
+    [vFGO_24Hour_Table2].[DateStr] AS [DateStr], 
+    [vFGO_24Hour_Table2].[OC1] AS [OC1], 
+    [vFGO_24Hour_Table2].[GF_DAILY_LOG] AS [GF_DAILY_LOG], 
+    [vFGO_24Hour_Table2].[GCHP_DAILY_LOG] AS [GCHP_DAILY_LOG], 
+    [vFGO_24Hour_Table2].[ECHP_DAILY_LOG] AS [ECHP_DAILY_LOG], 
+    [vFGO_24Hour_Table2].[TECHP] AS [TECHP], 
+    [vFGO_24Hour_Table2].[THCHP] AS [THCHP], 
+    [vFGO_24Hour_Table2].[CPLE_DAILY_LOG] AS [CPLE_DAILY_LOG], 
+    [vFGO_24Hour_Table2].[EPARA_DAILY_LOG] AS [EPARA_DAILY_LOG], 
+    [vFGO_24Hour_Table2].[CPLD_DAILY_LOG] AS [CPLD_DAILY_LOG]
+    FROM [dbo].[vFGO_24Hour_Table2] AS [vFGO_24Hour_Table2]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vLMD_1Hour_Table_1" EntityType="Self.vLMD_1Hour_Table_1" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vLMD_1Hour_Table_1].[Id] AS [Id], 
+    [vLMD_1Hour_Table_1].[DateStr] AS [DateStr], 
+    [vLMD_1Hour_Table_1].[PT_CA_EU] AS [PT_CA_EU], 
+    [vLMD_1Hour_Table_1].[TT_H1_1_EU] AS [TT_H1_1_EU], 
+    [vLMD_1Hour_Table_1].[TT_H1_2_EU] AS [TT_H1_2_EU], 
+    [vLMD_1Hour_Table_1].[TT_H1_3_EU] AS [TT_H1_3_EU], 
+    [vLMD_1Hour_Table_1].[TT_H1_4_EU] AS [TT_H1_4_EU], 
+    [vLMD_1Hour_Table_1].[TT_H2_1_EU] AS [TT_H2_1_EU], 
+    [vLMD_1Hour_Table_1].[TT_H2_2_EU] AS [TT_H2_2_EU], 
+    [vLMD_1Hour_Table_1].[TT_H2_3_EU] AS [TT_H2_3_EU], 
+    [vLMD_1Hour_Table_1].[TT_H2_4_EU] AS [TT_H2_4_EU], 
+    [vLMD_1Hour_Table_1].[TT_HZ_1_EU] AS [TT_HZ_1_EU], 
+    [vLMD_1Hour_Table_1].[TT_HZ_2_EU] AS [TT_HZ_2_EU]
+    FROM [dbo].[vLMD_1Hour_Table_1] AS [vLMD_1Hour_Table_1]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vLMD_1Hour_Table_2" EntityType="Self.vLMD_1Hour_Table_2" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vLMD_1Hour_Table_2].[Id] AS [Id], 
+    [vLMD_1Hour_Table_2].[DateStr] AS [DateStr], 
+    [vLMD_1Hour_Table_2].[TT_L1_1_EU] AS [TT_L1_1_EU], 
+    [vLMD_1Hour_Table_2].[TT_L1_2_EU] AS [TT_L1_2_EU], 
+    [vLMD_1Hour_Table_2].[TT_L1_3_EU] AS [TT_L1_3_EU], 
+    [vLMD_1Hour_Table_2].[TT_L1_4_EU] AS [TT_L1_4_EU], 
+    [vLMD_1Hour_Table_2].[TT_L2_1_EU] AS [TT_L2_1_EU], 
+    [vLMD_1Hour_Table_2].[TT_L2_2_EU] AS [TT_L2_2_EU], 
+    [vLMD_1Hour_Table_2].[TT_L2_3_EU] AS [TT_L2_3_EU], 
+    [vLMD_1Hour_Table_2].[TT_L2_4_EU] AS [TT_L2_4_EU]
+    FROM [dbo].[vLMD_1Hour_Table_2] AS [vLMD_1Hour_Table_2]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vLMD_1Minute_Table_1" EntityType="Self.vLMD_1Minute_Table_1" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vLMD_1Minute_Table_1].[Id] AS [Id], 
+    [vLMD_1Minute_Table_1].[DateStr] AS [DateStr], 
+    [vLMD_1Minute_Table_1].[PT_G1_EU] AS [PT_G1_EU], 
+    [vLMD_1Minute_Table_1].[PT_G2_EU] AS [PT_G2_EU], 
+    [vLMD_1Minute_Table_1].[FT_L_1_EU] AS [FT_L_1_EU], 
+    [vLMD_1Minute_Table_1].[FT_L_2_EU] AS [FT_L_2_EU], 
+    [vLMD_1Minute_Table_1].[FT_G1_EU] AS [FT_G1_EU], 
+    [vLMD_1Minute_Table_1].[FT_CHP_EU] AS [FT_CHP_EU], 
+    [vLMD_1Minute_Table_1].[FT_GF_EU] AS [FT_GF_EU], 
+    [vLMD_1Minute_Table_1].[PX] AS [PX], 
+    [vLMD_1Minute_Table_1].[VT_GT] AS [VT_GT], 
+    [vLMD_1Minute_Table_1].[PT_GT_EU] AS [PT_GT_EU], 
+    [vLMD_1Minute_Table_1].[FT_G2_EU] AS [FT_G2_EU], 
+    [vLMD_1Minute_Table_1].[LT_ES_EU] AS [LT_ES_EU], 
+    [vLMD_1Minute_Table_1].[LT_RP_EU] AS [LT_RP_EU]
+    FROM [dbo].[vLMD_1Minute_Table_1] AS [vLMD_1Minute_Table_1]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vLMD_24Hour_Table_1" EntityType="Self.vLMD_24Hour_Table_1" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vLMD_24Hour_Table_1].[Id] AS [Id], 
+    [vLMD_24Hour_Table_1].[DateStr] AS [DateStr], 
+    [vLMD_24Hour_Table_1].[EV3] AS [EV3], 
+    [vLMD_24Hour_Table_1].[EV4] AS [EV4], 
+    [vLMD_24Hour_Table_1].[MF3] AS [MF3], 
+    [vLMD_24Hour_Table_1].[MF4] AS [MF4], 
+    [vLMD_24Hour_Table_1].[VC4] AS [VC4], 
+    [vLMD_24Hour_Table_1].[VC5] AS [VC5], 
+    [vLMD_24Hour_Table_1].[VC6_DAILAY_LOG] AS [VC6_DAILAY_LOG], 
+    [vLMD_24Hour_Table_1].[VC7_DAILAY_LOG] AS [VC7_DAILAY_LOG], 
+    [vLMD_24Hour_Table_1].[DELTA_VOLUME_BIODOME] AS [DELTA_VOLUME_BIODOME]
+    FROM [dbo].[vLMD_24Hour_Table_1] AS [vLMD_24Hour_Table_1]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vLMD_24Hour_Table_2" EntityType="Self.vLMD_24Hour_Table_2" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vLMD_24Hour_Table_2].[Id] AS [Id], 
+    [vLMD_24Hour_Table_2].[DateStr] AS [DateStr], 
+    [vLMD_24Hour_Table_2].[OC1] AS [OC1], 
+    [vLMD_24Hour_Table_2].[GF] AS [GF], 
+    [vLMD_24Hour_Table_2].[GCHP] AS [GCHP], 
+    [vLMD_24Hour_Table_2].[ECHP] AS [ECHP], 
+    [vLMD_24Hour_Table_2].[MODBUS_COGEN_TODAYKWH_ACT] AS [MODBUS_COGEN_TODAYKWH_ACT], 
+    [vLMD_24Hour_Table_2].[MODBUS_COGEN_TOTALHRS_ACT] AS [MODBUS_COGEN_TOTALHRS_ACT]
+    FROM [dbo].[vLMD_24Hour_Table_2] AS [vLMD_24Hour_Table_2]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vOLD_1Hour_Table_1" EntityType="Self.vOLD_1Hour_Table_1" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vOLD_1Hour_Table_1].[Id] AS [Id], 
+    [vOLD_1Hour_Table_1].[DateStr] AS [DateStr], 
+    [vOLD_1Hour_Table_1].[PT_CA_EU] AS [PT_CA_EU], 
+    [vOLD_1Hour_Table_1].[TT_H1_1_EU] AS [TT_H1_1_EU], 
+    [vOLD_1Hour_Table_1].[TT_H1_2_EU] AS [TT_H1_2_EU], 
+    [vOLD_1Hour_Table_1].[TT_H1_3_EU] AS [TT_H1_3_EU], 
+    [vOLD_1Hour_Table_1].[TT_H1_4_EU] AS [TT_H1_4_EU], 
+    [vOLD_1Hour_Table_1].[TT_H2_1_EU] AS [TT_H2_1_EU], 
+    [vOLD_1Hour_Table_1].[TT_H2_2_EU] AS [TT_H2_2_EU], 
+    [vOLD_1Hour_Table_1].[TT_H2_3_EU] AS [TT_H2_3_EU], 
+    [vOLD_1Hour_Table_1].[TT_H2_4_EU] AS [TT_H2_4_EU]
+    FROM [dbo].[vOLD_1Hour_Table_1] AS [vOLD_1Hour_Table_1]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vOLD_1Hour_Table_2" EntityType="Self.vOLD_1Hour_Table_2" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vOLD_1Hour_Table_2].[Id] AS [Id], 
+    [vOLD_1Hour_Table_2].[DateStr] AS [DateStr], 
+    [vOLD_1Hour_Table_2].[TT_L1_1_EU] AS [TT_L1_1_EU], 
+    [vOLD_1Hour_Table_2].[TT_L1_2_EU] AS [TT_L1_2_EU], 
+    [vOLD_1Hour_Table_2].[TT_L1_3_EU] AS [TT_L1_3_EU], 
+    [vOLD_1Hour_Table_2].[TT_L1_4_EU] AS [TT_L1_4_EU], 
+    [vOLD_1Hour_Table_2].[TT_L2_1_EU] AS [TT_L2_1_EU], 
+    [vOLD_1Hour_Table_2].[TT_L2_2_EU] AS [TT_L2_2_EU], 
+    [vOLD_1Hour_Table_2].[TT_L2_3_EU] AS [TT_L2_3_EU], 
+    [vOLD_1Hour_Table_2].[TT_L2_4_EU] AS [TT_L2_4_EU]
+    FROM [dbo].[vOLD_1Hour_Table_2] AS [vOLD_1Hour_Table_2]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vOLD_1Minute_Table_1" EntityType="Self.vOLD_1Minute_Table_1" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vOLD_1Minute_Table_1].[Id] AS [Id], 
+    [vOLD_1Minute_Table_1].[DateStr] AS [DateStr], 
+    [vOLD_1Minute_Table_1].[PT_G1_EU] AS [PT_G1_EU], 
+    [vOLD_1Minute_Table_1].[PT_G2_EU] AS [PT_G2_EU], 
+    [vOLD_1Minute_Table_1].[FT_L_1_EU] AS [FT_L_1_EU], 
+    [vOLD_1Minute_Table_1].[FT_L_2_EU] AS [FT_L_2_EU], 
+    [vOLD_1Minute_Table_1].[FT_G1_EU] AS [FT_G1_EU], 
+    [vOLD_1Minute_Table_1].[FT_C_EU] AS [FT_C_EU], 
+    [vOLD_1Minute_Table_1].[FT_F_EU] AS [FT_F_EU], 
+    [vOLD_1Minute_Table_1].[VT_GT] AS [VT_GT], 
+    [vOLD_1Minute_Table_1].[PT_GT_EU] AS [PT_GT_EU], 
+    [vOLD_1Minute_Table_1].[MODBUS_WM_PCHP_ACT] AS [MODBUS_WM_PCHP_ACT], 
+    [vOLD_1Minute_Table_1].[IT_E1_EU] AS [IT_E1_EU], 
+    [vOLD_1Minute_Table_1].[IT_E2_EU] AS [IT_E2_EU], 
+    [vOLD_1Minute_Table_1].[MODBUS_FLARE_LOG] AS [MODBUS_FLARE_LOG], 
+    [vOLD_1Minute_Table_1].[PT_CA_EU] AS [PT_CA_EU]
+    FROM [dbo].[vOLD_1Minute_Table_1] AS [vOLD_1Minute_Table_1]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vOLD_24Hour_Table_1" EntityType="Self.vOLD_24Hour_Table_1" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vOLD_24Hour_Table_1].[Id] AS [Id], 
+    [vOLD_24Hour_Table_1].[DateStr] AS [DateStr], 
+    [vOLD_24Hour_Table_1].[EV3] AS [EV3], 
+    [vOLD_24Hour_Table_1].[EV4] AS [EV4], 
+    [vOLD_24Hour_Table_1].[MF3] AS [MF3], 
+    [vOLD_24Hour_Table_1].[MF4] AS [MF4], 
+    [vOLD_24Hour_Table_1].[VC4_DAILY_LOG] AS [VC4_DAILY_LOG], 
+    [vOLD_24Hour_Table_1].[VC5_DAILY_LOG] AS [VC5_DAILY_LOG], 
+    [vOLD_24Hour_Table_1].[VC6_DAILAY_LOG] AS [VC6_DAILAY_LOG], 
+    [vOLD_24Hour_Table_1].[VC7_DAILAY_LOG] AS [VC7_DAILAY_LOG], 
+    [vOLD_24Hour_Table_1].[CPLE] AS [CPLE], 
+    [vOLD_24Hour_Table_1].[MODBUS_COGEN_TOTALKWH_ACT] AS [MODBUS_COGEN_TOTALKWH_ACT], 
+    [vOLD_24Hour_Table_1].[MODBUS_COGEN_TOTALHRS_ACT] AS [MODBUS_COGEN_TOTALHRS_ACT]
+    FROM [dbo].[vOLD_24Hour_Table_1] AS [vOLD_24Hour_Table_1]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vOLD_24Hour_Table_2" EntityType="Self.vOLD_24Hour_Table_2" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vOLD_24Hour_Table_2].[Id] AS [Id], 
+    [vOLD_24Hour_Table_2].[DateStr] AS [DateStr], 
+    [vOLD_24Hour_Table_2].[EPARA] AS [EPARA], 
+    [vOLD_24Hour_Table_2].[AI1] AS [AI1], 
+    [vOLD_24Hour_Table_2].[OC1] AS [OC1], 
+    [vOLD_24Hour_Table_2].[GF] AS [GF], 
+    [vOLD_24Hour_Table_2].[GCHP] AS [GCHP], 
+    [vOLD_24Hour_Table_2].[ECHP] AS [ECHP], 
+    [vOLD_24Hour_Table_2].[DELTA_VOLUME_BIODOME] AS [DELTA_VOLUME_BIODOME]
+    FROM [dbo].[vOLD_24Hour_Table_2] AS [vOLD_24Hour_Table_2]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

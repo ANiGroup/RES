@@ -1,0 +1,1045 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="affinitydev1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="affinitydev1Entities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="myUpdDataSP">
+      <Parameter Name="myyearParam" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="CalcDates" EntityType="affinitydev1Model.CalcDate" />
+    <EntitySet Name="TotalKws" EntityType="affinitydev1Model.TotalKw" />
+    <FunctionImport Name="GetKws" />
+    <FunctionImport Name="sp_vDM2_1_1min_Central" ReturnType="Collection(affinitydev1Model.sp_vDM2_1_1min_Central_Result)" />
+    <FunctionImport Name="sp_vDM2_1_1min_POD21" ReturnType="Collection(affinitydev1Model.sp_vDM2_1_1min_POD21_Result)" />
+    <FunctionImport Name="sp_vDM2_1_1min_POD22" ReturnType="Collection(affinitydev1Model.sp_vDM2_1_1min_POD22_Result)" />
+    <FunctionImport Name="sp_vDM2_1_1min_POD23" ReturnType="Collection(affinitydev1Model.sp_vDM2_1_1min_POD23_Result)" />
+    <FunctionImport Name="sp_vDM2_1_1min_POD24" ReturnType="Collection(affinitydev1Model.sp_vDM2_1_1min_POD24_Result)" />
+    <FunctionImport Name="sp_vDM2_1_24hour_Central" ReturnType="Collection(affinitydev1Model.sp_vDM2_1_24hour_Central_Result)" />
+    <FunctionImport Name="sp_vDM2_1_24hour_Central_2" ReturnType="Collection(affinitydev1Model.sp_vDM2_1_24hour_Central_2_Result)" />
+    <FunctionImport Name="sp_vDM4_3_1min_Central" ReturnType="Collection(affinitydev1Model.sp_vDM4_3_1min_Central_Result)" />
+    <FunctionImport Name="sp_vDM4_3_1min_POD34" ReturnType="Collection(affinitydev1Model.sp_vDM4_3_1min_POD34_Result)" />
+    <FunctionImport Name="sp_vDM4_3_1min_POD35" ReturnType="Collection(affinitydev1Model.sp_vDM4_3_1min_POD35_Result)" />
+    <FunctionImport Name="sp_vDM4_3_1min_POD41" ReturnType="Collection(affinitydev1Model.sp_vDM4_3_1min_POD41_Result)" />
+    <FunctionImport Name="sp_vDM4_3_1min_POD42" ReturnType="Collection(affinitydev1Model.sp_vDM4_3_1min_POD42_Result)" />
+    <FunctionImport Name="sp_vDM4_3_1min_POD43" ReturnType="Collection(affinitydev1Model.sp_vDM4_3_1min_POD43_Result)" />
+    <FunctionImport Name="sp_vDM4_3_1min_POD44" ReturnType="Collection(affinitydev1Model.sp_vDM4_3_1min_POD44_Result)" />
+    <FunctionImport Name="sp_vDM4_3_24hour_Central" ReturnType="Collection(affinitydev1Model.sp_vDM4_3_24hour_Central_Result)" />
+    <FunctionImport Name="sp_vDM4_3_24hour_Central_2" ReturnType="Collection(affinitydev1Model.sp_vDM4_3_24hour_Central_2_Result)" />
+    <FunctionImport Name="sp_vFGO_1Hour_Table_1" ReturnType="Collection(affinitydev1Model.sp_vFGO_1Hour_Table_1_Result)" />
+    <FunctionImport Name="sp_vFGO_1Minute_Table1" ReturnType="Collection(affinitydev1Model.sp_vFGO_1Minute_Table1_Result)" />
+    <FunctionImport Name="sp_vFGO_1Minute_Table2" ReturnType="Collection(affinitydev1Model.sp_vFGO_1Minute_Table2_Result)" />
+    <FunctionImport Name="sp_vFGO_24Hour_Table1" ReturnType="Collection(affinitydev1Model.sp_vFGO_24Hour_Table1_Result)" />
+    <FunctionImport Name="sp_vFGO_24Hour_Table2" ReturnType="Collection(affinitydev1Model.sp_vFGO_24Hour_Table2_Result)" />
+    <FunctionImport Name="sp_vLMD_1Hour_Table_1" ReturnType="Collection(affinitydev1Model.sp_vLMD_1Hour_Table_1_Result)" />
+    <FunctionImport Name="sp_vLMD_1Hour_Table_2" ReturnType="Collection(affinitydev1Model.sp_vLMD_1Hour_Table_2_Result)" />
+    <FunctionImport Name="sp_vLMD_1Minute_Table_1" ReturnType="Collection(affinitydev1Model.sp_vLMD_1Minute_Table_1_Result)" />
+    <FunctionImport Name="sp_vLMD_24Hour_Table_1" ReturnType="Collection(affinitydev1Model.sp_vLMD_24Hour_Table_1_Result)" />
+    <FunctionImport Name="sp_vLMD_24Hour_Table_2" ReturnType="Collection(affinitydev1Model.sp_vLMD_24Hour_Table_2_Result)" />
+    <FunctionImport Name="sp_vOLD_1Hour_Table_1" ReturnType="Collection(affinitydev1Model.sp_vOLD_1Hour_Table_1_Result)" />
+    <FunctionImport Name="sp_vOLD_1Hour_Table_2" ReturnType="Collection(affinitydev1Model.sp_vOLD_1Hour_Table_2_Result)" />
+    <FunctionImport Name="sp_vOLD_1Minute_Table_1" ReturnType="Collection(affinitydev1Model.sp_vOLD_1Minute_Table_1_Result)" />
+    <FunctionImport Name="sp_vOLD_24Hour_Table_1" ReturnType="Collection(affinitydev1Model.sp_vOLD_24Hour_Table_1_Result)" />
+    <FunctionImport Name="sp_vOLD_24Hour_Table_2" ReturnType="Collection(affinitydev1Model.sp_vOLD_24Hour_Table_2_Result)" />
+    <FunctionImport Name="spUtil_ReIndexDatabase_UpdateStats" />
+    <EntitySet Name="vDM2_1_1min_Central" EntityType="affinitydev1Model.vDM2_1_1min_Central" />
+    <EntitySet Name="vDM2_1_1min_POD21" EntityType="affinitydev1Model.vDM2_1_1min_POD21" />
+    <EntitySet Name="vDM2_1_1min_POD22" EntityType="affinitydev1Model.vDM2_1_1min_POD22" />
+    <EntitySet Name="vDM2_1_1min_POD23" EntityType="affinitydev1Model.vDM2_1_1min_POD23" />
+    <EntitySet Name="vDM2_1_1min_POD24" EntityType="affinitydev1Model.vDM2_1_1min_POD24" />
+    <EntitySet Name="vDM2_1_24hour_Central" EntityType="affinitydev1Model.vDM2_1_24hour_Central" />
+    <EntitySet Name="vDM2_1_24hour_Central_2" EntityType="affinitydev1Model.vDM2_1_24hour_Central_2" />
+    <EntitySet Name="vDM4_3_1min_Central" EntityType="affinitydev1Model.vDM4_3_1min_Central" />
+    <EntitySet Name="vDM4_3_1min_POD34" EntityType="affinitydev1Model.vDM4_3_1min_POD34" />
+    <EntitySet Name="vDM4_3_1min_POD35" EntityType="affinitydev1Model.vDM4_3_1min_POD35" />
+    <EntitySet Name="vDM4_3_1min_POD41" EntityType="affinitydev1Model.vDM4_3_1min_POD41" />
+    <EntitySet Name="vDM4_3_1min_POD42" EntityType="affinitydev1Model.vDM4_3_1min_POD42" />
+    <EntitySet Name="vDM4_3_1min_POD43" EntityType="affinitydev1Model.vDM4_3_1min_POD43" />
+    <EntitySet Name="vDM4_3_1min_POD44" EntityType="affinitydev1Model.vDM4_3_1min_POD44" />
+    <EntitySet Name="vDM4_3_24hour_Central" EntityType="affinitydev1Model.vDM4_3_24hour_Central" />
+    <EntitySet Name="vDM4_3_24hour_Central_2" EntityType="affinitydev1Model.vDM4_3_24hour_Central_2" />
+    <EntitySet Name="vFGO_1Hour_Table_1" EntityType="affinitydev1Model.vFGO_1Hour_Table_1" />
+    <EntitySet Name="vFGO_1Minute_Table1" EntityType="affinitydev1Model.vFGO_1Minute_Table1" />
+    <EntitySet Name="vFGO_1Minute_Table2" EntityType="affinitydev1Model.vFGO_1Minute_Table2" />
+    <EntitySet Name="vFGO_24Hour_Table1" EntityType="affinitydev1Model.vFGO_24Hour_Table1" />
+    <EntitySet Name="vFGO_24Hour_Table2" EntityType="affinitydev1Model.vFGO_24Hour_Table2" />
+    <EntitySet Name="vLMD_1Hour_Table_1" EntityType="affinitydev1Model.vLMD_1Hour_Table_1" />
+    <EntitySet Name="vLMD_1Hour_Table_2" EntityType="affinitydev1Model.vLMD_1Hour_Table_2" />
+    <EntitySet Name="vLMD_1Minute_Table_1" EntityType="affinitydev1Model.vLMD_1Minute_Table_1" />
+    <EntitySet Name="vLMD_24Hour_Table_1" EntityType="affinitydev1Model.vLMD_24Hour_Table_1" />
+    <EntitySet Name="vLMD_24Hour_Table_2" EntityType="affinitydev1Model.vLMD_24Hour_Table_2" />
+    <EntitySet Name="vOLD_1Hour_Table_1" EntityType="affinitydev1Model.vOLD_1Hour_Table_1" />
+    <EntitySet Name="vOLD_1Hour_Table_2" EntityType="affinitydev1Model.vOLD_1Hour_Table_2" />
+    <EntitySet Name="vOLD_1Minute_Table_1" EntityType="affinitydev1Model.vOLD_1Minute_Table_1" />
+    <EntitySet Name="vOLD_24Hour_Table_1" EntityType="affinitydev1Model.vOLD_24Hour_Table_1" />
+    <EntitySet Name="vOLD_24Hour_Table_2" EntityType="affinitydev1Model.vOLD_24Hour_Table_2" />
+    <EntitySet Name="InsertedLogs" EntityType="affinitydev1Model.InsertedLog" />
+    <FunctionImport Name="GetKws2016" />
+    <FunctionImport Name="myUpdDataSP2016">
+      <Parameter Name="myyearParam" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <EntityType Name="CalcDate">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Project" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="StartDate" Type="DateTime" Precision="0" />
+    <Property Name="EndDate" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="TotalKw">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="TotKws" Type="Double" />
+    <Property Name="ProfileName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Id" Type="Int32" Nullable="false" />
+  </EntityType>
+  <ComplexType Name="sp_vDM2_1_1min_Central_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="VT_GT" Nullable="true" />
+    <Property Type="Double" Name="COGEN1_PWROUT_ACT" Nullable="true" />
+    <Property Type="Double" Name="COGEN2_PWROUT_ACT" Nullable="true" />
+    <Property Type="Double" Name="COGEN1_GAZ_CONSUMPTION" Nullable="true" />
+    <Property Type="Double" Name="COGEN2_GAZ_CONSUMPTION" Nullable="true" />
+    <Property Type="Double" Name="FT_GF" Nullable="true" />
+    <Property Type="Double" Name="FT_GC" Nullable="true" />
+    <Property Type="Double" Name="P_GM_PID_PCV_PCT" Nullable="true" />
+    <Property Type="Double" Name="PT_GM_1" Nullable="true" />
+    <Property Type="Double" Name="PT_GM_2" Nullable="true" />
+    <Property Type="Double" Name="TT_OT" Nullable="true" />
+    <Property Type="Double" Name="TT_GF" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vDM2_1_1min_POD21_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="POD41_PT_G" Nullable="true" />
+    <Property Type="Double" Name="POD41_FT_G" Nullable="true" />
+    <Property Type="Double" Name="POD41_LT1_BR" Nullable="true" />
+    <Property Type="Double" Name="POD41_LT2_BR" Nullable="true" />
+    <Property Type="Double" Name="POD41_BR_AVG_TEMP" Nullable="true" />
+    <Property Type="Double" Name="POD41_LT1_RP" Nullable="true" />
+    <Property Type="Double" Name="POD41_LT2_RP" Nullable="true" />
+    <Property Type="Double" Name="POD41_P_RP_SPEED_REFERENCE" Nullable="true" />
+    <Property Type="Double" Name="POD41_BC" Nullable="true" />
+    <Property Type="Double" Name="POD41_MT" Nullable="true" />
+    <Property Type="Double" Name="HMI_DATALOG_P_A41" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vDM2_1_1min_POD22_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="POD42_PT_G" Nullable="true" />
+    <Property Type="Double" Name="POD42_FT_G" Nullable="true" />
+    <Property Type="Double" Name="POD42_LT1_BR" Nullable="true" />
+    <Property Type="Double" Name="POD42_LT2_BR" Nullable="true" />
+    <Property Type="Double" Name="POD42_BR_AVG_TEMP" Nullable="true" />
+    <Property Type="Double" Name="POD42_LT1_RP" Nullable="true" />
+    <Property Type="Double" Name="POD42_LT2_RP" Nullable="true" />
+    <Property Type="Double" Name="POD42_P_RP_SPEED_REFERENCE" Nullable="true" />
+    <Property Type="Double" Name="POD42_BC" Nullable="true" />
+    <Property Type="Double" Name="POD42_MT" Nullable="true" />
+    <Property Type="Double" Name="HMI_DATALOG_P_A42" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vDM2_1_1min_POD23_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="POD43_PT_G" Nullable="true" />
+    <Property Type="Double" Name="POD43_FT_G" Nullable="true" />
+    <Property Type="Double" Name="POD43_LT1_BR" Nullable="true" />
+    <Property Type="Double" Name="POD43_LT2_BR" Nullable="true" />
+    <Property Type="Double" Name="POD43_BR_AVG_TEMP" Nullable="true" />
+    <Property Type="Double" Name="POD43_LT1_RP" Nullable="true" />
+    <Property Type="Double" Name="POD43_LT2_RP" Nullable="true" />
+    <Property Type="Double" Name="POD43_P_RP_SPEED_REFERENCE" Nullable="true" />
+    <Property Type="Double" Name="POD43_BC" Nullable="true" />
+    <Property Type="Double" Name="POD43_MT" Nullable="true" />
+    <Property Type="Double" Name="HMI_DATALOG_P_A43" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vDM2_1_1min_POD24_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="POD44_PT_G" Nullable="true" />
+    <Property Type="Double" Name="POD44_FT_G" Nullable="true" />
+    <Property Type="Double" Name="POD44_LT1_BR" Nullable="true" />
+    <Property Type="Double" Name="POD44_LT2_BR" Nullable="true" />
+    <Property Type="Double" Name="POD44_BR_AVG_TEMP" Nullable="true" />
+    <Property Type="Double" Name="POD44_LT1_RP" Nullable="true" />
+    <Property Type="Double" Name="POD44_LT2_RP" Nullable="true" />
+    <Property Type="Double" Name="POD44_P_RP_SPEED_REFERENCE" Nullable="true" />
+    <Property Type="Double" Name="POD44_BC" Nullable="true" />
+    <Property Type="Double" Name="POD44_MT" Nullable="true" />
+    <Property Type="Double" Name="HMI_DATALOG_P_A44" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vDM2_1_24hour_Central_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="POD41_BD" Nullable="true" />
+    <Property Type="Double" Name="POD42_BD" Nullable="true" />
+    <Property Type="Double" Name="POD43_BD" Nullable="true" />
+    <Property Type="Double" Name="POD44_BD" Nullable="true" />
+    <Property Type="Double" Name="POD41_DAILY_MANURE" Nullable="true" />
+    <Property Type="Double" Name="POD42_DAILY_MANURE" Nullable="true" />
+    <Property Type="Double" Name="POD43_DAILY_MANURE" Nullable="true" />
+    <Property Type="Double" Name="POD44_DAILY_MANURE" Nullable="true" />
+    <Property Type="Double" Name="TOTAL_FT_GC_YESTERDAY" Nullable="true" />
+    <Property Type="Double" Name="TOTAL_FT_GF_YESTERDAY" Nullable="true" />
+    <Property Type="Double" Name="COGEN1_TOTALKWH_ACT" Nullable="true" />
+    <Property Type="Double" Name="COGEN1_TOTALHOURS_ACT" Nullable="true" />
+    <Property Type="Double" Name="COGEN2_TOTALKWH_ACT" Nullable="true" />
+    <Property Type="Double" Name="COGEN2_TOTALHOURS_ACT" Nullable="true" />
+    <Property Type="Double" Name="DELTA_VOLUME_BIODOME" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vDM2_1_24hour_Central_2_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="TOTAL_GAS_COGEN1_YESTERDAY" Nullable="true" />
+    <Property Type="Double" Name="TOTAL_GAS_COGEN2_YESTERDAY" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vDM4_3_1min_Central_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="COGEN2_PWROUT_ACT" Nullable="true" />
+    <Property Type="Double" Name="COGEN1_PF" Nullable="true" />
+    <Property Type="Double" Name="COGEN2_PF" Nullable="true" />
+    <Property Type="Double" Name="FT_GF" Nullable="true" />
+    <Property Type="Double" Name="FT_GC" Nullable="true" />
+    <Property Type="Double" Name="P_GM_PID_PCV_PCT" Nullable="true" />
+    <Property Type="Double" Name="PT_GM_1" Nullable="true" />
+    <Property Type="Double" Name="PT_GM_2" Nullable="true" />
+    <Property Type="Double" Name="TT_OT" Nullable="true" />
+    <Property Type="Double" Name="HMI_DATALOG_V_GM" Nullable="true" />
+    <Property Type="Double" Name="HMI_DATALOG_V_GF" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vDM4_3_1min_POD34_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="POD34_PT_G" Nullable="true" />
+    <Property Type="Double" Name="POD34_FT_G" Nullable="true" />
+    <Property Type="Double" Name="POD34_LT1_BR" Nullable="true" />
+    <Property Type="Double" Name="POD34_LT2_BR" Nullable="true" />
+    <Property Type="Double" Name="POD34_BR_AVG_TEMP" Nullable="true" />
+    <Property Type="Double" Name="POD34_LT1_RP" Nullable="true" />
+    <Property Type="Double" Name="POD34_LT2_RP" Nullable="true" />
+    <Property Type="Double" Name="POD34_P_RP_SPEED_REFERENCE" Nullable="true" />
+    <Property Type="Double" Name="POD34_BC" Nullable="true" />
+    <Property Type="Double" Name="POD34_MT" Nullable="true" />
+    <Property Type="Double" Name="HMI_DATALOG_P_A34" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vDM4_3_1min_POD35_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="POD35_PT_G" Nullable="true" />
+    <Property Type="Double" Name="POD35_FT_G" Nullable="true" />
+    <Property Type="Double" Name="POD35_LT1_BR" Nullable="true" />
+    <Property Type="Double" Name="POD35_LT2_BR" Nullable="true" />
+    <Property Type="Double" Name="POD35_BR_AVG_TEMP" Nullable="true" />
+    <Property Type="Double" Name="POD35_LT1_RP" Nullable="true" />
+    <Property Type="Double" Name="POD35_LT2_RP" Nullable="true" />
+    <Property Type="Double" Name="POD35_P_RP_SPEED_REFERENCE" Nullable="true" />
+    <Property Type="Double" Name="POD35_BC" Nullable="true" />
+    <Property Type="Double" Name="POD35_MT" Nullable="true" />
+    <Property Type="Double" Name="HMI_DATALOG_P_A35" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vDM4_3_1min_POD41_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="POD41_PT_G" Nullable="true" />
+    <Property Type="Double" Name="POD41_FT_G" Nullable="true" />
+    <Property Type="Double" Name="POD41_LT1_BR" Nullable="true" />
+    <Property Type="Double" Name="POD41_LT2_BR" Nullable="true" />
+    <Property Type="Double" Name="POD41_BR_AVG_TEMP" Nullable="true" />
+    <Property Type="Double" Name="POD41_LT1_RP" Nullable="true" />
+    <Property Type="Double" Name="POD41_LT2_RP" Nullable="true" />
+    <Property Type="Double" Name="POD41_P_RP_SPEED_REFERENCE" Nullable="true" />
+    <Property Type="Double" Name="POD41_BC" Nullable="true" />
+    <Property Type="Double" Name="POD41_MT" Nullable="true" />
+    <Property Type="Double" Name="HMI_DATALOG_P_A41" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vDM4_3_1min_POD42_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="POD42_PT_G" Nullable="true" />
+    <Property Type="Double" Name="POD42_FT_G" Nullable="true" />
+    <Property Type="Double" Name="POD42_LT1_BR" Nullable="true" />
+    <Property Type="Double" Name="POD42_LT2_BR" Nullable="true" />
+    <Property Type="Double" Name="POD42_BR_AVG_TEMP" Nullable="true" />
+    <Property Type="Double" Name="POD42_LT1_RP" Nullable="true" />
+    <Property Type="Double" Name="POD42_LT2_RP" Nullable="true" />
+    <Property Type="Double" Name="POD42_P_RP_SPEED_REFERENCE" Nullable="true" />
+    <Property Type="Double" Name="POD42_BC" Nullable="true" />
+    <Property Type="Double" Name="POD42_MT" Nullable="true" />
+    <Property Type="Double" Name="HMI_DATALOG_P_A42" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vDM4_3_1min_POD43_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="POD43_PT_G" Nullable="true" />
+    <Property Type="Double" Name="POD43_FT_G" Nullable="true" />
+    <Property Type="Double" Name="POD43_LT1_BR" Nullable="true" />
+    <Property Type="Double" Name="POD43_LT2_BR" Nullable="true" />
+    <Property Type="Double" Name="POD43_BR_AVG_TEMP" Nullable="true" />
+    <Property Type="Double" Name="POD43_LT1_RP" Nullable="true" />
+    <Property Type="Double" Name="POD43_LT2_RP" Nullable="true" />
+    <Property Type="Double" Name="POD43_P_RP_SPEED_REFERENCE" Nullable="true" />
+    <Property Type="Double" Name="POD43_BC" Nullable="true" />
+    <Property Type="Double" Name="POD43_MT" Nullable="true" />
+    <Property Type="Double" Name="HMI_DATALOG_P_A43" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vDM4_3_1min_POD44_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="POD44_PT_G" Nullable="true" />
+    <Property Type="Double" Name="POD44_FT_G" Nullable="true" />
+    <Property Type="Double" Name="POD44_LT1_BR" Nullable="true" />
+    <Property Type="Double" Name="POD44_LT2_BR" Nullable="true" />
+    <Property Type="Double" Name="POD44_BR_AVG_TEMP" Nullable="true" />
+    <Property Type="Double" Name="POD44_LT1_RP" Nullable="true" />
+    <Property Type="Double" Name="POD44_LT2_RP" Nullable="true" />
+    <Property Type="Double" Name="POD44_P_RP_SPEED_REFERENCE" Nullable="true" />
+    <Property Type="Double" Name="POD44_BC" Nullable="true" />
+    <Property Type="Double" Name="POD44_MT" Nullable="true" />
+    <Property Type="Double" Name="HMI_DATALOG_P_A44" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vDM4_3_24hour_Central_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="POD41_BD" Nullable="true" />
+    <Property Type="Double" Name="POD42_BD" Nullable="true" />
+    <Property Type="Double" Name="POD43_BD" Nullable="true" />
+    <Property Type="Double" Name="POD44_BD" Nullable="true" />
+    <Property Type="Double" Name="POD34_BD" Nullable="true" />
+    <Property Type="Double" Name="POD35_BD" Nullable="true" />
+    <Property Type="Double" Name="POD41_DAILY_MANURE" Nullable="true" />
+    <Property Type="Double" Name="POD42_DAILY_MANURE" Nullable="true" />
+    <Property Type="Double" Name="POD43_DAILY_MANURE" Nullable="true" />
+    <Property Type="Double" Name="POD44_DAILY_MANURE" Nullable="true" />
+    <Property Type="Double" Name="POD34_DAILY_MANURE" Nullable="true" />
+    <Property Type="Double" Name="POD35_DAILY_MANURE" Nullable="true" />
+    <Property Type="Double" Name="TOTAL_FT_GC_YESTERDAY" Nullable="true" />
+    <Property Type="Double" Name="TOTAL_FT_GF_YESTERDAY" Nullable="true" />
+    <Property Type="Double" Name="COGEN1_TOTALKWH_ACT" Nullable="true" />
+    <Property Type="Double" Name="COGEN1_TOTALHOURS_ACT" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vDM4_3_24hour_Central_2_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="DELTA_VOLUME_BIODOME" Nullable="true" />
+    <Property Type="Double" Name="TOTAL_GAS_COGEN_YESTERDAY" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vFGO_1Hour_Table_1_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="TT_H1_1_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_H1_3_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_H2_1_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_H2_3_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_L1_1_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_L1_2_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_L2_1_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_L2_2_EU" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vFGO_1Minute_Table1_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="PT_G1_EU" Nullable="true" />
+    <Property Type="Double" Name="PT_G2_EU" Nullable="true" />
+    <Property Type="Double" Name="FT_L_1_EU" Nullable="true" />
+    <Property Type="Double" Name="FT_G1_EU" Nullable="true" />
+    <Property Type="Double" Name="FT_CHP_EU" Nullable="true" />
+    <Property Type="Double" Name="FT_GF_EU" Nullable="true" />
+    <Property Type="Double" Name="VT_GT" Nullable="true" />
+    <Property Type="Double" Name="PT_GT_EU" Nullable="true" />
+    <Property Type="Double" Name="WM_PC_EU" Nullable="true" />
+    <Property Type="Double" Name="WM_PD_EU" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vFGO_1Minute_Table2_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="LT_RP_EU" Nullable="true" />
+    <Property Type="Double" Name="LT_L1_1_EU" Nullable="true" />
+    <Property Type="Double" Name="LT_L1_2_EU" Nullable="true" />
+    <Property Type="Double" Name="LT_L2_1_EU" Nullable="true" />
+    <Property Type="Double" Name="LT_L2_2_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_G2_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_OT_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_RP_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_GF_EU" Nullable="true" />
+    <Property Type="Double" Name="IT_E1_EU" Nullable="true" />
+    <Property Type="Double" Name="IT_E2_EU" Nullable="true" />
+    <Property Type="Double" Name="MODBUS_COGEN_PWROUT_ACT" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vFGO_24Hour_Table1_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="EV3_DAILY_LOG" Nullable="true" />
+    <Property Type="Double" Name="EV4_DAILY_LOG" Nullable="true" />
+    <Property Type="Double" Name="MF3_DAILY_LOG" Nullable="true" />
+    <Property Type="Double" Name="MF4_DAILY_LOG" Nullable="true" />
+    <Property Type="Double" Name="VC4_DAILY_LOG" Nullable="true" />
+    <Property Type="Double" Name="VC5_DAILY_LOG" Nullable="true" />
+    <Property Type="Double" Name="VC6_DAILY_LOG" Nullable="true" />
+    <Property Type="Double" Name="VC7_DAILY_LOG" Nullable="true" />
+    <Property Type="Double" Name="DELTA_VOLUME_BIODOME" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vFGO_24Hour_Table2_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="OC1" Nullable="true" />
+    <Property Type="Double" Name="GF_DAILY_LOG" Nullable="true" />
+    <Property Type="Double" Name="GCHP_DAILY_LOG" Nullable="true" />
+    <Property Type="Double" Name="ECHP_DAILY_LOG" Nullable="true" />
+    <Property Type="Double" Name="TECHP" Nullable="true" />
+    <Property Type="Double" Name="THCHP" Nullable="true" />
+    <Property Type="Double" Name="CPLE_DAILY_LOG" Nullable="true" />
+    <Property Type="Double" Name="EPARA_DAILY_LOG" Nullable="true" />
+    <Property Type="Double" Name="CPLD_DAILY_LOG" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vLMD_1Hour_Table_1_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="PT_CA_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_H1_1_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_H1_2_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_H1_3_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_H1_4_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_H2_1_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_H2_2_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_H2_3_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_H2_4_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_HZ_1_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_HZ_2_EU" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vLMD_1Hour_Table_2_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="TT_L1_1_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_L1_2_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_L1_3_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_L1_4_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_L2_1_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_L2_2_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_L2_3_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_L2_4_EU" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vLMD_1Minute_Table_1_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="PT_G1_EU" Nullable="true" />
+    <Property Type="Double" Name="PT_G2_EU" Nullable="true" />
+    <Property Type="Double" Name="FT_L_1_EU" Nullable="true" />
+    <Property Type="Double" Name="FT_L_2_EU" Nullable="true" />
+    <Property Type="Double" Name="FT_G1_EU" Nullable="true" />
+    <Property Type="Double" Name="FT_CHP_EU" Nullable="true" />
+    <Property Type="Double" Name="FT_GF_EU" Nullable="true" />
+    <Property Type="Double" Name="PX" Nullable="true" />
+    <Property Type="Double" Name="VT_GT" Nullable="true" />
+    <Property Type="Double" Name="PT_GT_EU" Nullable="true" />
+    <Property Type="Double" Name="FT_G2_EU" Nullable="true" />
+    <Property Type="Double" Name="LT_ES_EU" Nullable="true" />
+    <Property Type="Double" Name="LT_RP_EU" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vLMD_24Hour_Table_1_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="EV3" Nullable="true" />
+    <Property Type="Double" Name="EV4" Nullable="true" />
+    <Property Type="Double" Name="MF3" Nullable="true" />
+    <Property Type="Double" Name="MF4" Nullable="true" />
+    <Property Type="Double" Name="VC4" Nullable="true" />
+    <Property Type="Double" Name="VC5" Nullable="true" />
+    <Property Type="Double" Name="VC6_DAILAY_LOG" Nullable="true" />
+    <Property Type="Double" Name="VC7_DAILAY_LOG" Nullable="true" />
+    <Property Type="Double" Name="DELTA_VOLUME_BIODOME" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vLMD_24Hour_Table_2_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="OC1" Nullable="true" />
+    <Property Type="Double" Name="GF" Nullable="true" />
+    <Property Type="Double" Name="GCHP" Nullable="true" />
+    <Property Type="Double" Name="ECHP" Nullable="true" />
+    <Property Type="Double" Name="MODBUS_COGEN_TODAYKWH_ACT" Nullable="true" />
+    <Property Type="Double" Name="MODBUS_COGEN_TOTALHRS_ACT" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vOLD_1Hour_Table_1_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="PT_CA_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_H1_1_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_H1_2_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_H1_3_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_H1_4_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_H2_1_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_H2_2_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_H2_3_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_H2_4_EU" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vOLD_1Hour_Table_2_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="TT_L1_1_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_L1_2_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_L1_3_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_L1_4_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_L2_1_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_L2_2_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_L2_3_EU" Nullable="true" />
+    <Property Type="Double" Name="TT_L2_4_EU" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vOLD_1Minute_Table_1_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="PT_G1_EU" Nullable="true" />
+    <Property Type="Double" Name="PT_G2_EU" Nullable="true" />
+    <Property Type="Double" Name="FT_L_1_EU" Nullable="true" />
+    <Property Type="Double" Name="FT_L_2_EU" Nullable="true" />
+    <Property Type="Double" Name="FT_G1_EU" Nullable="true" />
+    <Property Type="Double" Name="FT_C_EU" Nullable="true" />
+    <Property Type="Double" Name="FT_F_EU" Nullable="true" />
+    <Property Type="Double" Name="VT_GT" Nullable="true" />
+    <Property Type="Double" Name="PT_GT_EU" Nullable="true" />
+    <Property Type="Double" Name="MODBUS_WM_PCHP_ACT" Nullable="true" />
+    <Property Type="Double" Name="IT_E1_EU" Nullable="true" />
+    <Property Type="Double" Name="IT_E2_EU" Nullable="true" />
+    <Property Type="Double" Name="MODBUS_FLARE_LOG" Nullable="true" />
+    <Property Type="Double" Name="PT_CA_EU" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vOLD_24Hour_Table_1_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="EV3" Nullable="true" />
+    <Property Type="Double" Name="EV4" Nullable="true" />
+    <Property Type="Double" Name="MF3" Nullable="true" />
+    <Property Type="Double" Name="MF4" Nullable="true" />
+    <Property Type="Double" Name="VC4_DAILY_LOG" Nullable="true" />
+    <Property Type="Double" Name="VC5_DAILY_LOG" Nullable="true" />
+    <Property Type="Double" Name="VC6_DAILAY_LOG" Nullable="true" />
+    <Property Type="Double" Name="VC7_DAILAY_LOG" Nullable="true" />
+    <Property Type="Double" Name="CPLE" Nullable="true" />
+    <Property Type="Double" Name="MODBUS_COGEN_TOTALKWH_ACT" Nullable="true" />
+    <Property Type="Double" Name="MODBUS_COGEN_TOTALHRS_ACT" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_vOLD_24Hour_Table_2_Result">
+    <Property Type="DateTime" Name="DateStr" Nullable="true" Precision="23" />
+    <Property Type="Double" Name="EPARA" Nullable="true" />
+    <Property Type="Double" Name="AI1" Nullable="true" />
+    <Property Type="Double" Name="OC1" Nullable="true" />
+    <Property Type="Double" Name="GF" Nullable="true" />
+    <Property Type="Double" Name="GCHP" Nullable="true" />
+    <Property Type="Double" Name="ECHP" Nullable="true" />
+    <Property Type="Double" Name="DELTA_VOLUME_BIODOME" Nullable="true" />
+  </ComplexType>
+  <EntityType Name="vDM2_1_1min_Central">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="VT_GT" Type="Double" />
+    <Property Name="COGEN1_PWROUT_ACT" Type="Double" />
+    <Property Name="COGEN2_PWROUT_ACT" Type="Double" />
+    <Property Name="COGEN1_GAZ_CONSUMPTION" Type="Double" />
+    <Property Name="COGEN2_GAZ_CONSUMPTION" Type="Double" />
+    <Property Name="FT_GF" Type="Double" />
+    <Property Name="FT_GC" Type="Double" />
+    <Property Name="P_GM_PID_PCV_PCT" Type="Double" />
+    <Property Name="PT_GM_1" Type="Double" />
+    <Property Name="PT_GM_2" Type="Double" />
+    <Property Name="TT_OT" Type="Double" />
+    <Property Name="TT_GF" Type="Double" />
+    <Property Name="HMI_DATALOG_V_GF" Type="Double" />
+  </EntityType>
+  <EntityType Name="vDM2_1_1min_POD21">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="POD41_PT_G" Type="Double" />
+    <Property Name="POD41_FT_G" Type="Double" />
+    <Property Name="POD41_LT1_BR" Type="Double" />
+    <Property Name="POD41_LT2_BR" Type="Double" />
+    <Property Name="POD41_BR_AVG_TEMP" Type="Double" />
+    <Property Name="POD41_LT1_RP" Type="Double" />
+    <Property Name="POD41_LT2_RP" Type="Double" />
+    <Property Name="POD41_P_RP_SPEED_REFERENCE" Type="Double" />
+    <Property Name="POD41_BC" Type="Double" />
+    <Property Name="POD41_MT" Type="Double" />
+    <Property Name="HMI_DATALOG_P_A41" Type="Double" />
+  </EntityType>
+  <EntityType Name="vDM2_1_1min_POD22">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="POD42_PT_G" Type="Double" />
+    <Property Name="POD42_FT_G" Type="Double" />
+    <Property Name="POD42_LT1_BR" Type="Double" />
+    <Property Name="POD42_LT2_BR" Type="Double" />
+    <Property Name="POD42_BR_AVG_TEMP" Type="Double" />
+    <Property Name="POD42_LT1_RP" Type="Double" />
+    <Property Name="POD42_LT2_RP" Type="Double" />
+    <Property Name="POD42_P_RP_SPEED_REFERENCE" Type="Double" />
+    <Property Name="POD42_BC" Type="Double" />
+    <Property Name="POD42_MT" Type="Double" />
+    <Property Name="HMI_DATALOG_P_A42" Type="Double" />
+  </EntityType>
+  <EntityType Name="vDM2_1_1min_POD23">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="POD43_PT_G" Type="Double" />
+    <Property Name="POD43_FT_G" Type="Double" />
+    <Property Name="POD43_LT1_BR" Type="Double" />
+    <Property Name="POD43_LT2_BR" Type="Double" />
+    <Property Name="POD43_BR_AVG_TEMP" Type="Double" />
+    <Property Name="POD43_LT1_RP" Type="Double" />
+    <Property Name="POD43_LT2_RP" Type="Double" />
+    <Property Name="POD43_P_RP_SPEED_REFERENCE" Type="Double" />
+    <Property Name="POD43_BC" Type="Double" />
+    <Property Name="POD43_MT" Type="Double" />
+    <Property Name="HMI_DATALOG_P_A43" Type="Double" />
+  </EntityType>
+  <EntityType Name="vDM2_1_1min_POD24">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="POD44_PT_G" Type="Double" />
+    <Property Name="POD44_FT_G" Type="Double" />
+    <Property Name="POD44_LT1_BR" Type="Double" />
+    <Property Name="POD44_LT2_BR" Type="Double" />
+    <Property Name="POD44_BR_AVG_TEMP" Type="Double" />
+    <Property Name="POD44_LT1_RP" Type="Double" />
+    <Property Name="POD44_LT2_RP" Type="Double" />
+    <Property Name="POD44_P_RP_SPEED_REFERENCE" Type="Double" />
+    <Property Name="POD44_BC" Type="Double" />
+    <Property Name="POD44_MT" Type="Double" />
+    <Property Name="HMI_DATALOG_P_A44" Type="Double" />
+  </EntityType>
+  <EntityType Name="vDM2_1_24hour_Central">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="POD41_BD" Type="Double" />
+    <Property Name="POD42_BD" Type="Double" />
+    <Property Name="POD43_BD" Type="Double" />
+    <Property Name="POD44_BD" Type="Double" />
+    <Property Name="POD41_DAILY_MANURE" Type="Double" />
+    <Property Name="POD42_DAILY_MANURE" Type="Double" />
+    <Property Name="POD43_DAILY_MANURE" Type="Double" />
+    <Property Name="POD44_DAILY_MANURE" Type="Double" />
+    <Property Name="TOTAL_FT_GC_YESTERDAY" Type="Double" />
+    <Property Name="TOTAL_FT_GF_YESTERDAY" Type="Double" />
+    <Property Name="COGEN1_TOTALKWH_ACT" Type="Double" />
+    <Property Name="COGEN1_TOTALHOURS_ACT" Type="Double" />
+    <Property Name="COGEN2_TOTALKWH_ACT" Type="Double" />
+    <Property Name="COGEN2_TOTALHOURS_ACT" Type="Double" />
+    <Property Name="DELTA_VOLUME_BIODOME" Type="Double" />
+  </EntityType>
+  <EntityType Name="vDM2_1_24hour_Central_2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="TOTAL_GAS_COGEN1_YESTERDAY" Type="Double" />
+    <Property Name="TOTAL_GAS_COGEN2_YESTERDAY" Type="Double" />
+  </EntityType>
+  <EntityType Name="vDM4_3_1min_Central">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="COGEN2_PWROUT_ACT" Type="Double" />
+    <Property Name="COGEN1_PF" Type="Double" />
+    <Property Name="COGEN2_PF" Type="Double" />
+    <Property Name="FT_GF" Type="Double" />
+    <Property Name="FT_GC" Type="Double" />
+    <Property Name="P_GM_PID_PCV_PCT" Type="Double" />
+    <Property Name="PT_GM_1" Type="Double" />
+    <Property Name="PT_GM_2" Type="Double" />
+    <Property Name="TT_OT" Type="Double" />
+    <Property Name="HMI_DATALOG_V_GM" Type="Double" />
+    <Property Name="HMI_DATALOG_V_GF" Type="Double" />
+    <Property Name="VT_GT" Type="Double" />
+    <Property Name="COGEN1_PWROUT_ACT" Type="Double" />
+    <Property Name="TT_GF" Type="Double" />
+  </EntityType>
+  <EntityType Name="vDM4_3_1min_POD34">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="POD34_PT_G" Type="Double" />
+    <Property Name="POD34_FT_G" Type="Double" />
+    <Property Name="POD34_LT1_BR" Type="Double" />
+    <Property Name="POD34_LT2_BR" Type="Double" />
+    <Property Name="POD34_BR_AVG_TEMP" Type="Double" />
+    <Property Name="POD34_LT1_RP" Type="Double" />
+    <Property Name="POD34_LT2_RP" Type="Double" />
+    <Property Name="POD34_P_RP_SPEED_REFERENCE" Type="Double" />
+    <Property Name="POD34_BC" Type="Double" />
+    <Property Name="POD34_MT" Type="Double" />
+    <Property Name="HMI_DATALOG_P_A34" Type="Double" />
+  </EntityType>
+  <EntityType Name="vDM4_3_1min_POD35">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="POD35_PT_G" Type="Double" />
+    <Property Name="POD35_FT_G" Type="Double" />
+    <Property Name="POD35_LT1_BR" Type="Double" />
+    <Property Name="POD35_LT2_BR" Type="Double" />
+    <Property Name="POD35_BR_AVG_TEMP" Type="Double" />
+    <Property Name="POD35_LT1_RP" Type="Double" />
+    <Property Name="POD35_LT2_RP" Type="Double" />
+    <Property Name="POD35_P_RP_SPEED_REFERENCE" Type="Double" />
+    <Property Name="POD35_BC" Type="Double" />
+    <Property Name="POD35_MT" Type="Double" />
+    <Property Name="HMI_DATALOG_P_A35" Type="Double" />
+  </EntityType>
+  <EntityType Name="vDM4_3_1min_POD41">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="POD41_PT_G" Type="Double" />
+    <Property Name="POD41_FT_G" Type="Double" />
+    <Property Name="POD41_LT1_BR" Type="Double" />
+    <Property Name="POD41_LT2_BR" Type="Double" />
+    <Property Name="POD41_BR_AVG_TEMP" Type="Double" />
+    <Property Name="POD41_LT1_RP" Type="Double" />
+    <Property Name="POD41_LT2_RP" Type="Double" />
+    <Property Name="POD41_P_RP_SPEED_REFERENCE" Type="Double" />
+    <Property Name="POD41_BC" Type="Double" />
+    <Property Name="POD41_MT" Type="Double" />
+    <Property Name="HMI_DATALOG_P_A41" Type="Double" />
+  </EntityType>
+  <EntityType Name="vDM4_3_1min_POD42">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="POD42_PT_G" Type="Double" />
+    <Property Name="POD42_FT_G" Type="Double" />
+    <Property Name="POD42_LT1_BR" Type="Double" />
+    <Property Name="POD42_LT2_BR" Type="Double" />
+    <Property Name="POD42_BR_AVG_TEMP" Type="Double" />
+    <Property Name="POD42_LT1_RP" Type="Double" />
+    <Property Name="POD42_LT2_RP" Type="Double" />
+    <Property Name="POD42_P_RP_SPEED_REFERENCE" Type="Double" />
+    <Property Name="POD42_BC" Type="Double" />
+    <Property Name="POD42_MT" Type="Double" />
+    <Property Name="HMI_DATALOG_P_A42" Type="Double" />
+  </EntityType>
+  <EntityType Name="vDM4_3_1min_POD43">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="POD43_PT_G" Type="Double" />
+    <Property Name="POD43_FT_G" Type="Double" />
+    <Property Name="POD43_LT1_BR" Type="Double" />
+    <Property Name="POD43_LT2_BR" Type="Double" />
+    <Property Name="POD43_BR_AVG_TEMP" Type="Double" />
+    <Property Name="POD43_LT1_RP" Type="Double" />
+    <Property Name="POD43_LT2_RP" Type="Double" />
+    <Property Name="POD43_P_RP_SPEED_REFERENCE" Type="Double" />
+    <Property Name="POD43_BC" Type="Double" />
+    <Property Name="POD43_MT" Type="Double" />
+    <Property Name="HMI_DATALOG_P_A43" Type="Double" />
+  </EntityType>
+  <EntityType Name="vDM4_3_1min_POD44">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="POD44_PT_G" Type="Double" />
+    <Property Name="POD44_FT_G" Type="Double" />
+    <Property Name="POD44_LT1_BR" Type="Double" />
+    <Property Name="POD44_LT2_BR" Type="Double" />
+    <Property Name="POD44_BR_AVG_TEMP" Type="Double" />
+    <Property Name="POD44_LT1_RP" Type="Double" />
+    <Property Name="POD44_LT2_RP" Type="Double" />
+    <Property Name="POD44_P_RP_SPEED_REFERENCE" Type="Double" />
+    <Property Name="POD44_BC" Type="Double" />
+    <Property Name="POD44_MT" Type="Double" />
+    <Property Name="HMI_DATALOG_P_A44" Type="Double" />
+  </EntityType>
+  <EntityType Name="vDM4_3_24hour_Central">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="POD41_BD" Type="Double" />
+    <Property Name="POD42_BD" Type="Double" />
+    <Property Name="POD43_BD" Type="Double" />
+    <Property Name="POD44_BD" Type="Double" />
+    <Property Name="POD34_BD" Type="Double" />
+    <Property Name="POD35_BD" Type="Double" />
+    <Property Name="POD41_DAILY_MANURE" Type="Double" />
+    <Property Name="POD42_DAILY_MANURE" Type="Double" />
+    <Property Name="POD43_DAILY_MANURE" Type="Double" />
+    <Property Name="POD44_DAILY_MANURE" Type="Double" />
+    <Property Name="POD34_DAILY_MANURE" Type="Double" />
+    <Property Name="POD35_DAILY_MANURE" Type="Double" />
+    <Property Name="TOTAL_FT_GC_YESTERDAY" Type="Double" />
+    <Property Name="TOTAL_FT_GF_YESTERDAY" Type="Double" />
+    <Property Name="COGEN1_TOTALKWH_ACT" Type="Double" />
+    <Property Name="COGEN1_TOTALHOURS_ACT" Type="Double" />
+  </EntityType>
+  <EntityType Name="vDM4_3_24hour_Central_2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="DELTA_VOLUME_BIODOME" Type="Double" />
+    <Property Name="TOTAL_GAS_COGEN_YESTERDAY" Type="Double" />
+  </EntityType>
+  <EntityType Name="vFGO_1Hour_Table_1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="TT_H1_1_EU" Type="Double" />
+    <Property Name="TT_H1_3_EU" Type="Double" />
+    <Property Name="TT_H2_1_EU" Type="Double" />
+    <Property Name="TT_H2_3_EU" Type="Double" />
+    <Property Name="TT_L1_1_EU" Type="Double" />
+    <Property Name="TT_L1_2_EU" Type="Double" />
+    <Property Name="TT_L2_1_EU" Type="Double" />
+    <Property Name="TT_L2_2_EU" Type="Double" />
+  </EntityType>
+  <EntityType Name="vFGO_1Minute_Table1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="PT_G1_EU" Type="Double" />
+    <Property Name="PT_G2_EU" Type="Double" />
+    <Property Name="FT_L_1_EU" Type="Double" />
+    <Property Name="FT_G1_EU" Type="Double" />
+    <Property Name="FT_CHP_EU" Type="Double" />
+    <Property Name="FT_GF_EU" Type="Double" />
+    <Property Name="VT_GT" Type="Double" />
+    <Property Name="PT_GT_EU" Type="Double" />
+    <Property Name="WM_PC_EU" Type="Double" />
+    <Property Name="WM_PD_EU" Type="Double" />
+  </EntityType>
+  <EntityType Name="vFGO_1Minute_Table2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="LT_RP_EU" Type="Double" />
+    <Property Name="LT_L1_1_EU" Type="Double" />
+    <Property Name="LT_L1_2_EU" Type="Double" />
+    <Property Name="LT_L2_1_EU" Type="Double" />
+    <Property Name="LT_L2_2_EU" Type="Double" />
+    <Property Name="TT_G2_EU" Type="Double" />
+    <Property Name="TT_OT_EU" Type="Double" />
+    <Property Name="TT_RP_EU" Type="Double" />
+    <Property Name="TT_GF_EU" Type="Double" />
+    <Property Name="IT_E1_EU" Type="Double" />
+    <Property Name="IT_E2_EU" Type="Double" />
+    <Property Name="MODBUS_COGEN_PWROUT_ACT" Type="Double" />
+  </EntityType>
+  <EntityType Name="vFGO_24Hour_Table1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="EV3_DAILY_LOG" Type="Double" />
+    <Property Name="EV4_DAILY_LOG" Type="Double" />
+    <Property Name="MF3_DAILY_LOG" Type="Double" />
+    <Property Name="MF4_DAILY_LOG" Type="Double" />
+    <Property Name="VC4_DAILY_LOG" Type="Double" />
+    <Property Name="VC5_DAILY_LOG" Type="Double" />
+    <Property Name="VC6_DAILY_LOG" Type="Double" />
+    <Property Name="VC7_DAILY_LOG" Type="Double" />
+    <Property Name="DELTA_VOLUME_BIODOME" Type="Double" />
+  </EntityType>
+  <EntityType Name="vFGO_24Hour_Table2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="OC1" Type="Double" />
+    <Property Name="GF_DAILY_LOG" Type="Double" />
+    <Property Name="GCHP_DAILY_LOG" Type="Double" />
+    <Property Name="ECHP_DAILY_LOG" Type="Double" />
+    <Property Name="TECHP" Type="Double" />
+    <Property Name="THCHP" Type="Double" />
+    <Property Name="CPLE_DAILY_LOG" Type="Double" />
+    <Property Name="EPARA_DAILY_LOG" Type="Double" />
+    <Property Name="CPLD_DAILY_LOG" Type="Double" />
+  </EntityType>
+  <EntityType Name="vLMD_1Hour_Table_1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="PT_CA_EU" Type="Double" />
+    <Property Name="TT_H1_1_EU" Type="Double" />
+    <Property Name="TT_H1_2_EU" Type="Double" />
+    <Property Name="TT_H1_3_EU" Type="Double" />
+    <Property Name="TT_H1_4_EU" Type="Double" />
+    <Property Name="TT_H2_1_EU" Type="Double" />
+    <Property Name="TT_H2_2_EU" Type="Double" />
+    <Property Name="TT_H2_3_EU" Type="Double" />
+    <Property Name="TT_H2_4_EU" Type="Double" />
+    <Property Name="TT_HZ_1_EU" Type="Double" />
+    <Property Name="TT_HZ_2_EU" Type="Double" />
+  </EntityType>
+  <EntityType Name="vLMD_1Hour_Table_2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="TT_L1_1_EU" Type="Double" />
+    <Property Name="TT_L1_2_EU" Type="Double" />
+    <Property Name="TT_L1_3_EU" Type="Double" />
+    <Property Name="TT_L1_4_EU" Type="Double" />
+    <Property Name="TT_L2_1_EU" Type="Double" />
+    <Property Name="TT_L2_2_EU" Type="Double" />
+    <Property Name="TT_L2_3_EU" Type="Double" />
+    <Property Name="TT_L2_4_EU" Type="Double" />
+  </EntityType>
+  <EntityType Name="vLMD_1Minute_Table_1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="PT_G1_EU" Type="Double" />
+    <Property Name="PT_G2_EU" Type="Double" />
+    <Property Name="FT_L_1_EU" Type="Double" />
+    <Property Name="FT_L_2_EU" Type="Double" />
+    <Property Name="FT_G1_EU" Type="Double" />
+    <Property Name="FT_CHP_EU" Type="Double" />
+    <Property Name="FT_GF_EU" Type="Double" />
+    <Property Name="PX" Type="Double" />
+    <Property Name="VT_GT" Type="Double" />
+    <Property Name="PT_GT_EU" Type="Double" />
+    <Property Name="FT_G2_EU" Type="Double" />
+    <Property Name="LT_ES_EU" Type="Double" />
+    <Property Name="LT_RP_EU" Type="Double" />
+  </EntityType>
+  <EntityType Name="vLMD_24Hour_Table_1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="EV3" Type="Double" />
+    <Property Name="EV4" Type="Double" />
+    <Property Name="MF3" Type="Double" />
+    <Property Name="MF4" Type="Double" />
+    <Property Name="VC4" Type="Double" />
+    <Property Name="VC5" Type="Double" />
+    <Property Name="VC6_DAILAY_LOG" Type="Double" />
+    <Property Name="VC7_DAILAY_LOG" Type="Double" />
+    <Property Name="DELTA_VOLUME_BIODOME" Type="Double" />
+  </EntityType>
+  <EntityType Name="vLMD_24Hour_Table_2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="OC1" Type="Double" />
+    <Property Name="GF" Type="Double" />
+    <Property Name="GCHP" Type="Double" />
+    <Property Name="ECHP" Type="Double" />
+    <Property Name="MODBUS_COGEN_TODAYKWH_ACT" Type="Double" />
+    <Property Name="MODBUS_COGEN_TOTALHRS_ACT" Type="Double" />
+  </EntityType>
+  <EntityType Name="vOLD_1Hour_Table_1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="PT_CA_EU" Type="Double" />
+    <Property Name="TT_H1_1_EU" Type="Double" />
+    <Property Name="TT_H1_2_EU" Type="Double" />
+    <Property Name="TT_H1_3_EU" Type="Double" />
+    <Property Name="TT_H1_4_EU" Type="Double" />
+    <Property Name="TT_H2_1_EU" Type="Double" />
+    <Property Name="TT_H2_2_EU" Type="Double" />
+    <Property Name="TT_H2_3_EU" Type="Double" />
+    <Property Name="TT_H2_4_EU" Type="Double" />
+  </EntityType>
+  <EntityType Name="vOLD_1Hour_Table_2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="TT_L1_1_EU" Type="Double" />
+    <Property Name="TT_L1_2_EU" Type="Double" />
+    <Property Name="TT_L1_3_EU" Type="Double" />
+    <Property Name="TT_L1_4_EU" Type="Double" />
+    <Property Name="TT_L2_1_EU" Type="Double" />
+    <Property Name="TT_L2_2_EU" Type="Double" />
+    <Property Name="TT_L2_3_EU" Type="Double" />
+    <Property Name="TT_L2_4_EU" Type="Double" />
+  </EntityType>
+  <EntityType Name="vOLD_1Minute_Table_1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="PT_G1_EU" Type="Double" />
+    <Property Name="PT_G2_EU" Type="Double" />
+    <Property Name="FT_L_1_EU" Type="Double" />
+    <Property Name="FT_L_2_EU" Type="Double" />
+    <Property Name="FT_G1_EU" Type="Double" />
+    <Property Name="FT_C_EU" Type="Double" />
+    <Property Name="FT_F_EU" Type="Double" />
+    <Property Name="VT_GT" Type="Double" />
+    <Property Name="PT_GT_EU" Type="Double" />
+    <Property Name="MODBUS_WM_PCHP_ACT" Type="Double" />
+    <Property Name="IT_E1_EU" Type="Double" />
+    <Property Name="IT_E2_EU" Type="Double" />
+    <Property Name="MODBUS_FLARE_LOG" Type="Double" />
+    <Property Name="PT_CA_EU" Type="Double" />
+  </EntityType>
+  <EntityType Name="vOLD_24Hour_Table_1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="EV3" Type="Double" />
+    <Property Name="EV4" Type="Double" />
+    <Property Name="MF3" Type="Double" />
+    <Property Name="MF4" Type="Double" />
+    <Property Name="VC4_DAILY_LOG" Type="Double" />
+    <Property Name="VC5_DAILY_LOG" Type="Double" />
+    <Property Name="VC6_DAILAY_LOG" Type="Double" />
+    <Property Name="VC7_DAILAY_LOG" Type="Double" />
+    <Property Name="CPLE" Type="Double" />
+    <Property Name="MODBUS_COGEN_TOTALKWH_ACT" Type="Double" />
+    <Property Name="MODBUS_COGEN_TOTALHRS_ACT" Type="Double" />
+  </EntityType>
+  <EntityType Name="vOLD_24Hour_Table_2">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateStr" Type="DateTime" Precision="3" />
+    <Property Name="EPARA" Type="Double" />
+    <Property Name="AI1" Type="Double" />
+    <Property Name="OC1" Type="Double" />
+    <Property Name="GF" Type="Double" />
+    <Property Name="GCHP" Type="Double" />
+    <Property Name="ECHP" Type="Double" />
+    <Property Name="DELTA_VOLUME_BIODOME" Type="Double" />
+  </EntityType>
+  <EntityType Name="InsertedLog">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="ProfileName" />
+      <PropertyRef Name="FileName" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProfileName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FileName" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="DateData" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+</Schema>

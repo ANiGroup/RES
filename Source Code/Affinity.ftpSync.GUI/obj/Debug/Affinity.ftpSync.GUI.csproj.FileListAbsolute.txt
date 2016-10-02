@@ -1,0 +1,416 @@
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.csprojResolveAssemblyReference.cache
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.Form1.resources
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.Profiles.resources
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.Properties.Resources.resources
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.csproj.GenerateResource.Cache
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Affinity.ftpSync.GUI.exe.config
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Affinity.ftpSync.GUI.exe
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Affinity.ftpSync.GUI.pdb
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Affinity.Helper.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\EntityFramework.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\System.Spatial.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Affinity.Helper.pdb
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\EntityFramework.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.Edm.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.OData.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\System.Spatial.xml
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\de\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\es\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\fr\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\it\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\ja\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\ko\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\ru\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.exe
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.pdb
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.Logs.resources
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.myExecution.resources
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.edtProfile.resources
+C:\Users\pv\Documents\Visual Studio 2015\Projects\Affinity.Worker\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.newProfile.resources
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Affinity.ftpSync.GUI.exe.config
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Affinity.ftpSync.GUI.exe
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Affinity.ftpSync.GUI.pdb
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Affinity.Helper.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\EntityFramework.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.Edm.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.OData.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Newtonsoft.Json.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\System.Spatial.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Affinity.Helper.pdb
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\EntityFramework.xml
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.Edm.xml
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.OData.xml
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\Newtonsoft.Json.xml
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\System.Spatial.xml
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\de\System.Spatial.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\es\System.Spatial.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\fr\System.Spatial.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\it\System.Spatial.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\ja\System.Spatial.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\ko\System.Spatial.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\ru\System.Spatial.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.csprojResolveAssemblyReference.cache
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.edtProfile.resources
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.Form1.resources
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.Logs.resources
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.myExecution.resources
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.newProfile.resources
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.Profiles.resources
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.Properties.Resources.resources
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.csproj.GenerateResource.Cache
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.exe
+C:\myfiles\Affinity.Worker\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.pdb
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\Affinity.ftpSync.GUI.exe.config
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\Affinity.ftpSync.GUI.exe
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\Affinity.ftpSync.GUI.pdb
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\Affinity.Helper.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\EntityFramework.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.Edm.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.OData.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\Newtonsoft.Json.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\System.Spatial.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\Affinity.Helper.pdb
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\EntityFramework.xml
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.Edm.xml
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.OData.xml
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\Newtonsoft.Json.xml
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\System.Spatial.xml
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\de\System.Spatial.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\es\System.Spatial.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\fr\System.Spatial.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\it\System.Spatial.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\ja\System.Spatial.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\ko\System.Spatial.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\ru\System.Spatial.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\MySrc\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.csprojResolveAssemblyReference.cache
+C:\MySrc\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.edtProfile.resources
+C:\MySrc\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.Form1.resources
+C:\MySrc\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.Logs.resources
+C:\MySrc\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.myExecution.resources
+C:\MySrc\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.newProfile.resources
+C:\MySrc\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.Profiles.resources
+C:\MySrc\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.Properties.Resources.resources
+C:\MySrc\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.csproj.GenerateResource.Cache
+C:\MySrc\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.exe
+C:\MySrc\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.pdb
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\edtFTPnet.dll
+C:\MySrc\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.fSettings.resources
+C:\MySrc\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.errorLog.resources
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\EPPlus.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\EPPlus.xml
+C:\MySrc\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.FrmFile.resources
+C:\MySrc\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.Form1new.resources
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\DevComponents.DotNetBar2.dll
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\DevComponents.DotNetBar2.xml
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\Affinity.ftpSync.GUI.exe.manifest
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\Affinity.ftpSync.GUI.application
+C:\MySrc\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.exe.manifest
+C:\MySrc\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.application
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\Templates\DM21.html
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\Templates\DM42.html
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\Templates\fgo.html
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\Templates\lld.html
+C:\MySrc\Affinity.ftpSync.GUI\bin\Debug\Templates\OLD.html
+C:\MySrc\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.checkDbFrm.resources
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Templates\DM21.html
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Templates\DM42.html
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Templates\fgo.html
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Templates\lld.html
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Templates\OLD.html
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Affinity.ftpSync.GUI.exe.config
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Affinity.ftpSync.GUI.exe.manifest
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Affinity.ftpSync.GUI.application
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Affinity.ftpSync.GUI.exe
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Affinity.ftpSync.GUI.pdb
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Affinity.Helper.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\edtFTPnet.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\EntityFramework.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.Edm.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.OData.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Newtonsoft.Json.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\System.Spatial.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\EPPlus.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Affinity.Helper.pdb
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\EntityFramework.xml
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.Edm.xml
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.OData.xml
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Newtonsoft.Json.xml
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\System.Spatial.xml
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\EPPlus.xml
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\de\System.Spatial.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\es\System.Spatial.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\fr\System.Spatial.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\it\System.Spatial.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\ja\System.Spatial.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\ko\System.Spatial.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\ru\System.Spatial.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\ResCode\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.csprojResolveAssemblyReference.cache
+C:\ResCode\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.checkDbFrm.resources
+C:\ResCode\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.edtProfile.resources
+C:\ResCode\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.errorLog.resources
+C:\ResCode\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.Form1.resources
+C:\ResCode\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.Form1new.resources
+C:\ResCode\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.FrmFile.resources
+C:\ResCode\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.fSettings.resources
+C:\ResCode\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.Logs.resources
+C:\ResCode\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.myExecution.resources
+C:\ResCode\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.newProfile.resources
+C:\ResCode\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.Profiles.resources
+C:\ResCode\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.Properties.Resources.resources
+C:\ResCode\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.csproj.GenerateResource.Cache
+C:\ResCode\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.exe.manifest
+C:\ResCode\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.application
+C:\ResCode\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.exe
+C:\ResCode\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.pdb
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Syncfusion.Shared.Base.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Syncfusion.Shared.Base.xml
+C:\ResCode\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.Office2010Form1.resources
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Syncfusion.Tools.Windows.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Syncfusion.Grid.Windows.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Syncfusion.Grid.Base.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Syncfusion.Shared.Windows.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Syncfusion.Tools.Base.dll
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Syncfusion.Tools.Windows.xml
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Syncfusion.Grid.Windows.xml
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Syncfusion.Grid.Base.xml
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Syncfusion.Shared.Windows.xml
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Syncfusion.Tools.Base.xml
+C:\ResCode\Affinity.ftpSync.GUI\bin\Debug\Syncfusion.Grid.Windows.XmlSerializers.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Templates\DM21.html
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Templates\DM42.html
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Templates\fgo.html
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Templates\lld.html
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Templates\OLD.html
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Affinity.ftpSync.GUI.exe.config
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Affinity.ftpSync.GUI.exe.manifest
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Affinity.ftpSync.GUI.application
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Affinity.ftpSync.GUI.exe
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Affinity.ftpSync.GUI.pdb
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Affinity.Helper.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\EntityFramework.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.Edm.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.OData.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Newtonsoft.Json.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\System.Spatial.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\EPPlus.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Affinity.Helper.pdb
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\EntityFramework.xml
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.Edm.xml
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.OData.xml
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Newtonsoft.Json.xml
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\System.Spatial.xml
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\EPPlus.xml
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\de\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\es\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\fr\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\it\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\ja\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\ko\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\ru\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.csprojResolveAssemblyReference.cache
+C:\AffinitySpace\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.checkDbFrm.resources
+C:\AffinitySpace\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.edtProfile.resources
+C:\AffinitySpace\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.errorLog.resources
+C:\AffinitySpace\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.Form1.resources
+C:\AffinitySpace\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.Form1new.resources
+C:\AffinitySpace\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.FrmFile.resources
+C:\AffinitySpace\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.fSettings.resources
+C:\AffinitySpace\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.Logs.resources
+C:\AffinitySpace\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.myExecution.resources
+C:\AffinitySpace\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.newProfile.resources
+C:\AffinitySpace\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.Profiles.resources
+C:\AffinitySpace\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.Properties.Resources.resources
+C:\AffinitySpace\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.csproj.GenerateResource.Cache
+C:\AffinitySpace\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.exe.manifest
+C:\AffinitySpace\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.application
+C:\AffinitySpace\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.exe
+C:\AffinitySpace\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.pdb
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Affinity.Data.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\Affinity.Data.pdb
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\DevComponents.DotNetBar2.dll
+C:\AffinitySpace\Affinity.ftpSync.GUI\bin\Debug\DevComponents.DotNetBar2.xml
+C:\AffinitySpace\Affinity.ftpSync.GUI\obj\Debug\Affinity.ftpSync.GUI.ManualData.resources

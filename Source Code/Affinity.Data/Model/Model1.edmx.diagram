@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0811a30d45d74f938f18699e7f8e48ba" Name="Diagram1" >
+        <EntityTypeShape EntityType="affinitydev1Model.CalcDate" Width="1.875" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.TotalKw" Width="1.875" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vDM2_1_1min_Central" Width="1.5" PointX="5.25" PointY="0.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vDM2_1_1min_POD21" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vDM2_1_1min_POD22" Width="1.5" PointX="2.75" PointY="3.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vDM2_1_1min_POD23" Width="1.5" PointX="4.75" PointY="5.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vDM2_1_1min_POD24" Width="1.5" PointX="6.75" PointY="5.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vDM2_1_24hour_Central" Width="1.5" PointX="8.75" PointY="0.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vDM2_1_24hour_Central_2" Width="1.5" PointX="0.75" PointY="8.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vDM4_3_1min_Central" Width="1.5" PointX="8.75" PointY="6.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vDM4_3_1min_POD34" Width="1.5" PointX="10.75" PointY="0.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vDM4_3_1min_POD35" Width="1.5" PointX="2.75" PointY="10.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vDM4_3_1min_POD41" Width="1.5" PointX="4.75" PointY="10.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vDM4_3_1min_POD42" Width="1.5" PointX="10.75" PointY="5.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vDM4_3_1min_POD43" Width="1.5" PointX="10.75" PointY="10.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vDM4_3_1min_POD44" Width="1.5" PointX="6.75" PointY="11.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vDM4_3_24hour_Central" Width="1.5" PointX="12.75" PointY="0.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vDM4_3_24hour_Central_2" Width="1.5" PointX="12.75" PointY="6.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vFGO_1Hour_Table_1" Width="1.5" PointX="12.75" PointY="9.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vFGO_1Minute_Table1" Width="1.5" PointX="12.75" PointY="13.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vFGO_1Minute_Table2" Width="1.5" PointX="14.75" PointY="0.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vFGO_24Hour_Table1" Width="1.5" PointX="14.75" PointY="5.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vFGO_24Hour_Table2" Width="1.5" PointX="14.75" PointY="9.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vLMD_1Hour_Table_1" Width="1.5" PointX="14.75" PointY="13.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vLMD_1Hour_Table_2" Width="1.5" PointX="0.75" PointY="15.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vLMD_1Minute_Table_1" Width="1.5" PointX="2.75" PointY="15.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vLMD_24Hour_Table_1" Width="1.5" PointX="8.75" PointY="15.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vLMD_24Hour_Table_2" Width="1.5" PointX="16.75" PointY="0.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vOLD_1Hour_Table_1" Width="1.5" PointX="16.75" PointY="4.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vOLD_1Hour_Table_2" Width="1.5" PointX="4.75" PointY="16.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vOLD_1Minute_Table_1" Width="1.5" PointX="16.75" PointY="8.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vOLD_24Hour_Table_1" Width="1.5" PointX="16.75" PointY="13.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.vOLD_24Hour_Table_2" Width="1.5" PointX="18.75" PointY="0.75" />
+        <EntityTypeShape EntityType="affinitydev1Model.InsertedLog" Width="1.5" PointX="11.375" PointY="18.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

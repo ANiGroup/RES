@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/Areas/HelpPage/Views/Help/DisplayTemplates/HelpPageApiModel.cshtml" hash="7f567a64" filehash="53f7478a4d2" flags="110000" assembly="Affinity.webCompliled" type="ASP._Page_Areas_HelpPage_Views_Help_DisplayTemplates_HelpPageApiModel_cshtml">
+  <filedeps>
+    <filedep name="/Areas/HelpPage/Views/Help/DisplayTemplates/HelpPageApiModel.cshtml" />
+  </filedeps>
+</preserve>

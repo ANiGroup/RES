@@ -1,0 +1,23 @@
+﻿@model Affinity.Web.Models.AffiReports
+@{
+    Layout = "~/Views/Shared/_LayoutUsers.cshtml";
+}
+<div class="page-content">
+
+
+    <!-- BEGIN PAGE BREADCRUMB -->
+    <ul class="page-breadcrumb breadcrumb">
+        <li>
+            <a href="/">Home</a>
+            <i class="fa fa-circle"></i>
+        </li>
+
+        <li>
+            <span class="active">@Model.ReportName</span>
+        </li>
+    </ul>
+    <div class="row">
+        <iframe src="@Model.ReportURL" id="myframe" width="100%" height="550" style="border:none"></iframe>
+    </div>
+    </div>
+

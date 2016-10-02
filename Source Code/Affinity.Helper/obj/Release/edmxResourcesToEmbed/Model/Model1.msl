@@ -1,0 +1,1132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="affinitydev1ModelStoreContainer" CdmEntityContainer="affinitydev1Entities">
+    <FunctionImportMapping FunctionImportName="myUpdDataSP" FunctionName="affinitydev1Model.Store.myUpdDataSP" />
+    <EntitySetMapping Name="CalcDates">
+      <EntityTypeMapping TypeName="affinitydev1Model.CalcDate">
+        <MappingFragment StoreEntitySet="CalcDates">
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="Project" ColumnName="Project" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TotalKws">
+      <EntityTypeMapping TypeName="affinitydev1Model.TotalKw">
+        <MappingFragment StoreEntitySet="TotalKws">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProfileName" ColumnName="ProfileName" />
+          <ScalarProperty Name="TotKws" ColumnName="TotKws" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetKws" FunctionName="affinitydev1Model.Store.GetKws" />
+    <FunctionImportMapping FunctionImportName="sp_vDM2_1_1min_Central" FunctionName="affinitydev1Model.Store.sp_vDM2_1_1min_Central">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vDM2_1_1min_Central_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="VT_GT" ColumnName="VT_GT" />
+          <ScalarProperty Name="COGEN1_PWROUT_ACT" ColumnName="COGEN1_PWROUT_ACT" />
+          <ScalarProperty Name="COGEN2_PWROUT_ACT" ColumnName="COGEN2_PWROUT_ACT" />
+          <ScalarProperty Name="COGEN1_GAZ_CONSUMPTION" ColumnName="COGEN1_GAZ_CONSUMPTION" />
+          <ScalarProperty Name="COGEN2_GAZ_CONSUMPTION" ColumnName="COGEN2_GAZ_CONSUMPTION" />
+          <ScalarProperty Name="FT_GF" ColumnName="FT_GF" />
+          <ScalarProperty Name="FT_GC" ColumnName="FT_GC" />
+          <ScalarProperty Name="P_GM_PID_PCV_PCT" ColumnName="P_GM_PID_PCV_PCT" />
+          <ScalarProperty Name="PT_GM_1" ColumnName="PT_GM_1" />
+          <ScalarProperty Name="PT_GM_2" ColumnName="PT_GM_2" />
+          <ScalarProperty Name="TT_OT" ColumnName="TT_OT" />
+          <ScalarProperty Name="TT_GF" ColumnName="TT_GF" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vDM2_1_1min_POD21" FunctionName="affinitydev1Model.Store.sp_vDM2_1_1min_POD21">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vDM2_1_1min_POD21_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="POD41_PT_G" ColumnName="POD41_PT_G" />
+          <ScalarProperty Name="POD41_FT_G" ColumnName="POD41_FT_G" />
+          <ScalarProperty Name="POD41_LT1_BR" ColumnName="POD41_LT1_BR" />
+          <ScalarProperty Name="POD41_LT2_BR" ColumnName="POD41_LT2_BR" />
+          <ScalarProperty Name="POD41_BR_AVG_TEMP" ColumnName="POD41_BR_AVG_TEMP" />
+          <ScalarProperty Name="POD41_LT1_RP" ColumnName="POD41_LT1_RP" />
+          <ScalarProperty Name="POD41_LT2_RP" ColumnName="POD41_LT2_RP" />
+          <ScalarProperty Name="POD41_P_RP_SPEED_REFERENCE" ColumnName="POD41_P_RP_SPEED_REFERENCE" />
+          <ScalarProperty Name="POD41_BC" ColumnName="POD41_BC" />
+          <ScalarProperty Name="POD41_MT" ColumnName="POD41_MT" />
+          <ScalarProperty Name="HMI_DATALOG_P_A41" ColumnName="HMI_DATALOG_P_A41" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vDM2_1_1min_POD22" FunctionName="affinitydev1Model.Store.sp_vDM2_1_1min_POD22">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vDM2_1_1min_POD22_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="POD42_PT_G" ColumnName="POD42_PT_G" />
+          <ScalarProperty Name="POD42_FT_G" ColumnName="POD42_FT_G" />
+          <ScalarProperty Name="POD42_LT1_BR" ColumnName="POD42_LT1_BR" />
+          <ScalarProperty Name="POD42_LT2_BR" ColumnName="POD42_LT2_BR" />
+          <ScalarProperty Name="POD42_BR_AVG_TEMP" ColumnName="POD42_BR_AVG_TEMP" />
+          <ScalarProperty Name="POD42_LT1_RP" ColumnName="POD42_LT1_RP" />
+          <ScalarProperty Name="POD42_LT2_RP" ColumnName="POD42_LT2_RP" />
+          <ScalarProperty Name="POD42_P_RP_SPEED_REFERENCE" ColumnName="POD42_P_RP_SPEED_REFERENCE" />
+          <ScalarProperty Name="POD42_BC" ColumnName="POD42_BC" />
+          <ScalarProperty Name="POD42_MT" ColumnName="POD42_MT" />
+          <ScalarProperty Name="HMI_DATALOG_P_A42" ColumnName="HMI_DATALOG_P_A42" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vDM2_1_1min_POD23" FunctionName="affinitydev1Model.Store.sp_vDM2_1_1min_POD23">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vDM2_1_1min_POD23_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="POD43_PT_G" ColumnName="POD43_PT_G" />
+          <ScalarProperty Name="POD43_FT_G" ColumnName="POD43_FT_G" />
+          <ScalarProperty Name="POD43_LT1_BR" ColumnName="POD43_LT1_BR" />
+          <ScalarProperty Name="POD43_LT2_BR" ColumnName="POD43_LT2_BR" />
+          <ScalarProperty Name="POD43_BR_AVG_TEMP" ColumnName="POD43_BR_AVG_TEMP" />
+          <ScalarProperty Name="POD43_LT1_RP" ColumnName="POD43_LT1_RP" />
+          <ScalarProperty Name="POD43_LT2_RP" ColumnName="POD43_LT2_RP" />
+          <ScalarProperty Name="POD43_P_RP_SPEED_REFERENCE" ColumnName="POD43_P_RP_SPEED_REFERENCE" />
+          <ScalarProperty Name="POD43_BC" ColumnName="POD43_BC" />
+          <ScalarProperty Name="POD43_MT" ColumnName="POD43_MT" />
+          <ScalarProperty Name="HMI_DATALOG_P_A43" ColumnName="HMI_DATALOG_P_A43" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vDM2_1_1min_POD24" FunctionName="affinitydev1Model.Store.sp_vDM2_1_1min_POD24">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vDM2_1_1min_POD24_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="POD44_PT_G" ColumnName="POD44_PT_G" />
+          <ScalarProperty Name="POD44_FT_G" ColumnName="POD44_FT_G" />
+          <ScalarProperty Name="POD44_LT1_BR" ColumnName="POD44_LT1_BR" />
+          <ScalarProperty Name="POD44_LT2_BR" ColumnName="POD44_LT2_BR" />
+          <ScalarProperty Name="POD44_BR_AVG_TEMP" ColumnName="POD44_BR_AVG_TEMP" />
+          <ScalarProperty Name="POD44_LT1_RP" ColumnName="POD44_LT1_RP" />
+          <ScalarProperty Name="POD44_LT2_RP" ColumnName="POD44_LT2_RP" />
+          <ScalarProperty Name="POD44_P_RP_SPEED_REFERENCE" ColumnName="POD44_P_RP_SPEED_REFERENCE" />
+          <ScalarProperty Name="POD44_BC" ColumnName="POD44_BC" />
+          <ScalarProperty Name="POD44_MT" ColumnName="POD44_MT" />
+          <ScalarProperty Name="HMI_DATALOG_P_A44" ColumnName="HMI_DATALOG_P_A44" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vDM2_1_24hour_Central" FunctionName="affinitydev1Model.Store.sp_vDM2_1_24hour_Central">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vDM2_1_24hour_Central_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="POD41_BD" ColumnName="POD41_BD" />
+          <ScalarProperty Name="POD42_BD" ColumnName="POD42_BD" />
+          <ScalarProperty Name="POD43_BD" ColumnName="POD43_BD" />
+          <ScalarProperty Name="POD44_BD" ColumnName="POD44_BD" />
+          <ScalarProperty Name="POD41_DAILY_MANURE" ColumnName="POD41_DAILY_MANURE" />
+          <ScalarProperty Name="POD42_DAILY_MANURE" ColumnName="POD42_DAILY_MANURE" />
+          <ScalarProperty Name="POD43_DAILY_MANURE" ColumnName="POD43_DAILY_MANURE" />
+          <ScalarProperty Name="POD44_DAILY_MANURE" ColumnName="POD44_DAILY_MANURE" />
+          <ScalarProperty Name="TOTAL_FT_GC_YESTERDAY" ColumnName="TOTAL_FT_GC_YESTERDAY" />
+          <ScalarProperty Name="TOTAL_FT_GF_YESTERDAY" ColumnName="TOTAL_FT_GF_YESTERDAY" />
+          <ScalarProperty Name="COGEN1_TOTALKWH_ACT" ColumnName="COGEN1_TOTALKWH_ACT" />
+          <ScalarProperty Name="COGEN1_TOTALHOURS_ACT" ColumnName="COGEN1_TOTALHOURS_ACT" />
+          <ScalarProperty Name="COGEN2_TOTALKWH_ACT" ColumnName="COGEN2_TOTALKWH_ACT" />
+          <ScalarProperty Name="COGEN2_TOTALHOURS_ACT" ColumnName="COGEN2_TOTALHOURS_ACT" />
+          <ScalarProperty Name="DELTA_VOLUME_BIODOME" ColumnName="DELTA_VOLUME_BIODOME" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vDM2_1_24hour_Central_2" FunctionName="affinitydev1Model.Store.sp_vDM2_1_24hour_Central_2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vDM2_1_24hour_Central_2_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="TOTAL_GAS_COGEN1_YESTERDAY" ColumnName="TOTAL_GAS_COGEN1_YESTERDAY" />
+          <ScalarProperty Name="TOTAL_GAS_COGEN2_YESTERDAY" ColumnName="TOTAL_GAS_COGEN2_YESTERDAY" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vDM4_3_1min_Central" FunctionName="affinitydev1Model.Store.sp_vDM4_3_1min_Central">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vDM4_3_1min_Central_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="COGEN2_PWROUT_ACT" ColumnName="COGEN2_PWROUT_ACT" />
+          <ScalarProperty Name="COGEN1_PF" ColumnName="COGEN1_PF" />
+          <ScalarProperty Name="COGEN2_PF" ColumnName="COGEN2_PF" />
+          <ScalarProperty Name="FT_GF" ColumnName="FT_GF" />
+          <ScalarProperty Name="FT_GC" ColumnName="FT_GC" />
+          <ScalarProperty Name="P_GM_PID_PCV_PCT" ColumnName="P_GM_PID_PCV_PCT" />
+          <ScalarProperty Name="PT_GM_1" ColumnName="PT_GM_1" />
+          <ScalarProperty Name="PT_GM_2" ColumnName="PT_GM_2" />
+          <ScalarProperty Name="TT_OT" ColumnName="TT_OT" />
+          <ScalarProperty Name="HMI_DATALOG_V_GM" ColumnName="HMI_DATALOG_V_GM" />
+          <ScalarProperty Name="HMI_DATALOG_V_GF" ColumnName="HMI_DATALOG_V_GF" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vDM4_3_1min_POD34" FunctionName="affinitydev1Model.Store.sp_vDM4_3_1min_POD34">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vDM4_3_1min_POD34_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="POD34_PT_G" ColumnName="POD34_PT_G" />
+          <ScalarProperty Name="POD34_FT_G" ColumnName="POD34_FT_G" />
+          <ScalarProperty Name="POD34_LT1_BR" ColumnName="POD34_LT1_BR" />
+          <ScalarProperty Name="POD34_LT2_BR" ColumnName="POD34_LT2_BR" />
+          <ScalarProperty Name="POD34_BR_AVG_TEMP" ColumnName="POD34_BR_AVG_TEMP" />
+          <ScalarProperty Name="POD34_LT1_RP" ColumnName="POD34_LT1_RP" />
+          <ScalarProperty Name="POD34_LT2_RP" ColumnName="POD34_LT2_RP" />
+          <ScalarProperty Name="POD34_P_RP_SPEED_REFERENCE" ColumnName="POD34_P_RP_SPEED_REFERENCE" />
+          <ScalarProperty Name="POD34_BC" ColumnName="POD34_BC" />
+          <ScalarProperty Name="POD34_MT" ColumnName="POD34_MT" />
+          <ScalarProperty Name="HMI_DATALOG_P_A34" ColumnName="HMI_DATALOG_P_A34" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vDM4_3_1min_POD35" FunctionName="affinitydev1Model.Store.sp_vDM4_3_1min_POD35">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vDM4_3_1min_POD35_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="POD35_PT_G" ColumnName="POD35_PT_G" />
+          <ScalarProperty Name="POD35_FT_G" ColumnName="POD35_FT_G" />
+          <ScalarProperty Name="POD35_LT1_BR" ColumnName="POD35_LT1_BR" />
+          <ScalarProperty Name="POD35_LT2_BR" ColumnName="POD35_LT2_BR" />
+          <ScalarProperty Name="POD35_BR_AVG_TEMP" ColumnName="POD35_BR_AVG_TEMP" />
+          <ScalarProperty Name="POD35_LT1_RP" ColumnName="POD35_LT1_RP" />
+          <ScalarProperty Name="POD35_LT2_RP" ColumnName="POD35_LT2_RP" />
+          <ScalarProperty Name="POD35_P_RP_SPEED_REFERENCE" ColumnName="POD35_P_RP_SPEED_REFERENCE" />
+          <ScalarProperty Name="POD35_BC" ColumnName="POD35_BC" />
+          <ScalarProperty Name="POD35_MT" ColumnName="POD35_MT" />
+          <ScalarProperty Name="HMI_DATALOG_P_A35" ColumnName="HMI_DATALOG_P_A35" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vDM4_3_1min_POD41" FunctionName="affinitydev1Model.Store.sp_vDM4_3_1min_POD41">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vDM4_3_1min_POD41_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="POD41_PT_G" ColumnName="POD41_PT_G" />
+          <ScalarProperty Name="POD41_FT_G" ColumnName="POD41_FT_G" />
+          <ScalarProperty Name="POD41_LT1_BR" ColumnName="POD41_LT1_BR" />
+          <ScalarProperty Name="POD41_LT2_BR" ColumnName="POD41_LT2_BR" />
+          <ScalarProperty Name="POD41_BR_AVG_TEMP" ColumnName="POD41_BR_AVG_TEMP" />
+          <ScalarProperty Name="POD41_LT1_RP" ColumnName="POD41_LT1_RP" />
+          <ScalarProperty Name="POD41_LT2_RP" ColumnName="POD41_LT2_RP" />
+          <ScalarProperty Name="POD41_P_RP_SPEED_REFERENCE" ColumnName="POD41_P_RP_SPEED_REFERENCE" />
+          <ScalarProperty Name="POD41_BC" ColumnName="POD41_BC" />
+          <ScalarProperty Name="POD41_MT" ColumnName="POD41_MT" />
+          <ScalarProperty Name="HMI_DATALOG_P_A41" ColumnName="HMI_DATALOG_P_A41" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vDM4_3_1min_POD42" FunctionName="affinitydev1Model.Store.sp_vDM4_3_1min_POD42">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vDM4_3_1min_POD42_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="POD42_PT_G" ColumnName="POD42_PT_G" />
+          <ScalarProperty Name="POD42_FT_G" ColumnName="POD42_FT_G" />
+          <ScalarProperty Name="POD42_LT1_BR" ColumnName="POD42_LT1_BR" />
+          <ScalarProperty Name="POD42_LT2_BR" ColumnName="POD42_LT2_BR" />
+          <ScalarProperty Name="POD42_BR_AVG_TEMP" ColumnName="POD42_BR_AVG_TEMP" />
+          <ScalarProperty Name="POD42_LT1_RP" ColumnName="POD42_LT1_RP" />
+          <ScalarProperty Name="POD42_LT2_RP" ColumnName="POD42_LT2_RP" />
+          <ScalarProperty Name="POD42_P_RP_SPEED_REFERENCE" ColumnName="POD42_P_RP_SPEED_REFERENCE" />
+          <ScalarProperty Name="POD42_BC" ColumnName="POD42_BC" />
+          <ScalarProperty Name="POD42_MT" ColumnName="POD42_MT" />
+          <ScalarProperty Name="HMI_DATALOG_P_A42" ColumnName="HMI_DATALOG_P_A42" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vDM4_3_1min_POD43" FunctionName="affinitydev1Model.Store.sp_vDM4_3_1min_POD43">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vDM4_3_1min_POD43_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="POD43_PT_G" ColumnName="POD43_PT_G" />
+          <ScalarProperty Name="POD43_FT_G" ColumnName="POD43_FT_G" />
+          <ScalarProperty Name="POD43_LT1_BR" ColumnName="POD43_LT1_BR" />
+          <ScalarProperty Name="POD43_LT2_BR" ColumnName="POD43_LT2_BR" />
+          <ScalarProperty Name="POD43_BR_AVG_TEMP" ColumnName="POD43_BR_AVG_TEMP" />
+          <ScalarProperty Name="POD43_LT1_RP" ColumnName="POD43_LT1_RP" />
+          <ScalarProperty Name="POD43_LT2_RP" ColumnName="POD43_LT2_RP" />
+          <ScalarProperty Name="POD43_P_RP_SPEED_REFERENCE" ColumnName="POD43_P_RP_SPEED_REFERENCE" />
+          <ScalarProperty Name="POD43_BC" ColumnName="POD43_BC" />
+          <ScalarProperty Name="POD43_MT" ColumnName="POD43_MT" />
+          <ScalarProperty Name="HMI_DATALOG_P_A43" ColumnName="HMI_DATALOG_P_A43" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vDM4_3_1min_POD44" FunctionName="affinitydev1Model.Store.sp_vDM4_3_1min_POD44">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vDM4_3_1min_POD44_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="POD44_PT_G" ColumnName="POD44_PT_G" />
+          <ScalarProperty Name="POD44_FT_G" ColumnName="POD44_FT_G" />
+          <ScalarProperty Name="POD44_LT1_BR" ColumnName="POD44_LT1_BR" />
+          <ScalarProperty Name="POD44_LT2_BR" ColumnName="POD44_LT2_BR" />
+          <ScalarProperty Name="POD44_BR_AVG_TEMP" ColumnName="POD44_BR_AVG_TEMP" />
+          <ScalarProperty Name="POD44_LT1_RP" ColumnName="POD44_LT1_RP" />
+          <ScalarProperty Name="POD44_LT2_RP" ColumnName="POD44_LT2_RP" />
+          <ScalarProperty Name="POD44_P_RP_SPEED_REFERENCE" ColumnName="POD44_P_RP_SPEED_REFERENCE" />
+          <ScalarProperty Name="POD44_BC" ColumnName="POD44_BC" />
+          <ScalarProperty Name="POD44_MT" ColumnName="POD44_MT" />
+          <ScalarProperty Name="HMI_DATALOG_P_A44" ColumnName="HMI_DATALOG_P_A44" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vDM4_3_24hour_Central" FunctionName="affinitydev1Model.Store.sp_vDM4_3_24hour_Central">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vDM4_3_24hour_Central_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="POD41_BD" ColumnName="POD41_BD" />
+          <ScalarProperty Name="POD42_BD" ColumnName="POD42_BD" />
+          <ScalarProperty Name="POD43_BD" ColumnName="POD43_BD" />
+          <ScalarProperty Name="POD44_BD" ColumnName="POD44_BD" />
+          <ScalarProperty Name="POD34_BD" ColumnName="POD34_BD" />
+          <ScalarProperty Name="POD35_BD" ColumnName="POD35_BD" />
+          <ScalarProperty Name="POD41_DAILY_MANURE" ColumnName="POD41_DAILY_MANURE" />
+          <ScalarProperty Name="POD42_DAILY_MANURE" ColumnName="POD42_DAILY_MANURE" />
+          <ScalarProperty Name="POD43_DAILY_MANURE" ColumnName="POD43_DAILY_MANURE" />
+          <ScalarProperty Name="POD44_DAILY_MANURE" ColumnName="POD44_DAILY_MANURE" />
+          <ScalarProperty Name="POD34_DAILY_MANURE" ColumnName="POD34_DAILY_MANURE" />
+          <ScalarProperty Name="POD35_DAILY_MANURE" ColumnName="POD35_DAILY_MANURE" />
+          <ScalarProperty Name="TOTAL_FT_GC_YESTERDAY" ColumnName="TOTAL_FT_GC_YESTERDAY" />
+          <ScalarProperty Name="TOTAL_FT_GF_YESTERDAY" ColumnName="TOTAL_FT_GF_YESTERDAY" />
+          <ScalarProperty Name="COGEN1_TOTALKWH_ACT" ColumnName="COGEN1_TOTALKWH_ACT" />
+          <ScalarProperty Name="COGEN1_TOTALHOURS_ACT" ColumnName="COGEN1_TOTALHOURS_ACT" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vDM4_3_24hour_Central_2" FunctionName="affinitydev1Model.Store.sp_vDM4_3_24hour_Central_2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vDM4_3_24hour_Central_2_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="DELTA_VOLUME_BIODOME" ColumnName="DELTA_VOLUME_BIODOME" />
+          <ScalarProperty Name="TOTAL_GAS_COGEN_YESTERDAY" ColumnName="TOTAL_GAS_COGEN_YESTERDAY" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vFGO_1Hour_Table_1" FunctionName="affinitydev1Model.Store.sp_vFGO_1Hour_Table_1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vFGO_1Hour_Table_1_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="TT_H1_1_EU" ColumnName="TT_H1_1_EU" />
+          <ScalarProperty Name="TT_H1_3_EU" ColumnName="TT_H1_3_EU" />
+          <ScalarProperty Name="TT_H2_1_EU" ColumnName="TT_H2_1_EU" />
+          <ScalarProperty Name="TT_H2_3_EU" ColumnName="TT_H2_3_EU" />
+          <ScalarProperty Name="TT_L1_1_EU" ColumnName="TT_L1_1_EU" />
+          <ScalarProperty Name="TT_L1_2_EU" ColumnName="TT_L1_2_EU" />
+          <ScalarProperty Name="TT_L2_1_EU" ColumnName="TT_L2_1_EU" />
+          <ScalarProperty Name="TT_L2_2_EU" ColumnName="TT_L2_2_EU" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vFGO_1Minute_Table1" FunctionName="affinitydev1Model.Store.sp_vFGO_1Minute_Table1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vFGO_1Minute_Table1_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="PT_G1_EU" ColumnName="PT_G1_EU" />
+          <ScalarProperty Name="PT_G2_EU" ColumnName="PT_G2_EU" />
+          <ScalarProperty Name="FT_L_1_EU" ColumnName="FT_L_1_EU" />
+          <ScalarProperty Name="FT_G1_EU" ColumnName="FT_G1_EU" />
+          <ScalarProperty Name="FT_CHP_EU" ColumnName="FT_CHP_EU" />
+          <ScalarProperty Name="FT_GF_EU" ColumnName="FT_GF_EU" />
+          <ScalarProperty Name="VT_GT" ColumnName="VT_GT" />
+          <ScalarProperty Name="PT_GT_EU" ColumnName="PT_GT_EU" />
+          <ScalarProperty Name="WM_PC_EU" ColumnName="WM_PC_EU" />
+          <ScalarProperty Name="WM_PD_EU" ColumnName="WM_PD_EU" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vFGO_1Minute_Table2" FunctionName="affinitydev1Model.Store.sp_vFGO_1Minute_Table2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vFGO_1Minute_Table2_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="LT_RP_EU" ColumnName="LT_RP_EU" />
+          <ScalarProperty Name="LT_L1_1_EU" ColumnName="LT_L1_1_EU" />
+          <ScalarProperty Name="LT_L1_2_EU" ColumnName="LT_L1_2_EU" />
+          <ScalarProperty Name="LT_L2_1_EU" ColumnName="LT_L2_1_EU" />
+          <ScalarProperty Name="LT_L2_2_EU" ColumnName="LT_L2_2_EU" />
+          <ScalarProperty Name="TT_G2_EU" ColumnName="TT_G2_EU" />
+          <ScalarProperty Name="TT_OT_EU" ColumnName="TT_OT_EU" />
+          <ScalarProperty Name="TT_RP_EU" ColumnName="TT_RP_EU" />
+          <ScalarProperty Name="TT_GF_EU" ColumnName="TT_GF_EU" />
+          <ScalarProperty Name="IT_E1_EU" ColumnName="IT_E1_EU" />
+          <ScalarProperty Name="IT_E2_EU" ColumnName="IT_E2_EU" />
+          <ScalarProperty Name="MODBUS_COGEN_PWROUT_ACT" ColumnName="MODBUS_COGEN_PWROUT_ACT" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vFGO_24Hour_Table1" FunctionName="affinitydev1Model.Store.sp_vFGO_24Hour_Table1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vFGO_24Hour_Table1_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="EV3_DAILY_LOG" ColumnName="EV3_DAILY_LOG" />
+          <ScalarProperty Name="EV4_DAILY_LOG" ColumnName="EV4_DAILY_LOG" />
+          <ScalarProperty Name="MF3_DAILY_LOG" ColumnName="MF3_DAILY_LOG" />
+          <ScalarProperty Name="MF4_DAILY_LOG" ColumnName="MF4_DAILY_LOG" />
+          <ScalarProperty Name="VC4_DAILY_LOG" ColumnName="VC4_DAILY_LOG" />
+          <ScalarProperty Name="VC5_DAILY_LOG" ColumnName="VC5_DAILY_LOG" />
+          <ScalarProperty Name="VC6_DAILY_LOG" ColumnName="VC6_DAILY_LOG" />
+          <ScalarProperty Name="VC7_DAILY_LOG" ColumnName="VC7_DAILY_LOG" />
+          <ScalarProperty Name="DELTA_VOLUME_BIODOME" ColumnName="DELTA_VOLUME_BIODOME" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vFGO_24Hour_Table2" FunctionName="affinitydev1Model.Store.sp_vFGO_24Hour_Table2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vFGO_24Hour_Table2_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="OC1" ColumnName="OC1" />
+          <ScalarProperty Name="GF_DAILY_LOG" ColumnName="GF_DAILY_LOG" />
+          <ScalarProperty Name="GCHP_DAILY_LOG" ColumnName="GCHP_DAILY_LOG" />
+          <ScalarProperty Name="ECHP_DAILY_LOG" ColumnName="ECHP_DAILY_LOG" />
+          <ScalarProperty Name="TECHP" ColumnName="TECHP" />
+          <ScalarProperty Name="THCHP" ColumnName="THCHP" />
+          <ScalarProperty Name="CPLE_DAILY_LOG" ColumnName="CPLE_DAILY_LOG" />
+          <ScalarProperty Name="EPARA_DAILY_LOG" ColumnName="EPARA_DAILY_LOG" />
+          <ScalarProperty Name="CPLD_DAILY_LOG" ColumnName="CPLD_DAILY_LOG" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vLMD_1Hour_Table_1" FunctionName="affinitydev1Model.Store.sp_vLMD_1Hour_Table_1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vLMD_1Hour_Table_1_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="PT_CA_EU" ColumnName="PT_CA_EU" />
+          <ScalarProperty Name="TT_H1_1_EU" ColumnName="TT_H1_1_EU" />
+          <ScalarProperty Name="TT_H1_2_EU" ColumnName="TT_H1_2_EU" />
+          <ScalarProperty Name="TT_H1_3_EU" ColumnName="TT_H1_3_EU" />
+          <ScalarProperty Name="TT_H1_4_EU" ColumnName="TT_H1_4_EU" />
+          <ScalarProperty Name="TT_H2_1_EU" ColumnName="TT_H2_1_EU" />
+          <ScalarProperty Name="TT_H2_2_EU" ColumnName="TT_H2_2_EU" />
+          <ScalarProperty Name="TT_H2_3_EU" ColumnName="TT_H2_3_EU" />
+          <ScalarProperty Name="TT_H2_4_EU" ColumnName="TT_H2_4_EU" />
+          <ScalarProperty Name="TT_HZ_1_EU" ColumnName="TT_HZ_1_EU" />
+          <ScalarProperty Name="TT_HZ_2_EU" ColumnName="TT_HZ_2_EU" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vLMD_1Hour_Table_2" FunctionName="affinitydev1Model.Store.sp_vLMD_1Hour_Table_2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vLMD_1Hour_Table_2_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="TT_L1_1_EU" ColumnName="TT_L1_1_EU" />
+          <ScalarProperty Name="TT_L1_2_EU" ColumnName="TT_L1_2_EU" />
+          <ScalarProperty Name="TT_L1_3_EU" ColumnName="TT_L1_3_EU" />
+          <ScalarProperty Name="TT_L1_4_EU" ColumnName="TT_L1_4_EU" />
+          <ScalarProperty Name="TT_L2_1_EU" ColumnName="TT_L2_1_EU" />
+          <ScalarProperty Name="TT_L2_2_EU" ColumnName="TT_L2_2_EU" />
+          <ScalarProperty Name="TT_L2_3_EU" ColumnName="TT_L2_3_EU" />
+          <ScalarProperty Name="TT_L2_4_EU" ColumnName="TT_L2_4_EU" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vLMD_1Minute_Table_1" FunctionName="affinitydev1Model.Store.sp_vLMD_1Minute_Table_1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vLMD_1Minute_Table_1_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="PT_G1_EU" ColumnName="PT_G1_EU" />
+          <ScalarProperty Name="PT_G2_EU" ColumnName="PT_G2_EU" />
+          <ScalarProperty Name="FT_L_1_EU" ColumnName="FT_L_1_EU" />
+          <ScalarProperty Name="FT_L_2_EU" ColumnName="FT_L_2_EU" />
+          <ScalarProperty Name="FT_G1_EU" ColumnName="FT_G1_EU" />
+          <ScalarProperty Name="FT_CHP_EU" ColumnName="FT_CHP_EU" />
+          <ScalarProperty Name="FT_GF_EU" ColumnName="FT_GF_EU" />
+          <ScalarProperty Name="PX" ColumnName="PX" />
+          <ScalarProperty Name="VT_GT" ColumnName="VT_GT" />
+          <ScalarProperty Name="PT_GT_EU" ColumnName="PT_GT_EU" />
+          <ScalarProperty Name="FT_G2_EU" ColumnName="FT_G2_EU" />
+          <ScalarProperty Name="LT_ES_EU" ColumnName="LT_ES_EU" />
+          <ScalarProperty Name="LT_RP_EU" ColumnName="LT_RP_EU" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vLMD_24Hour_Table_1" FunctionName="affinitydev1Model.Store.sp_vLMD_24Hour_Table_1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vLMD_24Hour_Table_1_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="EV3" ColumnName="EV3" />
+          <ScalarProperty Name="EV4" ColumnName="EV4" />
+          <ScalarProperty Name="MF3" ColumnName="MF3" />
+          <ScalarProperty Name="MF4" ColumnName="MF4" />
+          <ScalarProperty Name="VC4" ColumnName="VC4" />
+          <ScalarProperty Name="VC5" ColumnName="VC5" />
+          <ScalarProperty Name="VC6_DAILAY_LOG" ColumnName="VC6_DAILAY_LOG" />
+          <ScalarProperty Name="VC7_DAILAY_LOG" ColumnName="VC7_DAILAY_LOG" />
+          <ScalarProperty Name="DELTA_VOLUME_BIODOME" ColumnName="DELTA_VOLUME_BIODOME" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vLMD_24Hour_Table_2" FunctionName="affinitydev1Model.Store.sp_vLMD_24Hour_Table_2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vLMD_24Hour_Table_2_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="OC1" ColumnName="OC1" />
+          <ScalarProperty Name="GF" ColumnName="GF" />
+          <ScalarProperty Name="GCHP" ColumnName="GCHP" />
+          <ScalarProperty Name="ECHP" ColumnName="ECHP" />
+          <ScalarProperty Name="MODBUS_COGEN_TODAYKWH_ACT" ColumnName="MODBUS_COGEN_TODAYKWH_ACT" />
+          <ScalarProperty Name="MODBUS_COGEN_TOTALHRS_ACT" ColumnName="MODBUS_COGEN_TOTALHRS_ACT" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vOLD_1Hour_Table_1" FunctionName="affinitydev1Model.Store.sp_vOLD_1Hour_Table_1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vOLD_1Hour_Table_1_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="PT_CA_EU" ColumnName="PT_CA_EU" />
+          <ScalarProperty Name="TT_H1_1_EU" ColumnName="TT_H1_1_EU" />
+          <ScalarProperty Name="TT_H1_2_EU" ColumnName="TT_H1_2_EU" />
+          <ScalarProperty Name="TT_H1_3_EU" ColumnName="TT_H1_3_EU" />
+          <ScalarProperty Name="TT_H1_4_EU" ColumnName="TT_H1_4_EU" />
+          <ScalarProperty Name="TT_H2_1_EU" ColumnName="TT_H2_1_EU" />
+          <ScalarProperty Name="TT_H2_2_EU" ColumnName="TT_H2_2_EU" />
+          <ScalarProperty Name="TT_H2_3_EU" ColumnName="TT_H2_3_EU" />
+          <ScalarProperty Name="TT_H2_4_EU" ColumnName="TT_H2_4_EU" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vOLD_1Hour_Table_2" FunctionName="affinitydev1Model.Store.sp_vOLD_1Hour_Table_2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vOLD_1Hour_Table_2_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="TT_L1_1_EU" ColumnName="TT_L1_1_EU" />
+          <ScalarProperty Name="TT_L1_2_EU" ColumnName="TT_L1_2_EU" />
+          <ScalarProperty Name="TT_L1_3_EU" ColumnName="TT_L1_3_EU" />
+          <ScalarProperty Name="TT_L1_4_EU" ColumnName="TT_L1_4_EU" />
+          <ScalarProperty Name="TT_L2_1_EU" ColumnName="TT_L2_1_EU" />
+          <ScalarProperty Name="TT_L2_2_EU" ColumnName="TT_L2_2_EU" />
+          <ScalarProperty Name="TT_L2_3_EU" ColumnName="TT_L2_3_EU" />
+          <ScalarProperty Name="TT_L2_4_EU" ColumnName="TT_L2_4_EU" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vOLD_1Minute_Table_1" FunctionName="affinitydev1Model.Store.sp_vOLD_1Minute_Table_1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vOLD_1Minute_Table_1_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="PT_G1_EU" ColumnName="PT_G1_EU" />
+          <ScalarProperty Name="PT_G2_EU" ColumnName="PT_G2_EU" />
+          <ScalarProperty Name="FT_L_1_EU" ColumnName="FT_L_1_EU" />
+          <ScalarProperty Name="FT_L_2_EU" ColumnName="FT_L_2_EU" />
+          <ScalarProperty Name="FT_G1_EU" ColumnName="FT_G1_EU" />
+          <ScalarProperty Name="FT_C_EU" ColumnName="FT_C_EU" />
+          <ScalarProperty Name="FT_F_EU" ColumnName="FT_F_EU" />
+          <ScalarProperty Name="VT_GT" ColumnName="VT_GT" />
+          <ScalarProperty Name="PT_GT_EU" ColumnName="PT_GT_EU" />
+          <ScalarProperty Name="MODBUS_WM_PCHP_ACT" ColumnName="MODBUS_WM_PCHP_ACT" />
+          <ScalarProperty Name="IT_E1_EU" ColumnName="IT_E1_EU" />
+          <ScalarProperty Name="IT_E2_EU" ColumnName="IT_E2_EU" />
+          <ScalarProperty Name="MODBUS_FLARE_LOG" ColumnName="MODBUS_FLARE_LOG" />
+          <ScalarProperty Name="PT_CA_EU" ColumnName="PT_CA_EU" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vOLD_24Hour_Table_1" FunctionName="affinitydev1Model.Store.sp_vOLD_24Hour_Table_1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vOLD_24Hour_Table_1_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="EV3" ColumnName="EV3" />
+          <ScalarProperty Name="EV4" ColumnName="EV4" />
+          <ScalarProperty Name="MF3" ColumnName="MF3" />
+          <ScalarProperty Name="MF4" ColumnName="MF4" />
+          <ScalarProperty Name="VC4_DAILY_LOG" ColumnName="VC4_DAILY_LOG" />
+          <ScalarProperty Name="VC5_DAILY_LOG" ColumnName="VC5_DAILY_LOG" />
+          <ScalarProperty Name="VC6_DAILAY_LOG" ColumnName="VC6_DAILAY_LOG" />
+          <ScalarProperty Name="VC7_DAILAY_LOG" ColumnName="VC7_DAILAY_LOG" />
+          <ScalarProperty Name="CPLE" ColumnName="CPLE" />
+          <ScalarProperty Name="MODBUS_COGEN_TOTALKWH_ACT" ColumnName="MODBUS_COGEN_TOTALKWH_ACT" />
+          <ScalarProperty Name="MODBUS_COGEN_TOTALHRS_ACT" ColumnName="MODBUS_COGEN_TOTALHRS_ACT" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_vOLD_24Hour_Table_2" FunctionName="affinitydev1Model.Store.sp_vOLD_24Hour_Table_2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="affinitydev1Model.sp_vOLD_24Hour_Table_2_Result">
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="EPARA" ColumnName="EPARA" />
+          <ScalarProperty Name="AI1" ColumnName="AI1" />
+          <ScalarProperty Name="OC1" ColumnName="OC1" />
+          <ScalarProperty Name="GF" ColumnName="GF" />
+          <ScalarProperty Name="GCHP" ColumnName="GCHP" />
+          <ScalarProperty Name="ECHP" ColumnName="ECHP" />
+          <ScalarProperty Name="DELTA_VOLUME_BIODOME" ColumnName="DELTA_VOLUME_BIODOME" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="spUtil_ReIndexDatabase_UpdateStats" FunctionName="affinitydev1Model.Store.spUtil_ReIndexDatabase_UpdateStats" />
+    <EntitySetMapping Name="vDM2_1_1min_Central">
+      <EntityTypeMapping TypeName="affinitydev1Model.vDM2_1_1min_Central">
+        <MappingFragment StoreEntitySet="vDM2_1_1min_Central">
+          <ScalarProperty Name="HMI_DATALOG_V_GF" ColumnName="HMI_DATALOG_V_GF" />
+          <ScalarProperty Name="TT_GF" ColumnName="TT_GF" />
+          <ScalarProperty Name="TT_OT" ColumnName="TT_OT" />
+          <ScalarProperty Name="PT_GM_2" ColumnName="PT_GM_2" />
+          <ScalarProperty Name="PT_GM_1" ColumnName="PT_GM_1" />
+          <ScalarProperty Name="P_GM_PID_PCV_PCT" ColumnName="P_GM_PID_PCV_PCT" />
+          <ScalarProperty Name="FT_GC" ColumnName="FT_GC" />
+          <ScalarProperty Name="FT_GF" ColumnName="FT_GF" />
+          <ScalarProperty Name="COGEN2_GAZ_CONSUMPTION" ColumnName="COGEN2_GAZ_CONSUMPTION" />
+          <ScalarProperty Name="COGEN1_GAZ_CONSUMPTION" ColumnName="COGEN1_GAZ_CONSUMPTION" />
+          <ScalarProperty Name="COGEN2_PWROUT_ACT" ColumnName="COGEN2_PWROUT_ACT" />
+          <ScalarProperty Name="COGEN1_PWROUT_ACT" ColumnName="COGEN1_PWROUT_ACT" />
+          <ScalarProperty Name="VT_GT" ColumnName="VT_GT" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vDM2_1_1min_POD21">
+      <EntityTypeMapping TypeName="affinitydev1Model.vDM2_1_1min_POD21">
+        <MappingFragment StoreEntitySet="vDM2_1_1min_POD21">
+          <ScalarProperty Name="HMI_DATALOG_P_A41" ColumnName="HMI_DATALOG_P_A41" />
+          <ScalarProperty Name="POD41_MT" ColumnName="POD41_MT" />
+          <ScalarProperty Name="POD41_BC" ColumnName="POD41_BC" />
+          <ScalarProperty Name="POD41_P_RP_SPEED_REFERENCE" ColumnName="POD41_P_RP_SPEED_REFERENCE" />
+          <ScalarProperty Name="POD41_LT2_RP" ColumnName="POD41_LT2_RP" />
+          <ScalarProperty Name="POD41_LT1_RP" ColumnName="POD41_LT1_RP" />
+          <ScalarProperty Name="POD41_BR_AVG_TEMP" ColumnName="POD41_BR_AVG_TEMP" />
+          <ScalarProperty Name="POD41_LT2_BR" ColumnName="POD41_LT2_BR" />
+          <ScalarProperty Name="POD41_LT1_BR" ColumnName="POD41_LT1_BR" />
+          <ScalarProperty Name="POD41_FT_G" ColumnName="POD41_FT_G" />
+          <ScalarProperty Name="POD41_PT_G" ColumnName="POD41_PT_G" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vDM2_1_1min_POD22">
+      <EntityTypeMapping TypeName="affinitydev1Model.vDM2_1_1min_POD22">
+        <MappingFragment StoreEntitySet="vDM2_1_1min_POD22">
+          <ScalarProperty Name="HMI_DATALOG_P_A42" ColumnName="HMI_DATALOG_P_A42" />
+          <ScalarProperty Name="POD42_MT" ColumnName="POD42_MT" />
+          <ScalarProperty Name="POD42_BC" ColumnName="POD42_BC" />
+          <ScalarProperty Name="POD42_P_RP_SPEED_REFERENCE" ColumnName="POD42_P_RP_SPEED_REFERENCE" />
+          <ScalarProperty Name="POD42_LT2_RP" ColumnName="POD42_LT2_RP" />
+          <ScalarProperty Name="POD42_LT1_RP" ColumnName="POD42_LT1_RP" />
+          <ScalarProperty Name="POD42_BR_AVG_TEMP" ColumnName="POD42_BR_AVG_TEMP" />
+          <ScalarProperty Name="POD42_LT2_BR" ColumnName="POD42_LT2_BR" />
+          <ScalarProperty Name="POD42_LT1_BR" ColumnName="POD42_LT1_BR" />
+          <ScalarProperty Name="POD42_FT_G" ColumnName="POD42_FT_G" />
+          <ScalarProperty Name="POD42_PT_G" ColumnName="POD42_PT_G" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vDM2_1_1min_POD23">
+      <EntityTypeMapping TypeName="affinitydev1Model.vDM2_1_1min_POD23">
+        <MappingFragment StoreEntitySet="vDM2_1_1min_POD23">
+          <ScalarProperty Name="HMI_DATALOG_P_A43" ColumnName="HMI_DATALOG_P_A43" />
+          <ScalarProperty Name="POD43_MT" ColumnName="POD43_MT" />
+          <ScalarProperty Name="POD43_BC" ColumnName="POD43_BC" />
+          <ScalarProperty Name="POD43_P_RP_SPEED_REFERENCE" ColumnName="POD43_P_RP_SPEED_REFERENCE" />
+          <ScalarProperty Name="POD43_LT2_RP" ColumnName="POD43_LT2_RP" />
+          <ScalarProperty Name="POD43_LT1_RP" ColumnName="POD43_LT1_RP" />
+          <ScalarProperty Name="POD43_BR_AVG_TEMP" ColumnName="POD43_BR_AVG_TEMP" />
+          <ScalarProperty Name="POD43_LT2_BR" ColumnName="POD43_LT2_BR" />
+          <ScalarProperty Name="POD43_LT1_BR" ColumnName="POD43_LT1_BR" />
+          <ScalarProperty Name="POD43_FT_G" ColumnName="POD43_FT_G" />
+          <ScalarProperty Name="POD43_PT_G" ColumnName="POD43_PT_G" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vDM2_1_1min_POD24">
+      <EntityTypeMapping TypeName="affinitydev1Model.vDM2_1_1min_POD24">
+        <MappingFragment StoreEntitySet="vDM2_1_1min_POD24">
+          <ScalarProperty Name="HMI_DATALOG_P_A44" ColumnName="HMI_DATALOG_P_A44" />
+          <ScalarProperty Name="POD44_MT" ColumnName="POD44_MT" />
+          <ScalarProperty Name="POD44_BC" ColumnName="POD44_BC" />
+          <ScalarProperty Name="POD44_P_RP_SPEED_REFERENCE" ColumnName="POD44_P_RP_SPEED_REFERENCE" />
+          <ScalarProperty Name="POD44_LT2_RP" ColumnName="POD44_LT2_RP" />
+          <ScalarProperty Name="POD44_LT1_RP" ColumnName="POD44_LT1_RP" />
+          <ScalarProperty Name="POD44_BR_AVG_TEMP" ColumnName="POD44_BR_AVG_TEMP" />
+          <ScalarProperty Name="POD44_LT2_BR" ColumnName="POD44_LT2_BR" />
+          <ScalarProperty Name="POD44_LT1_BR" ColumnName="POD44_LT1_BR" />
+          <ScalarProperty Name="POD44_FT_G" ColumnName="POD44_FT_G" />
+          <ScalarProperty Name="POD44_PT_G" ColumnName="POD44_PT_G" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vDM2_1_24hour_Central">
+      <EntityTypeMapping TypeName="affinitydev1Model.vDM2_1_24hour_Central">
+        <MappingFragment StoreEntitySet="vDM2_1_24hour_Central">
+          <ScalarProperty Name="DELTA_VOLUME_BIODOME" ColumnName="DELTA_VOLUME_BIODOME" />
+          <ScalarProperty Name="COGEN2_TOTALHOURS_ACT" ColumnName="COGEN2_TOTALHOURS_ACT" />
+          <ScalarProperty Name="COGEN2_TOTALKWH_ACT" ColumnName="COGEN2_TOTALKWH_ACT" />
+          <ScalarProperty Name="COGEN1_TOTALHOURS_ACT" ColumnName="COGEN1_TOTALHOURS_ACT" />
+          <ScalarProperty Name="COGEN1_TOTALKWH_ACT" ColumnName="COGEN1_TOTALKWH_ACT" />
+          <ScalarProperty Name="TOTAL_FT_GF_YESTERDAY" ColumnName="TOTAL_FT_GF_YESTERDAY" />
+          <ScalarProperty Name="TOTAL_FT_GC_YESTERDAY" ColumnName="TOTAL_FT_GC_YESTERDAY" />
+          <ScalarProperty Name="POD44_DAILY_MANURE" ColumnName="POD44_DAILY_MANURE" />
+          <ScalarProperty Name="POD43_DAILY_MANURE" ColumnName="POD43_DAILY_MANURE" />
+          <ScalarProperty Name="POD42_DAILY_MANURE" ColumnName="POD42_DAILY_MANURE" />
+          <ScalarProperty Name="POD41_DAILY_MANURE" ColumnName="POD41_DAILY_MANURE" />
+          <ScalarProperty Name="POD44_BD" ColumnName="POD44_BD" />
+          <ScalarProperty Name="POD43_BD" ColumnName="POD43_BD" />
+          <ScalarProperty Name="POD42_BD" ColumnName="POD42_BD" />
+          <ScalarProperty Name="POD41_BD" ColumnName="POD41_BD" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vDM2_1_24hour_Central_2">
+      <EntityTypeMapping TypeName="affinitydev1Model.vDM2_1_24hour_Central_2">
+        <MappingFragment StoreEntitySet="vDM2_1_24hour_Central_2">
+          <ScalarProperty Name="TOTAL_GAS_COGEN2_YESTERDAY" ColumnName="TOTAL_GAS_COGEN2_YESTERDAY" />
+          <ScalarProperty Name="TOTAL_GAS_COGEN1_YESTERDAY" ColumnName="TOTAL_GAS_COGEN1_YESTERDAY" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vDM4_3_1min_Central">
+      <EntityTypeMapping TypeName="affinitydev1Model.vDM4_3_1min_Central">
+        <MappingFragment StoreEntitySet="vDM4_3_1min_Central">
+          <ScalarProperty Name="TT_GF" ColumnName="TT_GF" />
+          <ScalarProperty Name="COGEN1_PWROUT_ACT" ColumnName="COGEN1_PWROUT_ACT" />
+          <ScalarProperty Name="VT_GT" ColumnName="VT_GT" />
+          <ScalarProperty Name="HMI_DATALOG_V_GF" ColumnName="HMI_DATALOG_V_GF" />
+          <ScalarProperty Name="HMI_DATALOG_V_GM" ColumnName="HMI_DATALOG_V_GM" />
+          <ScalarProperty Name="TT_OT" ColumnName="TT_OT" />
+          <ScalarProperty Name="PT_GM_2" ColumnName="PT_GM_2" />
+          <ScalarProperty Name="PT_GM_1" ColumnName="PT_GM_1" />
+          <ScalarProperty Name="P_GM_PID_PCV_PCT" ColumnName="P_GM_PID_PCV_PCT" />
+          <ScalarProperty Name="FT_GC" ColumnName="FT_GC" />
+          <ScalarProperty Name="FT_GF" ColumnName="FT_GF" />
+          <ScalarProperty Name="COGEN2_PF" ColumnName="COGEN2_PF" />
+          <ScalarProperty Name="COGEN1_PF" ColumnName="COGEN1_PF" />
+          <ScalarProperty Name="COGEN2_PWROUT_ACT" ColumnName="COGEN2_PWROUT_ACT" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vDM4_3_1min_POD34">
+      <EntityTypeMapping TypeName="affinitydev1Model.vDM4_3_1min_POD34">
+        <MappingFragment StoreEntitySet="vDM4_3_1min_POD34">
+          <ScalarProperty Name="HMI_DATALOG_P_A34" ColumnName="HMI_DATALOG_P_A34" />
+          <ScalarProperty Name="POD34_MT" ColumnName="POD34_MT" />
+          <ScalarProperty Name="POD34_BC" ColumnName="POD34_BC" />
+          <ScalarProperty Name="POD34_P_RP_SPEED_REFERENCE" ColumnName="POD34_P_RP_SPEED_REFERENCE" />
+          <ScalarProperty Name="POD34_LT2_RP" ColumnName="POD34_LT2_RP" />
+          <ScalarProperty Name="POD34_LT1_RP" ColumnName="POD34_LT1_RP" />
+          <ScalarProperty Name="POD34_BR_AVG_TEMP" ColumnName="POD34_BR_AVG_TEMP" />
+          <ScalarProperty Name="POD34_LT2_BR" ColumnName="POD34_LT2_BR" />
+          <ScalarProperty Name="POD34_LT1_BR" ColumnName="POD34_LT1_BR" />
+          <ScalarProperty Name="POD34_FT_G" ColumnName="POD34_FT_G" />
+          <ScalarProperty Name="POD34_PT_G" ColumnName="POD34_PT_G" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vDM4_3_1min_POD35">
+      <EntityTypeMapping TypeName="affinitydev1Model.vDM4_3_1min_POD35">
+        <MappingFragment StoreEntitySet="vDM4_3_1min_POD35">
+          <ScalarProperty Name="HMI_DATALOG_P_A35" ColumnName="HMI_DATALOG_P_A35" />
+          <ScalarProperty Name="POD35_MT" ColumnName="POD35_MT" />
+          <ScalarProperty Name="POD35_BC" ColumnName="POD35_BC" />
+          <ScalarProperty Name="POD35_P_RP_SPEED_REFERENCE" ColumnName="POD35_P_RP_SPEED_REFERENCE" />
+          <ScalarProperty Name="POD35_LT2_RP" ColumnName="POD35_LT2_RP" />
+          <ScalarProperty Name="POD35_LT1_RP" ColumnName="POD35_LT1_RP" />
+          <ScalarProperty Name="POD35_BR_AVG_TEMP" ColumnName="POD35_BR_AVG_TEMP" />
+          <ScalarProperty Name="POD35_LT2_BR" ColumnName="POD35_LT2_BR" />
+          <ScalarProperty Name="POD35_LT1_BR" ColumnName="POD35_LT1_BR" />
+          <ScalarProperty Name="POD35_FT_G" ColumnName="POD35_FT_G" />
+          <ScalarProperty Name="POD35_PT_G" ColumnName="POD35_PT_G" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vDM4_3_1min_POD41">
+      <EntityTypeMapping TypeName="affinitydev1Model.vDM4_3_1min_POD41">
+        <MappingFragment StoreEntitySet="vDM4_3_1min_POD41">
+          <ScalarProperty Name="HMI_DATALOG_P_A41" ColumnName="HMI_DATALOG_P_A41" />
+          <ScalarProperty Name="POD41_MT" ColumnName="POD41_MT" />
+          <ScalarProperty Name="POD41_BC" ColumnName="POD41_BC" />
+          <ScalarProperty Name="POD41_P_RP_SPEED_REFERENCE" ColumnName="POD41_P_RP_SPEED_REFERENCE" />
+          <ScalarProperty Name="POD41_LT2_RP" ColumnName="POD41_LT2_RP" />
+          <ScalarProperty Name="POD41_LT1_RP" ColumnName="POD41_LT1_RP" />
+          <ScalarProperty Name="POD41_BR_AVG_TEMP" ColumnName="POD41_BR_AVG_TEMP" />
+          <ScalarProperty Name="POD41_LT2_BR" ColumnName="POD41_LT2_BR" />
+          <ScalarProperty Name="POD41_LT1_BR" ColumnName="POD41_LT1_BR" />
+          <ScalarProperty Name="POD41_FT_G" ColumnName="POD41_FT_G" />
+          <ScalarProperty Name="POD41_PT_G" ColumnName="POD41_PT_G" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vDM4_3_1min_POD42">
+      <EntityTypeMapping TypeName="affinitydev1Model.vDM4_3_1min_POD42">
+        <MappingFragment StoreEntitySet="vDM4_3_1min_POD42">
+          <ScalarProperty Name="HMI_DATALOG_P_A42" ColumnName="HMI_DATALOG_P_A42" />
+          <ScalarProperty Name="POD42_MT" ColumnName="POD42_MT" />
+          <ScalarProperty Name="POD42_BC" ColumnName="POD42_BC" />
+          <ScalarProperty Name="POD42_P_RP_SPEED_REFERENCE" ColumnName="POD42_P_RP_SPEED_REFERENCE" />
+          <ScalarProperty Name="POD42_LT2_RP" ColumnName="POD42_LT2_RP" />
+          <ScalarProperty Name="POD42_LT1_RP" ColumnName="POD42_LT1_RP" />
+          <ScalarProperty Name="POD42_BR_AVG_TEMP" ColumnName="POD42_BR_AVG_TEMP" />
+          <ScalarProperty Name="POD42_LT2_BR" ColumnName="POD42_LT2_BR" />
+          <ScalarProperty Name="POD42_LT1_BR" ColumnName="POD42_LT1_BR" />
+          <ScalarProperty Name="POD42_FT_G" ColumnName="POD42_FT_G" />
+          <ScalarProperty Name="POD42_PT_G" ColumnName="POD42_PT_G" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vDM4_3_1min_POD43">
+      <EntityTypeMapping TypeName="affinitydev1Model.vDM4_3_1min_POD43">
+        <MappingFragment StoreEntitySet="vDM4_3_1min_POD43">
+          <ScalarProperty Name="HMI_DATALOG_P_A43" ColumnName="HMI_DATALOG_P_A43" />
+          <ScalarProperty Name="POD43_MT" ColumnName="POD43_MT" />
+          <ScalarProperty Name="POD43_BC" ColumnName="POD43_BC" />
+          <ScalarProperty Name="POD43_P_RP_SPEED_REFERENCE" ColumnName="POD43_P_RP_SPEED_REFERENCE" />
+          <ScalarProperty Name="POD43_LT2_RP" ColumnName="POD43_LT2_RP" />
+          <ScalarProperty Name="POD43_LT1_RP" ColumnName="POD43_LT1_RP" />
+          <ScalarProperty Name="POD43_BR_AVG_TEMP" ColumnName="POD43_BR_AVG_TEMP" />
+          <ScalarProperty Name="POD43_LT2_BR" ColumnName="POD43_LT2_BR" />
+          <ScalarProperty Name="POD43_LT1_BR" ColumnName="POD43_LT1_BR" />
+          <ScalarProperty Name="POD43_FT_G" ColumnName="POD43_FT_G" />
+          <ScalarProperty Name="POD43_PT_G" ColumnName="POD43_PT_G" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vDM4_3_1min_POD44">
+      <EntityTypeMapping TypeName="affinitydev1Model.vDM4_3_1min_POD44">
+        <MappingFragment StoreEntitySet="vDM4_3_1min_POD44">
+          <ScalarProperty Name="HMI_DATALOG_P_A44" ColumnName="HMI_DATALOG_P_A44" />
+          <ScalarProperty Name="POD44_MT" ColumnName="POD44_MT" />
+          <ScalarProperty Name="POD44_BC" ColumnName="POD44_BC" />
+          <ScalarProperty Name="POD44_P_RP_SPEED_REFERENCE" ColumnName="POD44_P_RP_SPEED_REFERENCE" />
+          <ScalarProperty Name="POD44_LT2_RP" ColumnName="POD44_LT2_RP" />
+          <ScalarProperty Name="POD44_LT1_RP" ColumnName="POD44_LT1_RP" />
+          <ScalarProperty Name="POD44_BR_AVG_TEMP" ColumnName="POD44_BR_AVG_TEMP" />
+          <ScalarProperty Name="POD44_LT2_BR" ColumnName="POD44_LT2_BR" />
+          <ScalarProperty Name="POD44_LT1_BR" ColumnName="POD44_LT1_BR" />
+          <ScalarProperty Name="POD44_FT_G" ColumnName="POD44_FT_G" />
+          <ScalarProperty Name="POD44_PT_G" ColumnName="POD44_PT_G" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vDM4_3_24hour_Central">
+      <EntityTypeMapping TypeName="affinitydev1Model.vDM4_3_24hour_Central">
+        <MappingFragment StoreEntitySet="vDM4_3_24hour_Central">
+          <ScalarProperty Name="COGEN1_TOTALHOURS_ACT" ColumnName="COGEN1_TOTALHOURS_ACT" />
+          <ScalarProperty Name="COGEN1_TOTALKWH_ACT" ColumnName="COGEN1_TOTALKWH_ACT" />
+          <ScalarProperty Name="TOTAL_FT_GF_YESTERDAY" ColumnName="TOTAL_FT_GF_YESTERDAY" />
+          <ScalarProperty Name="TOTAL_FT_GC_YESTERDAY" ColumnName="TOTAL_FT_GC_YESTERDAY" />
+          <ScalarProperty Name="POD35_DAILY_MANURE" ColumnName="POD35_DAILY_MANURE" />
+          <ScalarProperty Name="POD34_DAILY_MANURE" ColumnName="POD34_DAILY_MANURE" />
+          <ScalarProperty Name="POD44_DAILY_MANURE" ColumnName="POD44_DAILY_MANURE" />
+          <ScalarProperty Name="POD43_DAILY_MANURE" ColumnName="POD43_DAILY_MANURE" />
+          <ScalarProperty Name="POD42_DAILY_MANURE" ColumnName="POD42_DAILY_MANURE" />
+          <ScalarProperty Name="POD41_DAILY_MANURE" ColumnName="POD41_DAILY_MANURE" />
+          <ScalarProperty Name="POD35_BD" ColumnName="POD35_BD" />
+          <ScalarProperty Name="POD34_BD" ColumnName="POD34_BD" />
+          <ScalarProperty Name="POD44_BD" ColumnName="POD44_BD" />
+          <ScalarProperty Name="POD43_BD" ColumnName="POD43_BD" />
+          <ScalarProperty Name="POD42_BD" ColumnName="POD42_BD" />
+          <ScalarProperty Name="POD41_BD" ColumnName="POD41_BD" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vDM4_3_24hour_Central_2">
+      <EntityTypeMapping TypeName="affinitydev1Model.vDM4_3_24hour_Central_2">
+        <MappingFragment StoreEntitySet="vDM4_3_24hour_Central_2">
+          <ScalarProperty Name="TOTAL_GAS_COGEN_YESTERDAY" ColumnName="TOTAL_GAS_COGEN_YESTERDAY" />
+          <ScalarProperty Name="DELTA_VOLUME_BIODOME" ColumnName="DELTA_VOLUME_BIODOME" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vFGO_1Hour_Table_1">
+      <EntityTypeMapping TypeName="affinitydev1Model.vFGO_1Hour_Table_1">
+        <MappingFragment StoreEntitySet="vFGO_1Hour_Table_1">
+          <ScalarProperty Name="TT_L2_2_EU" ColumnName="TT_L2_2_EU" />
+          <ScalarProperty Name="TT_L2_1_EU" ColumnName="TT_L2_1_EU" />
+          <ScalarProperty Name="TT_L1_2_EU" ColumnName="TT_L1_2_EU" />
+          <ScalarProperty Name="TT_L1_1_EU" ColumnName="TT_L1_1_EU" />
+          <ScalarProperty Name="TT_H2_3_EU" ColumnName="TT_H2_3_EU" />
+          <ScalarProperty Name="TT_H2_1_EU" ColumnName="TT_H2_1_EU" />
+          <ScalarProperty Name="TT_H1_3_EU" ColumnName="TT_H1_3_EU" />
+          <ScalarProperty Name="TT_H1_1_EU" ColumnName="TT_H1_1_EU" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vFGO_1Minute_Table1">
+      <EntityTypeMapping TypeName="affinitydev1Model.vFGO_1Minute_Table1">
+        <MappingFragment StoreEntitySet="vFGO_1Minute_Table1">
+          <ScalarProperty Name="WM_PD_EU" ColumnName="WM_PD_EU" />
+          <ScalarProperty Name="WM_PC_EU" ColumnName="WM_PC_EU" />
+          <ScalarProperty Name="PT_GT_EU" ColumnName="PT_GT_EU" />
+          <ScalarProperty Name="VT_GT" ColumnName="VT_GT" />
+          <ScalarProperty Name="FT_GF_EU" ColumnName="FT_GF_EU" />
+          <ScalarProperty Name="FT_CHP_EU" ColumnName="FT_CHP_EU" />
+          <ScalarProperty Name="FT_G1_EU" ColumnName="FT_G1_EU" />
+          <ScalarProperty Name="FT_L_1_EU" ColumnName="FT_L_1_EU" />
+          <ScalarProperty Name="PT_G2_EU" ColumnName="PT_G2_EU" />
+          <ScalarProperty Name="PT_G1_EU" ColumnName="PT_G1_EU" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vFGO_1Minute_Table2">
+      <EntityTypeMapping TypeName="affinitydev1Model.vFGO_1Minute_Table2">
+        <MappingFragment StoreEntitySet="vFGO_1Minute_Table2">
+          <ScalarProperty Name="MODBUS_COGEN_PWROUT_ACT" ColumnName="MODBUS_COGEN_PWROUT_ACT" />
+          <ScalarProperty Name="IT_E2_EU" ColumnName="IT_E2_EU" />
+          <ScalarProperty Name="IT_E1_EU" ColumnName="IT_E1_EU" />
+          <ScalarProperty Name="TT_GF_EU" ColumnName="TT_GF_EU" />
+          <ScalarProperty Name="TT_RP_EU" ColumnName="TT_RP_EU" />
+          <ScalarProperty Name="TT_OT_EU" ColumnName="TT_OT_EU" />
+          <ScalarProperty Name="TT_G2_EU" ColumnName="TT_G2_EU" />
+          <ScalarProperty Name="LT_L2_2_EU" ColumnName="LT_L2_2_EU" />
+          <ScalarProperty Name="LT_L2_1_EU" ColumnName="LT_L2_1_EU" />
+          <ScalarProperty Name="LT_L1_2_EU" ColumnName="LT_L1_2_EU" />
+          <ScalarProperty Name="LT_L1_1_EU" ColumnName="LT_L1_1_EU" />
+          <ScalarProperty Name="LT_RP_EU" ColumnName="LT_RP_EU" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vFGO_24Hour_Table1">
+      <EntityTypeMapping TypeName="affinitydev1Model.vFGO_24Hour_Table1">
+        <MappingFragment StoreEntitySet="vFGO_24Hour_Table1">
+          <ScalarProperty Name="DELTA_VOLUME_BIODOME" ColumnName="DELTA_VOLUME_BIODOME" />
+          <ScalarProperty Name="VC7_DAILY_LOG" ColumnName="VC7_DAILY_LOG" />
+          <ScalarProperty Name="VC6_DAILY_LOG" ColumnName="VC6_DAILY_LOG" />
+          <ScalarProperty Name="VC5_DAILY_LOG" ColumnName="VC5_DAILY_LOG" />
+          <ScalarProperty Name="VC4_DAILY_LOG" ColumnName="VC4_DAILY_LOG" />
+          <ScalarProperty Name="MF4_DAILY_LOG" ColumnName="MF4_DAILY_LOG" />
+          <ScalarProperty Name="MF3_DAILY_LOG" ColumnName="MF3_DAILY_LOG" />
+          <ScalarProperty Name="EV4_DAILY_LOG" ColumnName="EV4_DAILY_LOG" />
+          <ScalarProperty Name="EV3_DAILY_LOG" ColumnName="EV3_DAILY_LOG" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vFGO_24Hour_Table2">
+      <EntityTypeMapping TypeName="affinitydev1Model.vFGO_24Hour_Table2">
+        <MappingFragment StoreEntitySet="vFGO_24Hour_Table2">
+          <ScalarProperty Name="CPLD_DAILY_LOG" ColumnName="CPLD_DAILY_LOG" />
+          <ScalarProperty Name="EPARA_DAILY_LOG" ColumnName="EPARA_DAILY_LOG" />
+          <ScalarProperty Name="CPLE_DAILY_LOG" ColumnName="CPLE_DAILY_LOG" />
+          <ScalarProperty Name="THCHP" ColumnName="THCHP" />
+          <ScalarProperty Name="TECHP" ColumnName="TECHP" />
+          <ScalarProperty Name="ECHP_DAILY_LOG" ColumnName="ECHP_DAILY_LOG" />
+          <ScalarProperty Name="GCHP_DAILY_LOG" ColumnName="GCHP_DAILY_LOG" />
+          <ScalarProperty Name="GF_DAILY_LOG" ColumnName="GF_DAILY_LOG" />
+          <ScalarProperty Name="OC1" ColumnName="OC1" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vLMD_1Hour_Table_1">
+      <EntityTypeMapping TypeName="affinitydev1Model.vLMD_1Hour_Table_1">
+        <MappingFragment StoreEntitySet="vLMD_1Hour_Table_1">
+          <ScalarProperty Name="TT_HZ_2_EU" ColumnName="TT_HZ_2_EU" />
+          <ScalarProperty Name="TT_HZ_1_EU" ColumnName="TT_HZ_1_EU" />
+          <ScalarProperty Name="TT_H2_4_EU" ColumnName="TT_H2_4_EU" />
+          <ScalarProperty Name="TT_H2_3_EU" ColumnName="TT_H2_3_EU" />
+          <ScalarProperty Name="TT_H2_2_EU" ColumnName="TT_H2_2_EU" />
+          <ScalarProperty Name="TT_H2_1_EU" ColumnName="TT_H2_1_EU" />
+          <ScalarProperty Name="TT_H1_4_EU" ColumnName="TT_H1_4_EU" />
+          <ScalarProperty Name="TT_H1_3_EU" ColumnName="TT_H1_3_EU" />
+          <ScalarProperty Name="TT_H1_2_EU" ColumnName="TT_H1_2_EU" />
+          <ScalarProperty Name="TT_H1_1_EU" ColumnName="TT_H1_1_EU" />
+          <ScalarProperty Name="PT_CA_EU" ColumnName="PT_CA_EU" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vLMD_1Hour_Table_2">
+      <EntityTypeMapping TypeName="affinitydev1Model.vLMD_1Hour_Table_2">
+        <MappingFragment StoreEntitySet="vLMD_1Hour_Table_2">
+          <ScalarProperty Name="TT_L2_4_EU" ColumnName="TT_L2_4_EU" />
+          <ScalarProperty Name="TT_L2_3_EU" ColumnName="TT_L2_3_EU" />
+          <ScalarProperty Name="TT_L2_2_EU" ColumnName="TT_L2_2_EU" />
+          <ScalarProperty Name="TT_L2_1_EU" ColumnName="TT_L2_1_EU" />
+          <ScalarProperty Name="TT_L1_4_EU" ColumnName="TT_L1_4_EU" />
+          <ScalarProperty Name="TT_L1_3_EU" ColumnName="TT_L1_3_EU" />
+          <ScalarProperty Name="TT_L1_2_EU" ColumnName="TT_L1_2_EU" />
+          <ScalarProperty Name="TT_L1_1_EU" ColumnName="TT_L1_1_EU" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vLMD_1Minute_Table_1">
+      <EntityTypeMapping TypeName="affinitydev1Model.vLMD_1Minute_Table_1">
+        <MappingFragment StoreEntitySet="vLMD_1Minute_Table_1">
+          <ScalarProperty Name="LT_RP_EU" ColumnName="LT_RP_EU" />
+          <ScalarProperty Name="LT_ES_EU" ColumnName="LT_ES_EU" />
+          <ScalarProperty Name="FT_G2_EU" ColumnName="FT_G2_EU" />
+          <ScalarProperty Name="PT_GT_EU" ColumnName="PT_GT_EU" />
+          <ScalarProperty Name="VT_GT" ColumnName="VT_GT" />
+          <ScalarProperty Name="PX" ColumnName="PX" />
+          <ScalarProperty Name="FT_GF_EU" ColumnName="FT_GF_EU" />
+          <ScalarProperty Name="FT_CHP_EU" ColumnName="FT_CHP_EU" />
+          <ScalarProperty Name="FT_G1_EU" ColumnName="FT_G1_EU" />
+          <ScalarProperty Name="FT_L_2_EU" ColumnName="FT_L_2_EU" />
+          <ScalarProperty Name="FT_L_1_EU" ColumnName="FT_L_1_EU" />
+          <ScalarProperty Name="PT_G2_EU" ColumnName="PT_G2_EU" />
+          <ScalarProperty Name="PT_G1_EU" ColumnName="PT_G1_EU" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vLMD_24Hour_Table_1">
+      <EntityTypeMapping TypeName="affinitydev1Model.vLMD_24Hour_Table_1">
+        <MappingFragment StoreEntitySet="vLMD_24Hour_Table_1">
+          <ScalarProperty Name="DELTA_VOLUME_BIODOME" ColumnName="DELTA_VOLUME_BIODOME" />
+          <ScalarProperty Name="VC7_DAILAY_LOG" ColumnName="VC7_DAILAY_LOG" />
+          <ScalarProperty Name="VC6_DAILAY_LOG" ColumnName="VC6_DAILAY_LOG" />
+          <ScalarProperty Name="VC5" ColumnName="VC5" />
+          <ScalarProperty Name="VC4" ColumnName="VC4" />
+          <ScalarProperty Name="MF4" ColumnName="MF4" />
+          <ScalarProperty Name="MF3" ColumnName="MF3" />
+          <ScalarProperty Name="EV4" ColumnName="EV4" />
+          <ScalarProperty Name="EV3" ColumnName="EV3" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vLMD_24Hour_Table_2">
+      <EntityTypeMapping TypeName="affinitydev1Model.vLMD_24Hour_Table_2">
+        <MappingFragment StoreEntitySet="vLMD_24Hour_Table_2">
+          <ScalarProperty Name="MODBUS_COGEN_TOTALHRS_ACT" ColumnName="MODBUS_COGEN_TOTALHRS_ACT" />
+          <ScalarProperty Name="MODBUS_COGEN_TODAYKWH_ACT" ColumnName="MODBUS_COGEN_TODAYKWH_ACT" />
+          <ScalarProperty Name="ECHP" ColumnName="ECHP" />
+          <ScalarProperty Name="GCHP" ColumnName="GCHP" />
+          <ScalarProperty Name="GF" ColumnName="GF" />
+          <ScalarProperty Name="OC1" ColumnName="OC1" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vOLD_1Hour_Table_1">
+      <EntityTypeMapping TypeName="affinitydev1Model.vOLD_1Hour_Table_1">
+        <MappingFragment StoreEntitySet="vOLD_1Hour_Table_1">
+          <ScalarProperty Name="TT_H2_4_EU" ColumnName="TT_H2_4_EU" />
+          <ScalarProperty Name="TT_H2_3_EU" ColumnName="TT_H2_3_EU" />
+          <ScalarProperty Name="TT_H2_2_EU" ColumnName="TT_H2_2_EU" />
+          <ScalarProperty Name="TT_H2_1_EU" ColumnName="TT_H2_1_EU" />
+          <ScalarProperty Name="TT_H1_4_EU" ColumnName="TT_H1_4_EU" />
+          <ScalarProperty Name="TT_H1_3_EU" ColumnName="TT_H1_3_EU" />
+          <ScalarProperty Name="TT_H1_2_EU" ColumnName="TT_H1_2_EU" />
+          <ScalarProperty Name="TT_H1_1_EU" ColumnName="TT_H1_1_EU" />
+          <ScalarProperty Name="PT_CA_EU" ColumnName="PT_CA_EU" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vOLD_1Hour_Table_2">
+      <EntityTypeMapping TypeName="affinitydev1Model.vOLD_1Hour_Table_2">
+        <MappingFragment StoreEntitySet="vOLD_1Hour_Table_2">
+          <ScalarProperty Name="TT_L2_4_EU" ColumnName="TT_L2_4_EU" />
+          <ScalarProperty Name="TT_L2_3_EU" ColumnName="TT_L2_3_EU" />
+          <ScalarProperty Name="TT_L2_2_EU" ColumnName="TT_L2_2_EU" />
+          <ScalarProperty Name="TT_L2_1_EU" ColumnName="TT_L2_1_EU" />
+          <ScalarProperty Name="TT_L1_4_EU" ColumnName="TT_L1_4_EU" />
+          <ScalarProperty Name="TT_L1_3_EU" ColumnName="TT_L1_3_EU" />
+          <ScalarProperty Name="TT_L1_2_EU" ColumnName="TT_L1_2_EU" />
+          <ScalarProperty Name="TT_L1_1_EU" ColumnName="TT_L1_1_EU" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vOLD_1Minute_Table_1">
+      <EntityTypeMapping TypeName="affinitydev1Model.vOLD_1Minute_Table_1">
+        <MappingFragment StoreEntitySet="vOLD_1Minute_Table_1">
+          <ScalarProperty Name="PT_CA_EU" ColumnName="PT_CA_EU" />
+          <ScalarProperty Name="MODBUS_FLARE_LOG" ColumnName="MODBUS_FLARE_LOG" />
+          <ScalarProperty Name="IT_E2_EU" ColumnName="IT_E2_EU" />
+          <ScalarProperty Name="IT_E1_EU" ColumnName="IT_E1_EU" />
+          <ScalarProperty Name="MODBUS_WM_PCHP_ACT" ColumnName="MODBUS_WM_PCHP_ACT" />
+          <ScalarProperty Name="PT_GT_EU" ColumnName="PT_GT_EU" />
+          <ScalarProperty Name="VT_GT" ColumnName="VT_GT" />
+          <ScalarProperty Name="FT_F_EU" ColumnName="FT_F_EU" />
+          <ScalarProperty Name="FT_C_EU" ColumnName="FT_C_EU" />
+          <ScalarProperty Name="FT_G1_EU" ColumnName="FT_G1_EU" />
+          <ScalarProperty Name="FT_L_2_EU" ColumnName="FT_L_2_EU" />
+          <ScalarProperty Name="FT_L_1_EU" ColumnName="FT_L_1_EU" />
+          <ScalarProperty Name="PT_G2_EU" ColumnName="PT_G2_EU" />
+          <ScalarProperty Name="PT_G1_EU" ColumnName="PT_G1_EU" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vOLD_24Hour_Table_1">
+      <EntityTypeMapping TypeName="affinitydev1Model.vOLD_24Hour_Table_1">
+        <MappingFragment StoreEntitySet="vOLD_24Hour_Table_1">
+          <ScalarProperty Name="MODBUS_COGEN_TOTALHRS_ACT" ColumnName="MODBUS_COGEN_TOTALHRS_ACT" />
+          <ScalarProperty Name="MODBUS_COGEN_TOTALKWH_ACT" ColumnName="MODBUS_COGEN_TOTALKWH_ACT" />
+          <ScalarProperty Name="CPLE" ColumnName="CPLE" />
+          <ScalarProperty Name="VC7_DAILAY_LOG" ColumnName="VC7_DAILAY_LOG" />
+          <ScalarProperty Name="VC6_DAILAY_LOG" ColumnName="VC6_DAILAY_LOG" />
+          <ScalarProperty Name="VC5_DAILY_LOG" ColumnName="VC5_DAILY_LOG" />
+          <ScalarProperty Name="VC4_DAILY_LOG" ColumnName="VC4_DAILY_LOG" />
+          <ScalarProperty Name="MF4" ColumnName="MF4" />
+          <ScalarProperty Name="MF3" ColumnName="MF3" />
+          <ScalarProperty Name="EV4" ColumnName="EV4" />
+          <ScalarProperty Name="EV3" ColumnName="EV3" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vOLD_24Hour_Table_2">
+      <EntityTypeMapping TypeName="affinitydev1Model.vOLD_24Hour_Table_2">
+        <MappingFragment StoreEntitySet="vOLD_24Hour_Table_2">
+          <ScalarProperty Name="DELTA_VOLUME_BIODOME" ColumnName="DELTA_VOLUME_BIODOME" />
+          <ScalarProperty Name="ECHP" ColumnName="ECHP" />
+          <ScalarProperty Name="GCHP" ColumnName="GCHP" />
+          <ScalarProperty Name="GF" ColumnName="GF" />
+          <ScalarProperty Name="OC1" ColumnName="OC1" />
+          <ScalarProperty Name="AI1" ColumnName="AI1" />
+          <ScalarProperty Name="EPARA" ColumnName="EPARA" />
+          <ScalarProperty Name="DateStr" ColumnName="DateStr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InsertedLogs">
+      <EntityTypeMapping TypeName="affinitydev1Model.InsertedLog">
+        <MappingFragment StoreEntitySet="InsertedLogs">
+          <ScalarProperty Name="DateData" ColumnName="DateData" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="ProfileName" ColumnName="ProfileName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetKws2016" FunctionName="affinitydev1Model.Store.GetKws2016" />
+    <FunctionImportMapping FunctionImportName="myUpdDataSP2016" FunctionName="affinitydev1Model.Store.myUpdDataSP2016" />
+  </EntityContainerMapping>
+</Mapping>

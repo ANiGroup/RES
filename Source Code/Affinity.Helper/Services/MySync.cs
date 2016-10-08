@@ -72,8 +72,8 @@ namespace Affinity.Helper.Services
                             {
                                 try
                                 {
-
-                                
+                                var RecI = 0;
+                                DateTime dtRef = DateTime.Now.Date;
                                 DateTime dtDate = DateTime.Now.Date;
                                 foreach (var im in _m)
                                 {
@@ -88,7 +88,15 @@ namespace Affinity.Helper.Services
 
                                         fl1 = im[0]
                                     };
+                                    if(RecI==0)
+                                    {
+                                            dtRef= Convert.ToDateTime(_rec.fl1);
+                                            RecI = RecI + 1;   
+                                    }
+                                    
                                     dtDate = Convert.ToDateTime(_rec.fl1);
+                                    
+                                  
                                     
                                     for (int i = 0; i < im.Length; i++)
                                     {
@@ -192,9 +200,12 @@ namespace Affinity.Helper.Services
                                         }
                                     }
 
+                                        if (dtRef.Date == dtDate.Date) //Omit that Values.
+                                        {
+                                            db.MyDataLogs.Add(_rec);
+                                        }
 
-
-                                    db.MyDataLogs.Add(_rec);
+                                        
                                 }
 
                                 OperationLogs opLog = new OperationLogs
@@ -214,7 +225,7 @@ namespace Affinity.Helper.Services
                                     {
                                         ProfileName = profile.ProfileName,
                                         FileName = item,
-                                        DateData = dtDate.Date
+                                        DateData = dtRef.Date
                                     });
                                 db.SaveChanges();
                                     trn.Commit();

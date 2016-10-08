@@ -62,4 +62,3 @@ C:\AffinitySpace\Affinity.Data\obj\Debug\Affinity.Data.Migrations.initialCreate.
 C:\AffinitySpace\Affinity.Data\obj\Debug\Affinity.Data.csproj.GenerateResource.Cache
 C:\AffinitySpace\Affinity.Data\obj\Debug\Affinity.Data.Migrations.PigsAge.resources
 C:\AffinitySpace\Affinity.Data\obj\Debug\Affinity.Data.Migrations.TheMSData.resources
-C:\affinitySpace\Affinity.Data\obj\Debug\Affinity.Data.csprojResolveAssemblyReference.cache

@@ -72,8 +72,7 @@ namespace Affinity.Helper.Services
                             {
                                 try
                                 {
-                                var RecI = 0;
-                                DateTime dtRef = DateTime.Now.Date;
+                              
                                 DateTime dtDate = DateTime.Now.Date;
                                 foreach (var im in _m)
                                 {
@@ -88,11 +87,7 @@ namespace Affinity.Helper.Services
 
                                         fl1 = im[0]
                                     };
-                                    if(RecI==0)
-                                    {
-                                            dtRef= Convert.ToDateTime(_rec.fl1);
-                                            RecI = RecI + 1;   
-                                    }
+                                   
                                     
                                     dtDate = Convert.ToDateTime(_rec.fl1);
                                     
@@ -200,10 +195,9 @@ namespace Affinity.Helper.Services
                                         }
                                     }
 
-                                        if (dtRef.Date == dtDate.Date) //Omit that Values.
-                                        {
+                                       
                                             db.MyDataLogs.Add(_rec);
-                                        }
+                                        
 
                                         
                                 }
@@ -225,7 +219,7 @@ namespace Affinity.Helper.Services
                                     {
                                         ProfileName = profile.ProfileName,
                                         FileName = item,
-                                        DateData = dtRef.Date
+                                        DateData = dtDate.Date
                                     });
                                 db.SaveChanges();
                                     trn.Commit();
@@ -367,6 +361,7 @@ namespace Affinity.Helper.Services
                         {
                             db.InsertedLogs.Remove(iLogItem);
                             forDateList.Add(iLogItem.DateData);
+                            forDateList.Add(iLogItem.DateData.AddDays(-1));
                             db.SaveChanges();
                         }
                         foreach (var odbItem in ofOndb)
